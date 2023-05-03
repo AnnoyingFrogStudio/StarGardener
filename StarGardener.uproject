@@ -23,5 +23,10 @@
 			"Name": "BlueprintFileUtils",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Linux",
+		"LinuxArm64",
+		"Windows"
 	]
 }
