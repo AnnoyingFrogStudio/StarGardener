@@ -1,5 +1,6 @@
-# Visual Studio 2015 user specific files
+# Visual Studio user specific files
 .vs/
+.vsconfig
 
 # Compiled Object files
 *.slo
@@ -72,3 +73,27 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# Wwise Plugin
+!Plugins/Wwise/ThirdParty/x64_vc170/**/*.lib
+!Plugins/Wwise/ThirdParty/x64_vc170/**/*.dll
+Plugins/Wwise/ThirdParty/**/*.pdb
+
+# Wwise Project
+StarGardener_WwiseProject/.backup*
+StarGardener_WwiseProject/.cache*
+StarGardener_WwiseProject/*.akd
+StarGardener_WwiseProject/*.prof
+StarGardener_WwiseProject/*.validationcache
+StarGardener_WwiseProject/*.wsettings
+StarGardener_WwiseProject/AkWwiseProjectData.asset
+StarGardener_WwiseProject/IncrementalSoundBankData.xml
+StarGardener_WwiseProject/PluginInfo.xml
+StarGardener_WwiseProject/SoundbanksInfo.xml
+
+# Wwise custom added
+StarGardener_WwiseProject/*.wav
+StarGardener_WwiseProject/*.amb
+StarGardener_WwiseProject/*.txt
+StarGardener_WwiseProject/*.xml
