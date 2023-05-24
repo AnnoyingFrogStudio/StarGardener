@@ -72,3 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/Characters/Main_Game_Chara/BP_Test_chara.uasset
+Content/StarGardener/Environnement/Landscape/Grass/TEST.umap
