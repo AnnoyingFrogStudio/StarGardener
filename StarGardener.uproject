@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "StarGardener",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -27,6 +34,7 @@
 	"TargetPlatforms": [
 		"Linux",
 		"LinuxArm64",
-		"Windows"
+		"Windows",
+		"HoloLens"
 	]
 }
