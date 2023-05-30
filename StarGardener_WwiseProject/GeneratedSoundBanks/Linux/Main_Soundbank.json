@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
   "SchemaVersion": "16",
   "SoundBankVersion": "145",
   "SoundBanks": [
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{880FBA8E-6516-D057-ACB2-FB500E63A552}"
+  "FileHash": "{573C82C3-8EA4-38A2-3508-7D0C6C1B9F73}"
  }
 }

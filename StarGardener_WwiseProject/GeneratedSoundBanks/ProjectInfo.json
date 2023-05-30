@@ -8,6 +8,13 @@
   "CacheRoot": "../.cache",
   "Platforms": [
    {
+    "Name": "Linux",
+    "GUID": "{D23D1B3F-6D2A-4809-9932-BCC9D0260905}",
+    "BasePlatform": "Linux",
+    "BasePlatformGUID": "{BD0BDF13-3125-454F-8BFD-319537169F81}",
+    "Path": "Linux"
+   },
+   {
     "Name": "Windows",
     "GUID": "{89AAE3E8-6238-4C22-8618-2EF1CBFEC32D}",
     "BasePlatform": "Windows",
@@ -24,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{98D2C02D-D1B1-7B91-5478-807EEFC2229E}"
+  "FileHash": "{4E6D067E-83EB-9D95-97BC-8DD6B3F9D85B}"
  }
 }

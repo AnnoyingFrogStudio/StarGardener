@@ -1,12 +1,12 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
   "SchemaVersion": "16",
   "SoundBankVersion": "145",
   "RootPaths": {
    "ProjectRoot": "../..",
-   "SourceFilesRoot": "../../.cache/Windows",
+   "SourceFilesRoot": "../../.cache/Linux",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "."
@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{5308C421-FB28-8D19-3DFE-A978E0AA809A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -88,6 +88,6 @@
     ]
    }
   ],
-  "FileHash": "{2F411707-56D3-7536-157B-2E67271F2CCB}"
+  "FileHash": "{AB0FF5EC-E1D2-E809-7ADB-61DA2E1216E1}"
  }
 }
