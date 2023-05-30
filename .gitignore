@@ -78,7 +78,7 @@ DerivedDataCache/*
 # Wwise Plugin
 !Plugins/Wwise/ThirdParty/x64_vc170/**/*.lib
 !Plugins/Wwise/ThirdParty/x64_vc170/**/*.dll
-!Plugins/Wwise/ThirdParty/Linux_x64/*
+!Plugins/Wwise/ThirdParty/Linux_x64/**/*
 Plugins/Wwise/ThirdParty/**/*.pdb
 
 # Wwise Project
