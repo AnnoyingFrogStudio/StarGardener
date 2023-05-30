@@ -83,7 +83,6 @@ Plugins/Wwise/ThirdParty/**/*.pdb
 # Wwise Project
 StarGardener_WwiseProject/.backup*
 StarGardener_WwiseProject/.cache*
-StarGardener_WwiseProject/*.akd
 StarGardener_WwiseProject/*.prof
 StarGardener_WwiseProject/*.validationcache
 StarGardener_WwiseProject/*.wsettings
@@ -91,9 +90,10 @@ StarGardener_WwiseProject/AkWwiseProjectData.asset
 StarGardener_WwiseProject/IncrementalSoundBankData.xml
 StarGardener_WwiseProject/PluginInfo.xml
 StarGardener_WwiseProject/SoundbanksInfo.xml
+StarGardener_WwiseProject/**/*.akd
 
 # Wwise custom added
-StarGardener_WwiseProject/*.wav
-StarGardener_WwiseProject/*.amb
-StarGardener_WwiseProject/*.txt
-StarGardener_WwiseProject/*.xml
+StarGardener_WwiseProject/**/*.wav
+StarGardener_WwiseProject/**/*.amb
+StarGardener_WwiseProject/**/*.txt
+StarGardener_WwiseProject/**/*.xml
