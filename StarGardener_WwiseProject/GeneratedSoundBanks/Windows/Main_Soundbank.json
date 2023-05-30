@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{84B25752-FFA3-499F-AE6C-BB1DE6272202}",
     "Language": "SFX",
-    "Hash": "{7515E092-3998-0B22-4A42-7BEFA5D2CA06}",
+    "Hash": "{728BA35B-23D4-A135-7E48-EC57BA5842A0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -31,8 +31,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Temp_Sound",
       "GUID": "{8667049D-191D-42C8-91D6-5C741CF2CDFC}",
       "DurationType": "OneShot",
-      "DurationMin": "5",
-      "DurationMax": "5",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "MediaRefs": [
        {
         "Id": "604234434"
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{C4D4DB48-E5B2-7336-39AB-CC410CCD5631}"
+  "FileHash": "{880FBA8E-6516-D057-ACB2-FB500E63A552}"
  }
 }
