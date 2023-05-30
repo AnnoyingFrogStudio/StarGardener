@@ -97,3 +97,6 @@ StarGardener_WwiseProject/*.wav
 StarGardener_WwiseProject/*.amb
 StarGardener_WwiseProject/*.txt
 StarGardener_WwiseProject/*.xml
+
+# Art tests
+Content/StarGardener/Environnement/Test_playground/*
