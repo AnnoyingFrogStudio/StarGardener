@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{84B25752-FFA3-499F-AE6C-BB1DE6272202}",
+    "Language": "SFX",
+    "Hash": "{728BA35B-23D4-A135-7E48-EC57BA5842A0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "604234434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_PG_Growing.wav",
+      "CachePath": "SFX/SFX_PG_Growing_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4147858632",
+      "Name": "Play_Temp_Sound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Temp_Sound",
+      "GUID": "{8667049D-191D-42C8-91D6-5C741CF2CDFC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "604234434"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{573C82C3-8EA4-38A2-3508-7D0C6C1B9F73}"
+ }
+}
