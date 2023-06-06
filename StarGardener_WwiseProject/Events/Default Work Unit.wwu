@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BE7F8A99-C36A-4E2B-829C-E750632AD40C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Temp_Sound" ID="{8667049D-191D-42C8-91D6-5C741CF2CDFC}">
+				<Event Name="Play_Wind" ID="{99DCAA04-0C49-46B0-ADCE-75BC5D7DEAB8}">
 					<ChildrenList>
-						<Action Name="" ID="{E98941E6-4644-4C1F-B8E5-74491361C401}" ShortID="629950025">
+						<Action Name="" ID="{ADB6B24B-A50E-47A3-888F-F8D8A0C37BA2}" ShortID="837561556">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_PG_Growing" ID="{60E7A1F7-3352-46C9-A8E9-DE062CC28AD9}" WorkUnitID="{24255A53-6ED7-4767-8272-298D4E365414}"/>
+									<ObjectRef Name="PO_AMB_Wind_PAD_01" ID="{5F4DDDB7-08CB-4B8C-8824-0E8FC5F31AD8}" WorkUnitID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
