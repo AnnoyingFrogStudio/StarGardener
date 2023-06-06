@@ -3,9 +3,11 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{24255A53-6ED7-4767-8272-298D4E365414}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="MC_Character" ID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}" PersistMode="Reference"/>
-				<WorkUnit Name="Ambiances" ID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}" PersistMode="Reference"/>
-				<WorkUnit Name="Plants" ID="{21C202EC-7534-4A74-91E4-C75994753944}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}" PersistMode="Reference"/>
+				<WorkUnit Name="AMBIANCES" ID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{2D621825-254C-4A27-82B8-255AAB174DE8}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{2AFD8FA4-0945-491B-A13A-385EDB9EFDA6}" PersistMode="Reference"/>
+				<WorkUnit Name="FEEDBACK" ID="{2E9D327C-F58A-47EC-BC1A-06B06402112B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
