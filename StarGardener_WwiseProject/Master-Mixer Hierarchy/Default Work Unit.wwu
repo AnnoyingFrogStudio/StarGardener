@@ -9,6 +9,26 @@
 							<ObjectRef Name="System" ID="{FD56C585-9F34-498E-97BE-5001033C6482}" WorkUnitID="{17E95F95-6BC3-4E67-B8EA-A53D9FF4E1F9}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambiances" ID="{2E4B3799-619C-41F5-8CEC-EEDFAF6D8205}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="MC" ID="{27AC8FF5-CF3B-4F81-8AE6-E7481F68DF26}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{43D7A055-9D1B-43C2-A0C9-E4D3092DAA8E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

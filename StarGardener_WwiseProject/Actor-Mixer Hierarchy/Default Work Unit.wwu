@@ -3,28 +3,9 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{24255A53-6ED7-4767-8272-298D4E365414}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="SFX_PG_Growing" ID="{60E7A1F7-3352-46C9-A8E9-DE062CC28AD9}" ShortID="532770175">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_PG_Growing" ID="{07586AA6-F61E-44B3-95F4-91E45CF2071D}">
-							<Language>SFX</Language>
-							<AudioFile>SFX_PG_Growing.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="604234434"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_PG_Growing" ID="{07586AA6-F61E-44B3-95F4-91E45CF2071D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				<WorkUnit Name="MC_Character" ID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambiances" ID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}" PersistMode="Reference"/>
+				<WorkUnit Name="Plants" ID="{21C202EC-7534-4A74-91E4-C75994753944}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

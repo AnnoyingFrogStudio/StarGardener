@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BC9A4E67-FDD5-4AA0-A842-51BE569922AA}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{BC9A4E67-FDD5-4AA0-A842-51BE569922AA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BC9A4E67-FDD5-4AA0-A842-51BE569922AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="State_Material" ID="{589C58A7-6C5B-4A36-B1BA-EE8B88458697}">
+					<ChildrenList>
+						<State Name="Grass" ID="{372081F2-B455-424D-B7A8-97E1B0CA5CAD}"/>
+						<State Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
