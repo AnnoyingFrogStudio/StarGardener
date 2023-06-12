@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C38312BE-1E94-45F2-995F-5251F243228F}" SchemaVersion="110" RootDocumentID="{BE7F8A99-C36A-4E2B-829C-E750632AD40C}" ParentDocumentID="{BE7F8A99-C36A-4E2B-829C-E750632AD40C}">
+<WwiseDocument Type="WorkUnit" ID="{C38312BE-1E94-45F2-995F-5251F243228F}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="MUSIC" ID="{C38312BE-1E94-45F2-995F-5251F243228F}" OwnerID="{BE7F8A99-C36A-4E2B-829C-E750632AD40C}" PersistMode="Nested"/>
+		<WorkUnit Name="MUSIC" ID="{C38312BE-1E94-45F2-995F-5251F243228F}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

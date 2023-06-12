@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" SchemaVersion="110" RootDocumentID="{BE7F8A99-C36A-4E2B-829C-E750632AD40C}" ParentDocumentID="{A678548F-6A86-47C3-8323-8F7B59D7502E}">
+<WwiseDocument Type="WorkUnit" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="MC" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" OwnerID="{A678548F-6A86-47C3-8323-8F7B59D7502E}" PersistMode="Nested"/>
+		<WorkUnit Name="MC" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>
