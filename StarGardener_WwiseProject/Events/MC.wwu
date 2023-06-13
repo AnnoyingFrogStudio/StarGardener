@@ -23,7 +23,7 @@
 						<Action Name="" ID="{417E2D70-7060-49BB-AE4C-F0595F24E4C4}" ShortID="60908863">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Land" ID="{0D21796C-192F-46B6-ADF7-C9F3C16539D5}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+									<ObjectRef Name="Land_Type" ID="{B99B4CA6-D8A7-4CFB-87B5-B275B0055937}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,13 +67,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{03C4F1B6-2FE2-40CE-93D6-AAEB47C2E549}" ShortID="30511944">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pollen_Empty" ID="{246B9C35-DD97-4C30-9457-C7F551B49C1A}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_BagFull" ID="{0D394FFD-504D-480D-A4CB-C2A08D64D509}">
@@ -82,13 +75,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bag_Full" ID="{257281D3-AEA1-4B06-87BE-F91DF9593ADE}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{394067DF-7447-481C-A9E5-5B9B48106ABA}" ShortID="128976680">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pollen_Full" ID="{71E4D3AF-39F8-4A56-A3B8-55210A364C59}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
