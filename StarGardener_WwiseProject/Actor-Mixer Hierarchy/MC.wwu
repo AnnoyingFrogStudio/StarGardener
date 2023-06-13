@@ -180,6 +180,28 @@
 									<ObjectRef Name="Bus_MC" ID="{27AC8FF5-CF3B-4F81-8AE6-E7481F68DF26}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Jump" ID="{9B065A9C-CDAF-49BF-9581-11101751FD52}" ShortID="17994404">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land" ID="{0D21796C-192F-46B6-ADF7-C9F3C16539D5}" ShortID="616001814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Skate" ID="{E3408A05-B919-43A0-B264-3ADB3D251964}" ShortID="426647664">
 							<ReferenceList>
@@ -216,118 +238,6 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="PO_Skate_Grass_01" ID="{F40D5542-C3E8-4C9A-8429-4008B486BE0E}" ShortID="69788362">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Grass_01" ID="{F5196693-C10D-4325-B455-5683EA05262C}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Grass_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="773210224"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Grass_01" ID="{F5196693-C10D-4325-B455-5683EA05262C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Grass_02" ID="{00C78443-8A73-44F2-929B-8FEDA04A6745}" ShortID="745962943">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Grass_02" ID="{A466CC80-F3AB-4A56-9381-C7920D869F38}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Grass_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="87584642"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Grass_02" ID="{A466CC80-F3AB-4A56-9381-C7920D869F38}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Grass_03" ID="{9E472BF1-5337-41CE-B258-FDF61ADF8A8A}" ShortID="519763140">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Grass_03" ID="{B51A5F9E-050F-4F87-A955-9B6D6FF51DD2}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Grass_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="46199639"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Grass_03" ID="{B51A5F9E-050F-4F87-A955-9B6D6FF51DD2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Grass_04" ID="{FC9FB708-41D7-480E-88FB-DED5EED2E4F0}" ShortID="610204317">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Grass_04" ID="{912455C6-86CD-414E-8C16-E9693E9692D0}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Grass_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="259410763"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Grass_04" ID="{912455C6-86CD-414E-8C16-E9693E9692D0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Grass_05" ID="{99F5408E-4638-4F8F-8004-2F41031388CC}" ShortID="296801075">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Grass_05" ID="{59BAA0F1-6169-4832-91DD-78F13DC88E23}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Grass_05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="228714509"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Grass_05" ID="{59BAA0F1-6169-4832-91DD-78F13DC88E23}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Skate_Sand" ID="{609549EA-6F23-4609-A744-CCB6D6D5882F}" ShortID="618545701">
 											<ReferenceList>
@@ -338,118 +248,6 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="PO_Skate_Sand_01" ID="{9976359E-12F1-4B4E-BCBC-506691D0D96A}" ShortID="448813262">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Sand_01" ID="{C855486B-91B7-436D-9107-5B3C7AF791E2}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Sand_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1056427656"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Sand_01" ID="{C855486B-91B7-436D-9107-5B3C7AF791E2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Sand_02" ID="{30ED3E37-D844-4726-9ECC-B66B365E5C41}" ShortID="664487123">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Sand_02" ID="{A9CDDA9C-FE5E-49BC-BFC6-99F066ADC92E}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Sand_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="451433552"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Sand_02" ID="{A9CDDA9C-FE5E-49BC-BFC6-99F066ADC92E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Sand_03" ID="{D2CB1423-490E-4B56-90ED-DC8C36EBCA56}" ShortID="1065806982">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Sand_03" ID="{4E4FFD62-27ED-41EA-986A-96D388C051CF}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Sand_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1056476010"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Sand_03" ID="{4E4FFD62-27ED-41EA-986A-96D388C051CF}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Sand_04" ID="{F507F766-907D-41DB-8111-21FA2D4EE922}" ShortID="927713157">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Sand_04" ID="{CC93EBAA-94E2-4615-9F5B-E0E75B78C1FB}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Sand_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="788920209"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Sand_04" ID="{CC93EBAA-94E2-4615-9F5B-E0E75B78C1FB}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="PO_Skate_Sand_05" ID="{8945BC7F-A0E1-406B-BFB4-12361CDEBD04}" ShortID="108550369">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="PO_Skate_Sand_05" ID="{06DF6888-F719-41B3-903E-0179C4184EF3}">
-															<Language>SFX</Language>
-															<AudioFile>PO_Skate_Sand_05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="628340138"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="PO_Skate_Sand_05" ID="{06DF6888-F719-41B3-903E-0179C4184EF3}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Skate_Breaking_Sand" ID="{FE96F7F7-48C0-4D66-9FD8-A7D8AFFB0FBF}" ShortID="1067747486">
 											<ReferenceList>
@@ -505,6 +303,16 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<RandomSequenceContainer Name="Skate_Wind" ID="{DC1F04A0-0CBD-452C-84A5-C642111BD346}" ShortID="969031421">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
