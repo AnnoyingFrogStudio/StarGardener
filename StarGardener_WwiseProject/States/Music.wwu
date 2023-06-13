@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABAC4218-73C6-4465-B918-EEE28E951996}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Music" ID="{ABAC4218-73C6-4465-B918-EEE28E951996}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Timer_Countdowner" ID="{1770D950-FA48-4675-8714-FCC7778418E9}">
+					<ChildrenList>
+						<State Name="None" ID="{1C8DC694-BF51-4186-8DDB-A4312C6E4315}"/>
+						<State Name="On" ID="{340D7E14-61CA-4750-8C77-76D2D038A074}"/>
+						<State Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -10,12 +10,18 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Explore_Garden" ID="{FCB13399-1D10-4375-9C96-556054CF4BD2}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<ObjectRef Name="Explore_Garden_V1" ID="{FCB13399-1D10-4375-9C96-556054CF4BD2}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore_Garden_V2" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
