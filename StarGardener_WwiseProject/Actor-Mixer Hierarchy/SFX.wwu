@@ -171,6 +171,28 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<Sound Name="SFX_Grass_Growing_LP" ID="{64DDC25E-E308-4BFD-8499-6314640980DC}" ShortID="567901341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Grass_Growing_LP" ID="{7A43A0F0-B051-4926-B154-FDA88DECAE71}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Grass_Growing_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="939486910"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Grass_Growing_LP" ID="{7A43A0F0-B051-4926-B154-FDA88DECAE71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

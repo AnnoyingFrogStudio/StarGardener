@@ -94,6 +94,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PollenDrop" ID="{A63C6A18-63FE-45A3-9B6E-FF3AE3E7D21E}">
+					<ChildrenList>
+						<Action Name="" ID="{A597282B-E734-49E0-9DB5-293709AE655B}" ShortID="476652480">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Pollen_Drop_LP" ID="{F61F1924-E2DD-4241-96D6-CA037FCA2EB5}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
