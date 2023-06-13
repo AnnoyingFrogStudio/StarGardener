@@ -20,7 +20,7 @@
 					<ChildrenList>
 						<MusicSegment Name="Explore_Desert_Main" ID="{8DC7A906-3231-4B21-962B-744D2F449045}" ShortID="1006429508">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="40000"/>
+								<Property Name="EndPosition" Type="Real64" Value="36250"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -32,6 +32,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0" ID="{30A35147-D50C-4E15-8107-08C87FCEDC6A}" ShortID="591644471">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -43,6 +46,20 @@
 											<AudioFile>Explore_Desert\ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="246342586"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{EC5AC46A-F22B-49F2-A850-FAB42C14C435}">
+											<Language>SFX</Language>
+											<AudioFile>Explore_Desert\ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52232383"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{D87226E1-AA31-4BCE-82D2-B4BF1A11BE79}">
+											<Language>SFX</Language>
+											<AudioFile>Explore_Desert\ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="877160796"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -70,6 +87,50 @@
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0" ID="{9A13321D-1357-42F6-8A6C-2A483602F696}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5D5D2FD0-CDE2-409D-BAA8-420D307B5AC5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{B3FD865D-EF9F-4E09-B945-8FF1F84BAEF7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="36000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{EC5AC46A-F22B-49F2-A850-FAB42C14C435}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{28C22B47-0B8F-4642-BD79-3A0D1B4864E5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{25CFE335-022D-4045-B6E9-524E616755A2}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="36000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{D87226E1-AA31-4BCE-82D2-B4BF1A11BE79}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -132,6 +193,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ExploreDesert-FX1_60bpm4-4_L8M_P0" ID="{E4FE512D-82DC-40F3-8BCD-85956A37B4E4}" ShortID="735088744">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -143,6 +207,13 @@
 											<AudioFile>Explore_Desert\ExploreDesert-FX1_60bpm4-4_L8M_P0.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="726989844"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreDesert-FX2_60bpm4-4_L8M_P0" ID="{5467722F-5CD3-44AF-B720-F4351F9F6FC5}">
+											<Language>SFX</Language>
+											<AudioFile>Explore_Desert\ExploreDesert-FX2_60bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812976284"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -178,37 +249,9 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreDesert-FX2_60bpm4-4_L8M_P0" ID="{3BB210AA-1972-4302-9392-8BB09751127B}" ShortID="906400723">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreDesert-FX2_60bpm4-4_L8M_P0" ID="{5467722F-5CD3-44AF-B720-F4351F9F6FC5}">
-											<Language>SFX</Language>
-											<AudioFile>Explore_Desert\ExploreDesert-FX2_60bpm4-4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="812976284"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{ADBC0356-5957-4D5D-B468-F24B6023B556}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{FD8DC92F-A208-4F53-9EB4-188C4DA3628A}">
+													<MusicTrackSequence Name="" ID="{68912E40-E55A-40AD-81C1-0E97F55CB10C}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
@@ -228,110 +271,18 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{95B6DE20-7834-4FBD-B461-C44D026E852F}" ShortID="827965899">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{EC5AC46A-F22B-49F2-A850-FAB42C14C435}">
-											<Language>SFX</Language>
-											<AudioFile>Explore_Desert\ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="52232383"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{95DAE889-9022-4967-85E3-36586867A33C}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{1FAA9A2C-FAEC-4056-ACEF-5B5084E24FAB}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{B3FD865D-EF9F-4E09-B945-8FF1F84BAEF7}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="36000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0" ID="{EC5AC46A-F22B-49F2-A850-FAB42C14C435}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{C5B0C1B5-8573-44B1-8895-BFE2B4092DFE}" ShortID="671440600">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{D87226E1-AA31-4BCE-82D2-B4BF1A11BE79}">
-											<Language>SFX</Language>
-											<AudioFile>Explore_Desert\ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="877160796"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{24651790-4B03-495D-898E-634B2B07CAE9}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{7877EB4A-98B9-4041-A664-6EA6F9C16270}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{25CFE335-022D-4045-B6E9-524E616755A2}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="36000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0" ID="{D87226E1-AA31-4BCE-82D2-B4BF1A11BE79}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
+													<MusicTrackSequence Name="" ID="{DFA7DCE0-D4D1-45C7-AD49-3EC271DE7750}"/>
 												</Local>
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ExploreDesert-Melody1_60bpm4-4_L8M_P0" ID="{A702640E-9AB7-48D2-A521-641FBABA5D7A}" ShortID="991044833">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -343,6 +294,13 @@
 											<AudioFile>Explore_Desert\ExploreDesert-Melody1_60bpm4-4_L8M_P0.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="436122060"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreDesert-Melody2_60bpm4-4_L8M_P0" ID="{EBB9D002-6C23-4035-9B1B-6475D6D92B4F}">
+											<Language>SFX</Language>
+											<AudioFile>Explore_Desert\ExploreDesert-Melody2_60bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406888641"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -378,37 +336,9 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreDesert-Melody2_60bpm4-4_L8M_P0" ID="{636004EE-A02C-455E-8879-D0AD3168D700}" ShortID="109734295">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreDesert-Melody2_60bpm4-4_L8M_P0" ID="{EBB9D002-6C23-4035-9B1B-6475D6D92B4F}">
-											<Language>SFX</Language>
-											<AudioFile>Explore_Desert\ExploreDesert-Melody2_60bpm4-4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="406888641"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{E739E5CF-DA3F-4643-A7EB-047EEB56C793}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{2EF2DB95-0F97-4189-8F96-C64E14DF869A}">
+													<MusicTrackSequence Name="" ID="{1FDDD01A-FFC2-4696-B2D6-7887091A5738}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
@@ -426,6 +356,11 @@
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{681CC0B3-2955-471C-9814-67D373DEFB35}"/>
 												</Local>
 											</Reference>
 										</ObjectList>
@@ -482,6 +417,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ExploreDesert-Squeak_60bpm4-4_L8M_P0" ID="{91E8BA0A-E3A1-49C3-9080-7737A32626F9}" ShortID="576645010">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -528,6 +466,11 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{796C2693-3909-4EC0-9076-1453604EEC04}"/>
+												</Local>
+											</Reference>
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
@@ -552,7 +495,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{C21A8992-23F3-484A-8769-F8BBAAAEE20B}" ShortID="1066176069">
+						<MusicSegment Name="Explore_Desert_Bridge_60bpm4-4_L8M_P0" ID="{C21A8992-23F3-484A-8769-F8BBAAAEE20B}" ShortID="1066176069">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="40000"/>
 							</PropertyList>
@@ -628,7 +571,7 @@
 											<MusicCue Name="Exit Cue" ID="{B8E2E43F-96C3-43A6-A3F4-FDD0FF1934D2}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="40000"/>
+													<Property Name="TimeMs" Type="Real64" Value="32000"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -651,7 +594,37 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{0218476A-65A9-474D-B029-2807CA9A729E}" ShortID="815495089"/>
+						<MusicPlaylistItem Name="" ID="{0218476A-65A9-474D-B029-2807CA9A729E}" ShortID="815495089">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{6BDAC3FE-BF80-45DA-82F4-3080C0BFB242}" ShortID="927436941">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CAC3822D-08F4-4AC7-8AF6-F89D0F4310A3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Explore_Desert_Main" ID="{8DC7A906-3231-4B21-962B-744D2F449045}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{2E51C1C9-23C5-4B78-9C44-74FE66490C2A}" ShortID="199827196">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Explore_Desert_Bridge_60bpm4-4_L8M_P0" ID="{C21A8992-23F3-484A-8769-F8BBAAAEE20B}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Explore_Garden" ID="{FCB13399-1D10-4375-9C96-556054CF4BD2}" ShortID="1010754152">
@@ -669,7 +642,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Explore_Garden_A" ID="{5D1059DB-DF5D-4673-8874-1CF696908B55}" ShortID="308792061">
+						<MusicSegment Name="Explore_Garden_A_01" ID="{5D1059DB-DF5D-4673-8874-1CF696908B55}" ShortID="308792061">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="43446.3647199047"/>
 							</PropertyList>
@@ -821,6 +794,33 @@
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{491E777C-8653-4506-8A05-F65BE1741D24}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{D3ED227E-358B-4B2A-984C-927D122862A9}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>-3.06126</YPos>
+																								<Flags>5</Flags>
+																								<SegmentShape>Exp1</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>2.75044595338057</XPos>
+																								<YPos>0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>37</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -883,6 +883,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{D875003A-9701-4377-907A-F02D71E85E99}" ShortID="112828736">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -927,6 +930,11 @@
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0BE0EA48-6277-443A-ADDB-820460C4590B}"/>
 												</Local>
 											</Reference>
 										</ObjectList>
@@ -983,6 +991,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{DE28FD74-7881-48B0-BF74-B2A4E3C0E8BC}" ShortID="384823285">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
@@ -1029,6 +1040,11 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A8644DC7-5997-4A85-8184-14227C230108}"/>
+												</Local>
+											</Reference>
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
@@ -1039,11 +1055,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{CC2DE0BF-F689-4D41-A487-E17F66FC2444}">
+										<AudioFileSource Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{F61D8C68-633C-4DAD-8D23-7CD08E9858C7}">
 											<Language>SFX</Language>
-											<AudioFile>Music Segment A\ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<AudioFile>Music Segment A\ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="784629345"/>
+												<MediaID ID="546025647"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1060,106 +1076,6 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{531C4C43-442A-4AEB-A6A0-08B73077E012}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{D503C009-B248-4EA2-84F6-37044769BA9C}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{CC2DE0BF-F689-4D41-A487-E17F66FC2444}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{CD82D1FF-8674-47D8-8DCB-F369F61FA9A9}" ShortID="966252174">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{A4F53987-AFD2-4039-B24A-84C738845D91}">
-											<Language>SFX</Language>
-											<AudioFile>Music Segment A\ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="849878747"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{78E22499-4A85-45F9-BB4B-ECE5543EAC4F}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{641DC0C7-4D43-4757-B6FF-68CC2C48D241}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{FAAD2CA3-228A-4D1A-A802-683C3D5CFB16}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{A4F53987-AFD2-4039-B24A-84C738845D91}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{39E6F097-7954-40C9-938C-D7625A7E7F76}" ShortID="844772712">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{F61D8C68-633C-4DAD-8D23-7CD08E9858C7}">
-											<Language>SFX</Language>
-											<AudioFile>Music Segment A\ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="546025647"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{F0587D9B-CDB8-46E5-A513-B71D20673CE5}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{AD15E95A-C16B-44AF-809F-E39FB7CDA5F9}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
@@ -1457,7 +1373,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="Explore_Garden_B" ID="{79E7BABC-427B-4EDC-8EEA-9D2612D19BAF}" ShortID="536160182">
+						<MusicSegment Name="Explore_Garden_B_01" ID="{79E7BABC-427B-4EDC-8EEA-9D2612D19BAF}" ShortID="536160182">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="37000"/>
 							</PropertyList>
@@ -1827,11 +1743,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{7B125BF3-40A2-44E4-ABB5-5F0AC4F26066}">
+										<AudioFileSource Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{BC530FC4-70CC-435A-885E-FF2EFCD8D939}">
 											<Language>SFX</Language>
-											<AudioFile>Music Segment B\ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<AudioFile>Music Segment B\ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="265958737"/>
+												<MediaID ID="141955145"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1848,106 +1764,6 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{DE61E754-0BF1-4BDF-ACB1-D6A9D815C31D}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{1596B8F6-8245-4F1E-9616-766DD6547434}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{7B125BF3-40A2-44E4-ABB5-5F0AC4F26066}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{9C27513E-0B8D-44F7-847A-C806129675E8}" ShortID="549540060">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{0BB9614A-D693-446C-BE0E-4247E597CBB4}">
-											<Language>SFX</Language>
-											<AudioFile>Music Segment B\ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="985063923"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{46A10B0A-1963-4193-9DD6-67EEE1EDC4D7}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{462FED49-328C-46DF-8F00-C685EE6B4EEC}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{0F60CF05-1A36-4204-8977-CC59DBF330C4}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{0BB9614A-D693-446C-BE0E-4247E597CBB4}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{83566A59-BDC2-4051-9846-05039D4B902A}" ShortID="201938157">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{BC530FC4-70CC-435A-885E-FF2EFCD8D939}">
-											<Language>SFX</Language>
-											<AudioFile>Music Segment B\ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="141955145"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{78D5D072-139B-48C5-9636-FD2C1D0210AF}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{E6BDD7EA-745B-4ED7-8FDE-0940A1C4E000}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
@@ -2245,6 +2061,1589 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicSegment Name="Explore_Garden_A_02" ID="{FBEEDF16-526F-46AC-B3A8-3F15D6434501}" ShortID="1064848113">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="43446.3647199047"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{4D9C17C6-1522-4524-8863-FF707AC97C9C}" ShortID="209592557">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{D52A12E8-4A9D-4568-8EBB-058A44553A80}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938092266"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8D11A4F2-E1C2-44DC-A67A-6493474D87B6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9018ED7D-0863-47AE-A427-77C1F2E8DD59}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{4A4B9AC2-4D4D-448D-BF8E-058F29909C11}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{D52A12E8-4A9D-4568-8EBB-058A44553A80}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{6EF49AA8-F04B-49B5-9685-65F8C1F78BE9}" ShortID="1052291680">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{671983AE-713E-4573-9A18-57A605800CCF}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331912259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FE179A8E-BD17-472A-89C8-CA069E385190}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3E90141F-8B12-4BD4-8DCD-9254F9938222}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{A543F315-A298-41A9-BEE6-44A29EB0A4DC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{671983AE-713E-4573-9A18-57A605800CCF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{450BA05E-F2D5-4398-BF4C-091B1F4BA88C}" ShortID="879267893">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{2B503CA9-8895-4BA3-BE53-2765E3F413CA}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119961180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D7D91AAB-732F-4F5D-A83B-4F162AC4B805}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C5D59406-EAA3-4DCB-A9AC-064F7508A1F4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{759368E7-7CFF-4C99-ABBA-16A0636355B6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{2B503CA9-8895-4BA3-BE53-2765E3F413CA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{86078673-0D5F-423C-AB2E-F5608259DBFD}" ShortID="142739107">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{C494FFBF-A9C7-40DD-9BFD-4BB95B1A3823}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104171040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B4050528-6170-4154-93C3-B03899A5B4C8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0A0D52A0-3DE1-49E3-9B25-AA9466294126}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{886619B1-5B73-4669-B1EF-511D6986C6E6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{C494FFBF-A9C7-40DD-9BFD-4BB95B1A3823}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D9EA6265-4563-412D-9FEE-3C70135A142A}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{A6EBBF65-831D-4E52-B2B5-A5FE72299772}" ShortID="587059876">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{274297F7-2206-4E34-9DAD-CD25E027D87E}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318969061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DA424412-3629-41E9-9CEC-A6B9145EB29A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5E868CA6-01B7-43FC-9C7B-5D1EA5DA9A5A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{EDE2010F-FE6F-4358-8F85-30B440527344}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{274297F7-2206-4E34-9DAD-CD25E027D87E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{671CE8BC-7470-4D79-A23A-6AE6E9DBAB9D}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{F0DE872A-5FCF-444B-98EE-7E88C154C348}" ShortID="970206950">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{7ABB7BAC-569C-4231-8475-518E79DDD7B3}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="312752108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FF03047F-94A1-43F6-9562-5C996B432012}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5B379493-7A0E-448D-9C52-A72177E08B53}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{35A6BB09-3A92-4251-BEC5-E80ADEC286B3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{7ABB7BAC-569C-4231-8475-518E79DDD7B3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{752A3655-D09F-4236-AE15-486BA9AF320F}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{3E781EDC-E1B1-4721-95C4-7F91BC4B8B53}" ShortID="49329847">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{D9F76CB8-32F5-4699-8E95-9F132392D518}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100459828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4C61F63C-95F9-4002-84FE-74BC4D0AE643}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{16E3819A-0B21-4FD6-87FA-2EC485C6239D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{12C74C0B-5843-4991-8BF9-F438A9AA120B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{D9F76CB8-32F5-4699-8E95-9F132392D518}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{37C8451C-816E-43E4-843A-02DC6ECE0724}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{46083404-89E2-4D74-A60E-88EB50695077}" ShortID="7081223">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{D1588C0C-947F-42A8-962F-32D2AB2119EC}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784629345"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{9007D1DB-908C-4E71-BBCE-6CEE3BC944C3}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="849878747"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{5522B531-17EF-46B3-9F84-4861DEC03311}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546025647"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{520F8404-F6FE-4250-9EFF-5496D89E3FA3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{87383FE2-53B1-414F-810B-B15AABCB4D3B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{C0565665-A058-49EE-BD5D-281D065D9DE7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{D1588C0C-947F-42A8-962F-32D2AB2119EC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6D1C11E5-9508-4938-9441-F770963390D6}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{09C799A8-272E-4C09-B298-92DF5AA20EA9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{9007D1DB-908C-4E71-BBCE-6CEE3BC944C3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B998905E-CB48-44E6-8062-15D0D4FA4F90}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{043F61F9-97AE-40E3-BF27-D21046B36B62}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{5522B531-17EF-46B3-9F84-4861DEC03311}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3437AA76-654B-46BB-8680-113A18F95FF3}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{362FE87A-9FB0-420E-BB40-159868F1AD41}" ShortID="1019248075">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{85A04BD3-5026-411B-A85A-D5C9839A533D}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1051144781"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B9EB3C12-0AF9-42F7-8C8C-2BAFAA4D0A3F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FA907659-DB92-4E98-9B87-A4E596F6CB9A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{1AB178C1-F0CA-44E3-ADFF-95FB8CDF6672}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{85A04BD3-5026-411B-A85A-D5C9839A533D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{A122835C-B214-4CDE-AD93-551478C6CB3D}" ShortID="235863684">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{93B73B92-B971-48AC-AB53-991FA6A8085A}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676557551"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{58F71752-67B1-4396-9675-DC5878C32741}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6F344826-04BB-4874-845A-DD9EA9490B72}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{5B982AC1-233D-41DD-A781-29C77643F483}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{93B73B92-B971-48AC-AB53-991FA6A8085A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{80859529-7A6A-40AD-9B08-79DBC5BD3321}" ShortID="909559932">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{A63EE327-16ED-44F7-AC3B-1D7F606EFC4E}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280956010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{83C02BDD-FB75-4DC0-BA0B-168078E451CC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DB5CDA66-A582-48AC-B4A3-B60633C1A043}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{30A1603D-0CD9-4C1D-B47D-C77D718F589E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{A63EE327-16ED-44F7-AC3B-1D7F606EFC4E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{04A76E3D-4CAD-45C0-BE7E-933333D9FCC7}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{8D5C094C-2B9E-4207-BC3D-ECB73DBF8E53}" ShortID="32153">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{FC897EBA-EAA9-4C3B-ADA4-151AA0F3981F}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663472612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FAE16C88-7684-4041-A207-1E27CFB96BCB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{13E21F26-D6CC-4073-9C91-C419AABD7BC1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{6738E552-5ABA-4C86-B089-42DB3E2FA7B5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{FC897EBA-EAA9-4C3B-ADA4-151AA0F3981F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{65D046AE-A87B-4549-92AE-E33BE39D2D84}" ShortID="539962530">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{E753DC18-7CBC-4E7D-B213-9B72D886D40B}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment A\ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="524032915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8C4AEDA0-D80B-45E1-BD02-3D6E31DF1D03}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{03A7015A-9E4C-4BE7-90ED-5B50EC90A6C9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{DF64595A-5E8F-499D-A219-5BC3259ADED1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{E753DC18-7CBC-4E7D-B213-9B72D886D40B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C3E22AE2-30E8-46C7-9871-319A63F1E25C}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E9403F44-65C2-4CC4-A04F-586D9E11F2BD}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="33000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Explore_Garden_B_02" ID="{7E18DD11-8CB2-4B96-92A6-97533CCB55D7}" ShortID="350345972">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="37000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{95245FB2-D52D-4280-BD77-3E7E0C92A350}" ShortID="805594530">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{77CD66D2-F2EF-4BE4-960D-C47C27C56BAD}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977201990"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5648AF1E-2F26-4CC9-ACDB-AEB1AD899387}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{557589C5-A08B-4112-8A27-F75FBC804693}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{6A1117B9-04EC-4B71-9D80-84AD99829253}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B" ID="{77CD66D2-F2EF-4BE4-960D-C47C27C56BAD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{BB7DEE88-D06E-4DFF-B1A9-F58574AFC75F}" ShortID="1037091920">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{8A3B0C99-8C64-4BB2-9436-58322295ABBD}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862346628"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{60395CD0-12D4-43D8-AC1E-4E6231CE3668}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8BFBBE9C-A4C2-452B-AAF7-107A49E621AF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{4F341EFD-9E6C-48D8-BC3A-B48825C6F270}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B" ID="{8A3B0C99-8C64-4BB2-9436-58322295ABBD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{67FCE168-7A04-4E33-B57A-93478F5C3047}" ShortID="207013105">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{D82C884E-31BD-4261-AC07-1D4CAC2CABAD}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="824165439"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EA1AB0C7-D0D3-42F9-98DF-56807333678D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C1ECDBD6-C60E-4091-B77A-F5DB94ED16AF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{BDBC9D70-ED9C-4A77-AA8E-910CA3B1C2BE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B" ID="{D82C884E-31BD-4261-AC07-1D4CAC2CABAD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A863183F-62C8-417B-90ED-A7561863A248}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{34C65F8D-5BC7-4EE2-9F15-5EE7448B2EEE}" ShortID="342863008">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{643AA366-2D51-47CA-9BB4-F5FC5CBF46AC}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951167011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{185C1B19-CCBA-4EB1-914A-1F883197BEA3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7A816B92-5BDE-4665-B156-3F81262E8DAD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{36DFBBA9-D9F5-494A-A426-5CA334220EB9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B" ID="{643AA366-2D51-47CA-9BB4-F5FC5CBF46AC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{74F96D57-05DD-4967-815E-B0F9220580F0}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{DC3F5301-D150-4399-BF98-560565AD0F6B}" ShortID="590211027">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{C259715E-E5CD-4BC1-9BB5-8097BFA204A9}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592421997"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C9DD1CAE-0B19-449C-85B2-F11E8CE60BA9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3CA8BA78-6CD8-4375-A122-8A1090C37B8D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{56A1BF18-62B6-4E95-9C5A-66EB2918E49B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B" ID="{C259715E-E5CD-4BC1-9BB5-8097BFA204A9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AD6488D3-226B-4A14-AC51-66AF4A56847C}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{E2E3269B-8281-48DE-8489-F696FE330E11}" ShortID="114680113">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{566B519E-BB4C-42A1-A4C9-79BF9AD8FC2F}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442314528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{75069AFC-32BF-4FBB-8945-7080F4DEEB33}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FE6529BD-0C32-431F-B827-CFC76DD5F002}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{9163EBE3-C1AB-41B5-983A-FE2655117E69}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B" ID="{566B519E-BB4C-42A1-A4C9-79BF9AD8FC2F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9AA06968-8038-408D-BBAF-74137E297841}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{6D0361A6-3FA3-4E61-9C19-2BF43ACFE4B5}" ShortID="509555386">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{D7DE1A9E-EAE9-4B50-B20C-24B77F91D495}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1039084108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4AB60E76-B79F-462D-88AC-9E2B4A770817}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D7C87B54-FB67-4873-AF03-DAAF92C93B77}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{7F3D06D5-6A7A-40F8-AEB7-DCD5D2070B1D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B" ID="{D7DE1A9E-EAE9-4B50-B20C-24B77F91D495}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{28E0BFDC-ABA9-498F-B086-97868ACA4BE4}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{AF74A8D6-AF04-46C1-8B5F-3545831EF8FA}" ShortID="241979661">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{7F630639-2270-4DDA-A709-D3FAF8C69825}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265958737"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{6D401163-3BAB-4473-92F9-F99EB204ACDD}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985063923"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{CDF8FD52-DB50-4CAD-9390-32BC46CB9598}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141955145"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{186ADDFF-4F16-4CE3-8640-C0453E0A9F01}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{338EC9CD-3318-4A2B-B619-F0E4A2A84EFC}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{B5C2670F-E386-415D-9C23-0C3F0B110363}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B" ID="{7F630639-2270-4DDA-A709-D3FAF8C69825}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4A403295-F5E4-4553-91DA-82A6F404200B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{62647FD3-EB5F-4BD1-8C1C-F11EB881CCD5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B" ID="{6D401163-3BAB-4473-92F9-F99EB204ACDD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B71DEEF6-9D45-4BDD-97EA-C50786065F09}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{6FEA4ECD-A59F-4384-B592-5AC0856A751B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B" ID="{CDF8FD52-DB50-4CAD-9390-32BC46CB9598}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{14540A27-9A67-462A-8F53-6E7D092719CC}" ShortID="119204467">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{555B8627-A8B2-486D-A26D-1D0AF070B921}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680831413"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A9447D6F-4F0E-4765-81C2-21BA418278C2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9F25AB6A-A648-4D7C-AD06-BF0E9CAC539B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{39E3291D-EBAB-457D-92DF-9210791B20BE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B" ID="{555B8627-A8B2-486D-A26D-1D0AF070B921}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{6899CC83-2658-4BD7-A715-3D4917F89302}" ShortID="1029982540">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{83DF2D6C-E924-4CA2-B553-D5ED867CFAA6}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586471382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E97E7ECF-97CD-4C59-BA07-67C4E4669F96}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7BF130C3-5558-4636-93A5-444BF14140F3}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{7DDC6D98-BF64-4A2A-AB67-AE071B0EF3D1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B" ID="{83DF2D6C-E924-4CA2-B553-D5ED867CFAA6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{6782E512-55FB-4ACE-ABD9-8D29F6F242C6}" ShortID="250372366">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{D4110DB8-1652-41D0-B1C2-FB8ED2B83C22}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="636171049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A5BFFF8F-7F6F-4547-B8D2-3774FE59262D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{305CCCFB-D799-450B-918F-4FE8A5535287}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{53148193-2F11-4395-8043-5393E6635C2B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B" ID="{D4110DB8-1652-41D0-B1C2-FB8ED2B83C22}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{E4222092-BAD3-43CD-92B6-0B8C58120C7F}" ShortID="328214506">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{3515FCC2-1533-489A-B3E8-7054D9A9EDC9}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="475920587"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{62694366-8C98-422B-969B-A55AFD986D4B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{63C50A8E-583E-4921-8273-8C948A507E1C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{F86BEEAA-5ED6-47F7-AB18-221E64EA15CE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B" ID="{3515FCC2-1533-489A-B3E8-7054D9A9EDC9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{AB99752A-2E84-40BD-B634-CECE5F2F3573}" ShortID="400809982">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{1845C7D0-BE2A-45A6-ADDE-EFA17453D6A3}">
+											<Language>SFX</Language>
+											<AudioFile>Music Segment B\ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948630525"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E8230FF9-9409-4DE2-86A7-5267A4431280}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CCE9BFB6-C929-40BE-9BCC-64ED590AFBAF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{13969C8B-6232-45F7-9BF0-3740BAA78993}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="37000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B" ID="{1845C7D0-BE2A-45A6-ADDE-EFA17453D6A3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{59A271E2-6451-42B4-8A2F-38D941EC72CC}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E3010124-153E-4764-B7D3-FB482125711B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="33000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{67CEE132-1D29-4F30-B9A2-A94EFA1ECF05}">
@@ -2260,7 +3659,76 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{346887CE-72BB-4CE1-AD70-EA45883AF00B}" ShortID="281384621"/>
+						<MusicPlaylistItem Name="" ID="{346887CE-72BB-4CE1-AD70-EA45883AF00B}" ShortID="281384621">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{8BA07EAF-70E8-43A1-9F83-D6B8309D62DF}" ShortID="321403884">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{41AB2318-763D-46CA-B517-8DE3C95FA96E}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Explore_Garden_A_01" ID="{5D1059DB-DF5D-4673-8874-1CF696908B55}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{52BD2760-8FE7-429C-81D6-F0C89B068BAE}" ShortID="104151162">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Explore_Garden_B_01" ID="{79E7BABC-427B-4EDC-8EEA-9D2612D19BAF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{692572A8-9C76-4679-BA77-EE1BE8AD398C}" ShortID="844004226">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{5CE10F46-D851-4B32-BC9C-BF31A529B3DB}" ShortID="341464799">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AC427453-C2C0-49C3-BFF8-4F745C7E5060}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Explore_Garden_A_02" ID="{FBEEDF16-526F-46AC-B3A8-3F15D6434501}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{578D0678-0688-4556-84B3-25EC6F2DF239}" ShortID="219578855">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5FC50613-0EFB-4256-8734-40C0AAC0F06A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Explore_Garden_B_02" ID="{7E18DD11-8CB2-4B96-92A6-97533CCB55D7}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<Folder Name="Stingers" ID="{90706694-9157-49D1-BEC8-BF4D062FF829}" ShortID="568496335">
