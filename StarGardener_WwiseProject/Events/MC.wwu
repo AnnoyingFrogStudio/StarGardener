@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="MC" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" PersistMode="Standalone"/>
+		<WorkUnit Name="MC" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Footsteps" ID="{8A74F43A-E703-47C3-AD08-6AC42ECE8D36}">
+					<ChildrenList>
+						<Action Name="" ID="{EF4630C1-3BA1-4199-89B6-C262A2B2F8EB}" ShortID="193854781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Type" ID="{D3AF2990-1B89-4DC7-BCE8-6C7B8A95134B}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Land" ID="{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}">
+					<ChildrenList>
+						<Action Name="" ID="{417E2D70-7060-49BB-AE4C-F0595F24E4C4}" ShortID="60908863">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{0D21796C-192F-46B6-ADF7-C9F3C16539D5}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{F6553D8C-CB98-401A-AA1C-E4E32EF71558}">
+					<ChildrenList>
+						<Action Name="" ID="{AE82AE82-4BC9-4B71-9F34-C10AE087593A}" ShortID="270853636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{9B065A9C-CDAF-49BF-9581-11101751FD52}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Skate" ID="{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}">
+					<ChildrenList>
+						<Action Name="" ID="{72388F2B-2EC3-4C90-AD29-94CC3CFA2257}" ShortID="105246662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Type" ID="{17C30AC2-39FE-48EC-AE50-38E848513B01}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76E92FF2-6A86-4AA7-8AA6-94116DE9A19E}" ShortID="677077358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Wind" ID="{DC1F04A0-0CBD-452C-84A5-C642111BD346}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BagEmpty" ID="{2BA251FF-E77C-4837-A83C-543D45ED6BFC}">
+					<ChildrenList>
+						<Action Name="" ID="{A81AE780-D1AE-4AFF-BF18-79591F61E975}" ShortID="587001673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bag_Empty" ID="{E4A3308F-2C4A-4453-86F3-9D0932A126FB}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{03C4F1B6-2FE2-40CE-93D6-AAEB47C2E549}" ShortID="30511944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pollen_Empty" ID="{246B9C35-DD97-4C30-9457-C7F551B49C1A}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BagFull" ID="{0D394FFD-504D-480D-A4CB-C2A08D64D509}">
+					<ChildrenList>
+						<Action Name="" ID="{CF979DDA-52DF-4A62-AC0D-5601AE3750D0}" ShortID="636024394">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bag_Full" ID="{257281D3-AEA1-4B06-87BE-F91DF9593ADE}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{394067DF-7447-481C-A9E5-5B9B48106ABA}" ShortID="128976680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pollen_Full" ID="{71E4D3AF-39F8-4A56-A3B8-55210A364C59}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

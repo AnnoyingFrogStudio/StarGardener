@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4DE29E92-8063-41CE-AB00-8BE88A6925B5}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="SFX" ID="{4DE29E92-8063-41CE-AB00-8BE88A6925B5}" PersistMode="Standalone"/>
+		<WorkUnit Name="SFX" ID="{4DE29E92-8063-41CE-AB00-8BE88A6925B5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Orb1" ID="{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}">
+					<ChildrenList>
+						<Action Name="" ID="{D4024C31-9939-48ED-AFA1-E6B4E5637A8F}" ShortID="77884521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ORB1" ID="{41BCABA1-1F93-4BBB-AC84-9D89A44C9C3D}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{72739F14-063C-4D55-B5C5-B0DB20BC6F8A}" ShortID="448376775">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Orb2" ID="{E7C94A69-A32A-4C72-B958-5128306B961F}">
+					<ChildrenList>
+						<Action Name="" ID="{AA830E05-8F56-4EAB-AA40-1B66309D9D21}" ShortID="1020681500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ORB2" ID="{3E3A431A-2DA2-4603-B793-EBB3E70A5B0F}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E639E367-BB63-4C70-A075-1E3C2DB63D48}" ShortID="227657409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Orb3" ID="{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}">
+					<ChildrenList>
+						<Action Name="" ID="{117B3116-6DA8-40F1-8F26-2AF558789ECE}" ShortID="155188459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ORB3" ID="{4C533898-9A3F-48DF-A252-7961F87F46FA}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8BDF9E6F-8FD3-450A-A99A-9171061A0BA0}" ShortID="969883898">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Orb_Final" ID="{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}">
+					<ChildrenList>
+						<Action Name="" ID="{C552047A-CA2C-4267-AF03-7003E6F8D331}" ShortID="851489643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ORB_Final" ID="{C02E82BA-6184-47AA-B0D7-916983E9BF6C}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6326D44-A8E3-40FF-811A-BBBD2B11BDF1}" ShortID="832531286">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorBack" ID="{DE55EF6D-9EBC-4727-A658-D8B0F7CC7FB8}">
+					<ChildrenList>
+						<Action Name="" ID="{E7375652-E0B8-42C9-AD4C-7529525073EB}" ShortID="870077628">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Doors_Back" ID="{FA11DF86-7E20-4F3A-87E0-8DEC22B80175}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorGo" ID="{D74BECE0-653F-4E02-B2A9-6CAB839DD2EC}">
+					<ChildrenList>
+						<Action Name="" ID="{0E9E654A-18C9-4833-9A18-AA0DB19CB206}" ShortID="643899069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Doors_Go" ID="{AF236465-13B2-432C-AFC9-11B8E5986164}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JFdirt" ID="{FC34AE6A-B68B-44E2-941C-CF77CB491423}">
+					<ChildrenList>
+						<Action Name="" ID="{2080D327-40D8-4ACD-ABAB-FDECD4B366FB}" ShortID="356601789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JF_Dirt" ID="{DBBB1B8A-09D5-4C2C-8842-1228ECF07FCA}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

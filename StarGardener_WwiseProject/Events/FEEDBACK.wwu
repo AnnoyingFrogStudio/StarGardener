@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A678548F-6A86-47C3-8323-8F7B59D7502E}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="FEEDBACK" ID="{A678548F-6A86-47C3-8323-8F7B59D7502E}" PersistMode="Standalone"/>
+		<WorkUnit Name="FEEDBACK" ID="{A678548F-6A86-47C3-8323-8F7B59D7502E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_PGgrowing" ID="{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}">
+					<ChildrenList>
+						<Action Name="" ID="{72A450C3-C773-4CE7-9B27-9D8FBA8ECE52}" ShortID="902462982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PG_Growing" ID="{2FC1D9E8-E8B0-49CE-8B90-97AE1F5E3EF9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4BAD6FA9-EB73-4FC4-8A16-838E32523678}" ShortID="63035492">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PGshrinking" ID="{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}">
+					<ChildrenList>
+						<Action Name="" ID="{FB0E25CF-5230-4617-A5DB-7800468F4ED4}" ShortID="681705241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PG_Shrinking" ID="{A16883E3-18AE-43D1-A37B-6ACB4C1CC0DB}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PGping" ID="{7529F939-5E99-4E72-B8C9-0CC6CC6F35BC}">
+					<ChildrenList>
+						<Action Name="" ID="{7E78235D-2D2D-4C27-9EA3-49B4BBB9D722}" ShortID="512180095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PG_Ping" ID="{E37DE13C-CCD0-4AE3-A853-D3AE4314639E}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
