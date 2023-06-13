@@ -552,7 +552,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="Explore_Desert_Bridge_60bpm4-4_L8M_P0" ID="{830F9AAA-2855-4C57-9552-9270A6D1A6EC}" ShortID="654016576">
+						<MusicSegment Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{C21A8992-23F3-484A-8769-F8BBAAAEE20B}" ShortID="1066176069">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="40000"/>
 							</PropertyList>
@@ -565,23 +565,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="ExploreDesert_Bridge" ID="{F9340024-BDE6-40CB-B348-5AABFB521687}" ShortID="568467772">
+								<MusicTrack Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{2DD2F41F-561B-4B39-A9F6-4F98BAEA5F11}" ShortID="381634061">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ExploreDesert_Bridge" ID="{B2092F47-D2B1-4249-BDCA-7949FE2674C6}">
+										<AudioFileSource Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{0D51E158-5D82-4AE4-9571-18A7F6B5C18C}">
 											<Language>SFX</Language>
-											<AudioFile>ExploreDesert_Bridge.wav</AudioFile>
+											<AudioFile>ExploreDesert_Bridge_60bpm4-4_L8M_P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="273005656"/>
+												<MediaID ID="918495811"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{CD590FA9-2210-4A9E-899A-D27CB9CBE169}">
+										<MusicTransition Name="Root" ID="{589E70D1-3035-4335-B548-AE96D4A19CDF}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -592,18 +592,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{2676CC6E-A94D-45D9-87D8-44F4826D1EC0}">
+													<MusicTrackSequence Name="" ID="{040904AB-6AE8-4727-B49A-C14A24034282}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="ExploreDesert_Bridge" ID="{243B86BE-B996-4CA0-B08C-ACE5F2102C3F}">
+																		<MusicClip Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{35D53ED8-11A7-4E3C-8B63-E31735529176}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="40000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="ExploreDesert_Bridge" ID="{B2092F47-D2B1-4249-BDCA-7949FE2674C6}"/>
+																			<AudioSourceRef Name="ExploreDesert_Bridge_60bpm4-4_L8M_P0" ID="{0D51E158-5D82-4AE4-9571-18A7F6B5C18C}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -620,15 +620,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{503C86BE-C44A-4448-BF7C-F03071315800}"/>
+											<MusicCue Name="Entry Cue" ID="{B0EE7202-EF08-4B65-9192-39DEA650876E}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{D3030F7B-3ADC-4F33-B60E-968923EC6F71}">
+											<MusicCue Name="Exit Cue" ID="{B8E2E43F-96C3-43A6-A3F4-FDD0FF1934D2}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="32000"/>
+													<Property Name="TimeMs" Type="Real64" Value="40000"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
