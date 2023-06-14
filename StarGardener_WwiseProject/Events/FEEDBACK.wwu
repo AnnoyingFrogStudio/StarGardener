@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PGping" ID="{7529F939-5E99-4E72-B8C9-0CC6CC6F35BC}">
+					<ChildrenList>
+						<Action Name="" ID="{7E78235D-2D2D-4C27-9EA3-49B4BBB9D722}" ShortID="512180095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PG_Ping" ID="{E37DE13C-CCD0-4AE3-A853-D3AE4314639E}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
