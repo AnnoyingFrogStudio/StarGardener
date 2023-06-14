@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D3D8DF94-4650-6781-2BBE-B6D368370750}",
+    "Hash": "{F470B39B-AB9D-9E75-F021-01E2F2FC440D}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -98,6 +98,12 @@
       "GUID": "{669DABB9-5BB2-4379-B26D-934E5E2C8F18}"
      },
      {
+      "Id": "2653406601",
+      "Name": "RTPC_PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
+      "GUID": "{A45D0340-15CC-42AF-8E95-646A9EDDC965}"
+     },
+     {
       "Id": "4179668880",
       "Name": "Master_Volume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bus_Volume\\Master_Volume",
@@ -105,6 +111,32 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "1729537865",
+      "Name": "IsPause",
+      "ObjectPath": "\\States\\Default Work Unit\\IsPause",
+      "GUID": "{A7AEAA45-D3BD-4C34-BD43-2658D355FE47}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\IsPause\\None",
+        "GUID": "{E87A483D-2EED-48F3-AFD0-23DC4ADC3EF5}"
+       },
+       {
+        "Id": "3882303946",
+        "Name": "PauseFalse",
+        "ObjectPath": "\\States\\Default Work Unit\\IsPause\\PauseFalse",
+        "GUID": "{D3417251-3215-46F4-8931-BA98C7FB87F9}"
+       },
+       {
+        "Id": "3940418401",
+        "Name": "PauseTrue",
+        "ObjectPath": "\\States\\Default Work Unit\\IsPause\\PauseTrue",
+        "GUID": "{D4368E47-3E65-4173-A8F7-65F623CFB00B}"
+       }
+      ]
+     },
      {
       "Id": "3132598577",
       "Name": "Timer_Countdowner",
@@ -138,10 +170,22 @@
       "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
       "States": [
        {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
+        "GUID": "{81C59506-B0A4-40D4-85B1-3078CF8AF249}"
+       },
+       {
         "Id": "803837735",
         "Name": "Sand",
         "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
         "GUID": "{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Concrete",
+        "GUID": "{52D71FA8-13C6-418D-B49C-3C033F510FBF}"
        },
        {
         "Id": "4248645337",
@@ -180,6 +224,6 @@
     ]
    }
   ],
-  "FileHash": "{F256E5BB-E52E-6269-AC83-D938C98952F0}"
+  "FileHash": "{DF5BFDE0-1D04-FF5B-153B-8C1A86BC6856}"
  }
 }

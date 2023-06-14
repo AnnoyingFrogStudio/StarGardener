@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}",
     "Language": "SFX",
-    "Hash": "{AE0CBB00-1FFB-92C7-2E9A-32161CFEC192}",
+    "Hash": "{4EED4EC1-322E-A946-B396-C22186D64B21}",
     "ObjectPath": "Play_Skate",
     "ShortName": "Play_Skate",
     "Path": "Event/Play_Skate.bnk",
@@ -170,6 +170,31 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "3254070584",
+         "Id": "748895195",
+         "GUID": "{81C59506-B0A4-40D4-85B1-3078CF8AF249}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144370396"
+         },
+         {
+          "Id": "390527668"
+         },
+         {
+          "Id": "714790290"
+         },
+         {
+          "Id": "885124220"
+         },
+         {
+          "Id": "974380218"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3254070584",
          "Id": "803837735",
          "GUID": "{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"
         },
@@ -220,6 +245,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "2653406601",
+      "Name": "RTPC_PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
+      "GUID": "{A45D0340-15CC-42AF-8E95-646A9EDDC965}"
+     }
+    ],
     "StateGroups": [
      {
       "Id": "3254070584",
@@ -228,10 +261,22 @@
       "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
       "States": [
        {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
+        "GUID": "{81C59506-B0A4-40D4-85B1-3078CF8AF249}"
+       },
+       {
         "Id": "803837735",
         "Name": "Sand",
         "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
         "GUID": "{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Concrete",
+        "GUID": "{52D71FA8-13C6-418D-B49C-3C033F510FBF}"
        },
        {
         "Id": "4248645337",
@@ -244,6 +289,6 @@
     ]
    }
   ],
-  "FileHash": "{7513AADC-4CE9-D391-FE64-99B440089E8B}"
+  "FileHash": "{EE27709B-3DE4-66CC-9CB3-3EF52B8D88D4}"
  }
 }

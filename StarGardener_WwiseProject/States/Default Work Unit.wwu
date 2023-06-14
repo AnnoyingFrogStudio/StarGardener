@@ -5,8 +5,17 @@
 			<ChildrenList>
 				<StateGroup Name="State_Material" ID="{589C58A7-6C5B-4A36-B1BA-EE8B88458697}">
 					<ChildrenList>
+						<State Name="None" ID="{81C59506-B0A4-40D4-85B1-3078CF8AF249}"/>
 						<State Name="Grass" ID="{372081F2-B455-424D-B7A8-97E1B0CA5CAD}"/>
 						<State Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
+						<State Name="Concrete" ID="{52D71FA8-13C6-418D-B49C-3C033F510FBF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsPause" ID="{A7AEAA45-D3BD-4C34-BD43-2658D355FE47}">
+					<ChildrenList>
+						<State Name="None" ID="{E87A483D-2EED-48F3-AFD0-23DC4ADC3EF5}"/>
+						<State Name="PauseTrue" ID="{D4368E47-3E65-4173-A8F7-65F623CFB00B}"/>
+						<State Name="PauseFalse" ID="{D3417251-3215-46F4-8931-BA98C7FB87F9}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

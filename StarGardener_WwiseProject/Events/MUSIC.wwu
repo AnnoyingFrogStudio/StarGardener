@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="13"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{5403E203-32EF-4537-9922-F06552826301}">
+					<ChildrenList>
+						<Action Name="" ID="{CB9C296F-BA50-49AE-9EF8-D41E4CBE780E}" ShortID="579037524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

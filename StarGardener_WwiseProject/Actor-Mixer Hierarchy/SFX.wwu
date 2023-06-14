@@ -264,6 +264,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="ORB1" ID="{41BCABA1-1F93-4BBB-AC84-9D89A44C9C3D}" ShortID="65187811">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -342,6 +350,14 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="ORB2" ID="{3E3A431A-2DA2-4603-B793-EBB3E70A5B0F}" ShortID="851935411">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -420,6 +436,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="ORB3" ID="{4C533898-9A3F-48DF-A252-7961F87F46FA}" ShortID="988452206">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>

@@ -44,9 +44,36 @@
 						</Bus>
 						<Bus Name="Bus_Music" ID="{C817D767-E431-4282-A624-B6E590FE1F61}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="12"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsPause" ID="{A7AEAA45-D3BD-4C34-BD43-2658D355FE47}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="PauseTrue" ID="{D4368E47-3E65-4173-A8F7-65F623CFB00B}"/>
+										<CustomState Name="" ID="{CD396EF6-4B5D-44A1-8B07-87B6422E1C17}" ShortID="958967842">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+												<Property Name="Lowpass" Type="int16" Value="8"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="PauseFalse" ID="{D3417251-3215-46F4-8931-BA98C7FB87F9}"/>
+										<CustomState Name="" ID="{20FB536F-857E-4F79-85BA-58CAB5C71CC8}" ShortID="591169459"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Bus_Feedback" ID="{02E472EB-BD28-4F1E-AAF9-92D3244B5512}">
 							<PropertyList>
