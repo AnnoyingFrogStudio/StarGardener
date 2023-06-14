@@ -1,0 +1,255 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1618563948",
+    "Type": "Event",
+    "GUID": "{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}",
+    "Language": "SFX",
+    "Hash": "{AF94E4DE-B041-5276-24EB-8706CBB821B2}",
+    "ObjectPath": "Play_Skate",
+    "ShortName": "Play_Skate",
+    "Path": "Event/Play_Skate.bnk",
+    "Media": [
+     {
+      "Id": "51897836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Skate_Wind_03.wav",
+      "Path": "Media/51897836.wem",
+      "CachePath": "SFX/MC_D_Skate_Wind_03_10C4C929.wem"
+     },
+     {
+      "Id": "131133028",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Grass_05.wav",
+      "Path": "Media/131133028.wem",
+      "CachePath": "SFX/PO_Skate_Grass_05_10C4C929.wem"
+     },
+     {
+      "Id": "144370396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Sand_03.wav",
+      "Path": "Media/144370396.wem",
+      "CachePath": "SFX/PO_Skate_Sand_03_10C4C929.wem"
+     },
+     {
+      "Id": "221335391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Skate_Wind_01.wav",
+      "Path": "Media/221335391.wem",
+      "CachePath": "SFX/MC_D_Skate_Wind_01_10C4C929.wem"
+     },
+     {
+      "Id": "251000961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Skate_Wind_04.wav",
+      "Path": "Media/251000961.wem",
+      "CachePath": "SFX/MC_D_Skate_Wind_04_10C4C929.wem"
+     },
+     {
+      "Id": "390527668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Sand_05.wav",
+      "Path": "Media/390527668.wem",
+      "CachePath": "SFX/PO_Skate_Sand_05_10C4C929.wem"
+     },
+     {
+      "Id": "442411795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Grass_04.wav",
+      "Path": "Media/442411795.wem",
+      "CachePath": "SFX/PO_Skate_Grass_04_10C4C929.wem"
+     },
+     {
+      "Id": "562524127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Grass_02.wav",
+      "Path": "Media/562524127.wem",
+      "CachePath": "SFX/PO_Skate_Grass_02_10C4C929.wem"
+     },
+     {
+      "Id": "714790290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Sand_04.wav",
+      "Path": "Media/714790290.wem",
+      "CachePath": "SFX/PO_Skate_Sand_04_10C4C929.wem"
+     },
+     {
+      "Id": "885124220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Sand_02.wav",
+      "Path": "Media/885124220.wem",
+      "CachePath": "SFX/PO_Skate_Sand_02_10C4C929.wem"
+     },
+     {
+      "Id": "974380218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Sand_01.wav",
+      "Path": "Media/974380218.wem",
+      "CachePath": "SFX/PO_Skate_Sand_01_10C4C929.wem"
+     },
+     {
+      "Id": "984520759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Grass_01.wav",
+      "Path": "Media/984520759.wem",
+      "CachePath": "SFX/PO_Skate_Grass_01_10C4C929.wem"
+     },
+     {
+      "Id": "1031638366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PO_Skate_Grass_03.wav",
+      "Path": "Media/1031638366.wem",
+      "CachePath": "SFX/PO_Skate_Grass_03_10C4C929.wem"
+     },
+     {
+      "Id": "1032969823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Skate_Wind_02.wav",
+      "Path": "Media/1032969823.wem",
+      "CachePath": "SFX/MC_D_Skate_Wind_02_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1618563948",
+      "Name": "Play_Skate",
+      "ObjectPath": "\\Events\\MC\\Play_Skate",
+      "GUID": "{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6986666",
+      "DurationMax": "2.7573333",
+      "MediaRefs": [
+       {
+        "Id": "51897836"
+       },
+       {
+        "Id": "221335391"
+       },
+       {
+        "Id": "251000961"
+       },
+       {
+        "Id": "1032969823"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3254070584",
+         "Id": "803837735",
+         "GUID": "{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144370396"
+         },
+         {
+          "Id": "390527668"
+         },
+         {
+          "Id": "714790290"
+         },
+         {
+          "Id": "885124220"
+         },
+         {
+          "Id": "974380218"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3254070584",
+         "Id": "4248645337",
+         "GUID": "{372081F2-B455-424D-B7A8-97E1B0CA5CAD}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "131133028"
+         },
+         {
+          "Id": "442411795"
+         },
+         {
+          "Id": "562524127"
+         },
+         {
+          "Id": "984520759"
+         },
+         {
+          "Id": "1031638366"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3254070584",
+      "Name": "State_Material",
+      "ObjectPath": "\\States\\Default Work Unit\\State_Material",
+      "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
+        "GUID": "{B2B74FF2-B7F4-4799-BD72-4B0D3CAA502D}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
+        "GUID": "{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Grass",
+        "GUID": "{372081F2-B455-424D-B7A8-97E1B0CA5CAD}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{66123E15-6E79-7A02-006C-E004FEF1C82A}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{84B25752-FFA3-499F-AE6C-BB1DE6272202}",
     "Language": "SFX",
-    "Hash": "{AA47C6E3-6E13-7978-EC9E-D4253CFC859B}",
+    "Hash": "{D034027E-6D2D-64BE-14EE-601528BB1147}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -28,7 +28,7 @@
      {
       "Id": "1020223172",
       "Name": "Play_Wind",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind",
+      "ObjectPath": "\\Events\\AMBIANCES\\Play_Wind",
       "GUID": "{99DCAA04-0C49-46B0-ADCE-75BC5D7DEAB8}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -40,6 +40,6 @@
     ]
    }
   ],
-  "FileHash": "{79A708CC-FFFF-01A8-C7BE-D799ECEB0460}"
+  "FileHash": "{7B2D8C88-99DC-A4F1-6794-FCBCF14240F7}"
  }
 }

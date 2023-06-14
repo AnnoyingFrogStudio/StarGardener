@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "4081074681",
+    "Type": "Event",
+    "GUID": "{FC34AE6A-B68B-44E2-941C-CF77CB491423}",
+    "Language": "SFX",
+    "Hash": "{0B4CEE11-48E9-6BCC-1DE5-014099C3BD27}",
+    "ObjectPath": "Play_JFdirt",
+    "ShortName": "Play_JFdirt",
+    "Path": "Event/Play_JFdirt.bnk",
+    "Events": [
+     {
+      "Id": "4081074681",
+      "Name": "Play_JFdirt",
+      "ObjectPath": "\\Events\\SFX\\Play_JFdirt",
+      "GUID": "{FC34AE6A-B68B-44E2-941C-CF77CB491423}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FFBAC1F2-71E9-6114-C510-4E7EB326760C}"
+ }
+}

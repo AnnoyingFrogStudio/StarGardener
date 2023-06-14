@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "696242360",
+    "Type": "Event",
+    "GUID": "{D74BECE0-653F-4E02-B2A9-6CAB839DD2EC}",
+    "Language": "SFX",
+    "Hash": "{75A9ABBF-D11D-D70D-247C-7276FE8613E0}",
+    "ObjectPath": "Play_DoorGo",
+    "ShortName": "Play_DoorGo",
+    "Path": "Event/Play_DoorGo.bnk",
+    "Events": [
+     {
+      "Id": "696242360",
+      "Name": "Play_DoorGo",
+      "ObjectPath": "\\Events\\SFX\\Play_DoorGo",
+      "GUID": "{D74BECE0-653F-4E02-B2A9-6CAB839DD2EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D4DBD48C-7A13-1492-A2D1-FAC162DC789C}"
+ }
+}

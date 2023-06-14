@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2486338891",
+    "Type": "Event",
+    "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
+    "Language": "SFX",
+    "Hash": "{0B491483-951C-C97D-C869-C687784E5D15}",
+    "ObjectPath": "Play_GrassGrowing",
+    "ShortName": "Play_GrassGrowing",
+    "Path": "Event/Play_GrassGrowing.bnk",
+    "Media": [
+     {
+      "Id": "939486910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Grass_Growing_LP.wav",
+      "Path": "Media/939486910.wem",
+      "CachePath": "SFX/SFX_Grass_Growing_LP_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2486338891",
+      "Name": "Play_GrassGrowing",
+      "ObjectPath": "\\Events\\SFX\\Play_GrassGrowing",
+      "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "939486910"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A6338D73-807C-5654-9246-63C3D6FD3A79}"
+ }
+}

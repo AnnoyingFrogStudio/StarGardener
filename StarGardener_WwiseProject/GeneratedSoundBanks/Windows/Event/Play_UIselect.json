@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3703192648",
+    "Type": "Event",
+    "GUID": "{B358AB00-23C8-45A7-9F41-69043017D070}",
+    "Language": "SFX",
+    "Hash": "{5F329E4A-8EFB-4B26-7F95-508B67DB56FD}",
+    "ObjectPath": "Play_UIselect",
+    "ShortName": "Play_UIselect",
+    "Path": "Event/Play_UIselect.bnk",
+    "Events": [
+     {
+      "Id": "3703192648",
+      "Name": "Play_UIselect",
+      "ObjectPath": "\\Events\\UI\\Play_UIselect",
+      "GUID": "{B358AB00-23C8-45A7-9F41-69043017D070}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{15735B2B-79DC-B501-4E3E-2C788DD2EA00}"
+ }
+}

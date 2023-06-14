@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3689126666",
+    "Type": "Event",
+    "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
+    "Language": "SFX",
+    "Hash": "{CEC69A3D-B9AE-4113-3A1D-865BD500C4A9}",
+    "ObjectPath": "Play_Jump",
+    "ShortName": "Play_Jump",
+    "Path": "Event/Play_Jump.bnk",
+    "Media": [
+     {
+      "Id": "137876793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_FT_Grass_Jump_03.wav",
+      "Path": "Media/137876793.wem",
+      "CachePath": "SFX/MC_FT_Grass_Jump_03_10C4C929.wem"
+     },
+     {
+      "Id": "337122828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_FT_Grass_Jump_02.wav",
+      "Path": "Media/337122828.wem",
+      "CachePath": "SFX/MC_FT_Grass_Jump_02_10C4C929.wem"
+     },
+     {
+      "Id": "387167639",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_FT_Grass_Jump_01.wav",
+      "Path": "Media/387167639.wem",
+      "CachePath": "SFX/MC_FT_Grass_Jump_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\MC\\Play_Jump",
+      "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "137876793"
+       },
+       {
+        "Id": "337122828"
+       },
+       {
+        "Id": "387167639"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C71F3551-C885-556E-ED40-E8393285E9D0}"
+ }
+}
