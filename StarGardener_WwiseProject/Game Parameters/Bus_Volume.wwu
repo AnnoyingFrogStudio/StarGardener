@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08934649-44D1-4DCB-9972-EBD31A9B7BB4}" SchemaVersion="110" RootDocumentID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}" ParentDocumentID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}">
+	<GameParameters>
+		<WorkUnit Name="Bus_Volume" ID="{08934649-44D1-4DCB-9972-EBD31A9B7BB4}" OwnerID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="Master_Volume" ID="{4363B90C-6FB4-4FE3-A2B5-03CBF6EBA127}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFX_Volume" ID="{669DABB9-5BB2-4379-B26D-934E5E2C8F18}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music_Volume" ID="{98C11CB2-A167-4F9C-A11D-39EE396ED1AD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
