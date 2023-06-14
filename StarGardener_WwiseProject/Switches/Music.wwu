@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53793388-1A2D-4D41-B1A5-5FAD5C8829EE}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Music" ID="{53793388-1A2D-4D41-B1A5-5FAD5C8829EE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Zones_Terrain" ID="{60F5EE7D-23C6-4AF1-8911-B4A55F511BAE}">
+					<ChildrenList>
+						<Switch Name="Garden" ID="{C3486116-6DFC-44F0-8F79-62083CF0D9BB}"/>
+						<Switch Name="Desert" ID="{7EF97610-93EF-4F98-BA34-8630488D3E4E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

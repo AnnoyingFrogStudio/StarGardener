@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="State_Material" ID="{589C58A7-6C5B-4A36-B1BA-EE8B88458697}">
 					<ChildrenList>
+						<State Name="None" ID="{39785D06-EC0C-4DCA-93D9-F4DC11E02528}"/>
 						<State Name="Grass" ID="{372081F2-B455-424D-B7A8-97E1B0CA5CAD}"/>
 						<State Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
 					</ChildrenList>

@@ -14,7 +14,7 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Explore_Garden_V2" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<ObjectRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -27,7 +27,9 @@
 						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
 						<CurrentStateRef Name="Loaded" ID="{52223414-EF0E-4F24-91DA-A6AB2CD3E96E}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Garden" ID="{C3486116-6DFC-44F0-8F79-62083CF0D9BB}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
