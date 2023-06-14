@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2658997616",
+    "Type": "Event",
+    "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
+    "Language": "SFX",
+    "Hash": "{23C31F80-A405-F991-8C57-8B989CF05322}",
+    "ObjectPath": "Play_SFX_JF_Dirt_In",
+    "ShortName": "Play_SFX_JF_Dirt_In",
+    "Path": "Event/Play_SFX_JF_Dirt_In.bnk",
+    "Media": [
+     {
+      "Id": "471967528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_JF_Dirt_In.wav",
+      "Path": "Media/471967528.wem",
+      "CachePath": "SFX/SFX_JF_Dirt_In_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2658997616",
+      "Name": "Play_SFX_JF_Dirt_In",
+      "ObjectPath": "\\Events\\SFX\\Play_SFX_JF_Dirt_In",
+      "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "471967528"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2CA261F7-D158-94DE-3949-6E6982E5CDFD}"
+ }
+}

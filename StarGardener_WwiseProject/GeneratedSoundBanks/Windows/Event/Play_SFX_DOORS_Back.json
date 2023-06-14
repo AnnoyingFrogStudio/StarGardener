@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3589770049",
+    "Type": "Event",
+    "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
+    "Language": "SFX",
+    "Hash": "{60EE7A77-ECE7-E971-A0DA-F51F3A0808AD}",
+    "ObjectPath": "Play_SFX_DOORS_Back",
+    "ShortName": "Play_SFX_DOORS_Back",
+    "Path": "Event/Play_SFX_DOORS_Back.bnk",
+    "Media": [
+     {
+      "Id": "272905171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DOORS_Back_LP.wav",
+      "Path": "Media/272905171.wem",
+      "CachePath": "SFX/SFX_DOORS_Back_LP_D79FB2B7.wem"
+     },
+     {
+      "Id": "547637335",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DOORS_Back.wav",
+      "Path": "Media/547637335.wem",
+      "CachePath": "SFX/SFX_DOORS_Back_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3589770049",
+      "Name": "Play_SFX_DOORS_Back",
+      "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Back",
+      "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "272905171"
+       },
+       {
+        "Id": "547637335"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{86F54643-E93C-68B7-5A18-08D215F24493}"
+ }
+}

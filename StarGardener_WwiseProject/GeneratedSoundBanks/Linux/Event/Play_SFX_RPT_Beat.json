@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3561356083",
+    "Type": "Event",
+    "GUID": "{78D3F778-3263-4C00-838B-9A653F08B54E}",
+    "Language": "SFX",
+    "Hash": "{AF162BCB-7273-5318-C721-15586134B930}",
+    "ObjectPath": "Play_SFX_RPT_Beat",
+    "ShortName": "Play_SFX_RPT_Beat",
+    "Path": "Event/Play_SFX_RPT_Beat.bnk",
+    "Media": [
+     {
+      "Id": "429301423",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_RPT_Beat.wav",
+      "Path": "Media/429301423.wem",
+      "CachePath": "SFX/SFX_RPT_Beat_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3561356083",
+      "Name": "Play_SFX_RPT_Beat",
+      "ObjectPath": "\\Events\\MC\\Play_SFX_RPT_Beat",
+      "GUID": "{78D3F778-3263-4C00-838B-9A653F08B54E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "429301423"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DB489961-1581-02A4-AEA2-8FD1C813BA48}"
+ }
+}

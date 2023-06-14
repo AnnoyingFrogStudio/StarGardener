@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2502406642",
+    "Type": "Event",
+    "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
+    "Language": "SFX",
+    "Hash": "{7A36B504-953D-5563-ECB9-273B4E59BB6A}",
+    "ObjectPath": "Play_SFX_DOORS_Go",
+    "ShortName": "Play_SFX_DOORS_Go",
+    "Path": "Event/Play_SFX_DOORS_Go.bnk",
+    "Media": [
+     {
+      "Id": "48051834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DOORS_Go_LP.wav",
+      "Path": "Media/48051834.wem",
+      "CachePath": "SFX/SFX_DOORS_Go_LP_D79FB2B7.wem"
+     },
+     {
+      "Id": "299577541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DOORS_Go.wav",
+      "Path": "Media/299577541.wem",
+      "CachePath": "SFX/SFX_DOORS_Go_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2502406642",
+      "Name": "Play_SFX_DOORS_Go",
+      "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Go",
+      "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "48051834"
+       },
+       {
+        "Id": "299577541"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{48B18396-5F05-1C10-EE9B-1D8C47BD3DA4}"
+ }
+}
