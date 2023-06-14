@@ -91,6 +91,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_RPT_Beat" ID="{78D3F778-3263-4C00-838B-9A653F08B54E}">
+					<ChildrenList>
+						<Action Name="" ID="{3D82400F-0CD8-49BD-AD18-2F819B37AFA5}" ShortID="991192691">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RPT_Beat" ID="{D2981936-BAD3-44F4-9BE2-D6E0B2921C86}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_RPT_Beat" ID="{3F92FB10-E0BF-453C-90FB-B7C0DF0BF3F3}">
+					<ChildrenList>
+						<Action Name="" ID="{C3A7D362-FC48-4D38-8228-A208181A441B}" ShortID="146272197">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RPT_Beat" ID="{D2981936-BAD3-44F4-9BE2-D6E0B2921C86}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

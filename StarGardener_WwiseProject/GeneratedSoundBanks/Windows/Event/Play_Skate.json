@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}",
     "Language": "SFX",
-    "Hash": "{AF94E4DE-B041-5276-24EB-8706CBB821B2}",
+    "Hash": "{AE0CBB00-1FFB-92C7-2E9A-32161CFEC192}",
     "ObjectPath": "Play_Skate",
     "ShortName": "Play_Skate",
     "Path": "Event/Play_Skate.bnk",
@@ -228,12 +228,6 @@
       "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
       "States": [
        {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
-        "GUID": "{B2B74FF2-B7F4-4799-BD72-4B0D3CAA502D}"
-       },
-       {
         "Id": "803837735",
         "Name": "Sand",
         "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
@@ -250,6 +244,6 @@
     ]
    }
   ],
-  "FileHash": "{4133A6FC-9335-8643-6267-5090DE167FA0}"
+  "FileHash": "{C175BA5F-E56F-A846-D105-6BEAEEBD6D44}"
  }
 }

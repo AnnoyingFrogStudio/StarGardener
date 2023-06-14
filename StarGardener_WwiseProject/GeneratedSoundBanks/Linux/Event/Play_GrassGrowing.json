@@ -10,39 +10,24 @@
     "Type": "Event",
     "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
     "Language": "SFX",
-    "Hash": "{0B491483-951C-C97D-C869-C687784E5D15}",
+    "Hash": "{C77436C6-E016-6AFB-95AE-2EFE5A480A91}",
     "ObjectPath": "Play_GrassGrowing",
     "ShortName": "Play_GrassGrowing",
     "Path": "Event/Play_GrassGrowing.bnk",
-    "Media": [
-     {
-      "Id": "939486910",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "SFX_Grass_Growing_LP.wav",
-      "Path": "Media/939486910.wem",
-      "CachePath": "SFX/SFX_Grass_Growing_LP_10C4C929.wem"
-     }
-    ],
     "Events": [
      {
       "Id": "2486338891",
       "Name": "Play_GrassGrowing",
       "ObjectPath": "\\Events\\SFX\\Play_GrassGrowing",
       "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0",
-      "MediaRefs": [
-       {
-        "Id": "939486910"
-       }
-      ]
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{205686B8-2603-1393-5EA8-90DD224B3218}"
+  "FileHash": "{57A43042-70BC-EE44-A980-6D8E44072DD8}"
  }
 }
