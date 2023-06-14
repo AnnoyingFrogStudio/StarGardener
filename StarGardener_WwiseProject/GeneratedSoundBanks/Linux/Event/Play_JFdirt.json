@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FC34AE6A-B68B-44E2-941C-CF77CB491423}",
     "Language": "SFX",
-    "Hash": "{EEA9AABA-0222-0846-5B73-11059E0B68C4}",
+    "Hash": "{66A36939-7D8E-AAD7-3207-063DC0C97CBD}",
     "ObjectPath": "Play_JFdirt",
     "ShortName": "Play_JFdirt",
     "Path": "Event/Play_JFdirt.bnk",
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{A083BF0C-5294-4AAB-F417-93309A03FC47}"
+  "FileHash": "{D5ABDF24-90E5-4CDE-E3E5-DC228DF2153E}"
  }
 }

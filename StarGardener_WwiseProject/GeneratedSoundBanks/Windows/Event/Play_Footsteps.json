@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8A74F43A-E703-47C3-AD08-6AC42ECE8D36}",
     "Language": "SFX",
-    "Hash": "{9FA6CCA4-B0F4-332E-E52E-20A7EE12804B}",
+    "Hash": "{4BFC0681-0EAD-CEDC-D11D-1DF5DF0A5752}",
     "ObjectPath": "Play_Footsteps",
     "ShortName": "Play_Footsteps",
     "Path": "Event/Play_Footsteps.bnk",
@@ -202,12 +202,6 @@
       "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
       "States": [
        {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
-        "GUID": "{B2B74FF2-B7F4-4799-BD72-4B0D3CAA502D}"
-       },
-       {
         "Id": "803837735",
         "Name": "Sand",
         "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
@@ -224,6 +218,6 @@
     ]
    }
   ],
-  "FileHash": "{57A97689-7618-E68A-0664-00F072F9CE1C}"
+  "FileHash": "{1182390A-68FB-D07E-CF0D-348C817436B9}"
  }
 }

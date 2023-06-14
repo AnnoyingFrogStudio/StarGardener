@@ -138,12 +138,6 @@
       "GUID": "{589C58A7-6C5B-4A36-B1BA-EE8B88458697}",
       "States": [
        {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\State_Material\\None",
-        "GUID": "{B2B74FF2-B7F4-4799-BD72-4B0D3CAA502D}"
-       },
-       {
         "Id": "803837735",
         "Name": "Sand",
         "ObjectPath": "\\States\\Default Work Unit\\State_Material\\Sand",
@@ -183,31 +177,9 @@
        }
       ]
      }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "3194777289",
-      "Name": "Material_Switch",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Material_Switch",
-      "GUID": "{06AFDA33-3DE6-4ABC-BB54-2E3922F4BCAA}",
-      "Switches": [
-       {
-        "Id": "803837735",
-        "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material_Switch\\Sand",
-        "GUID": "{2FBD6A22-BA2E-4CA3-B985-6AFA2A5369F9}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material_Switch\\Grass",
-        "GUID": "{DF8A2FFD-C1EB-42B6-9AB1-A521FE0AF208}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{6D79793E-0A1B-6DD2-3295-A183524683FE}"
+  "FileHash": "{2DB9D3D5-8457-C841-491A-E57224B0E744}"
  }
 }
