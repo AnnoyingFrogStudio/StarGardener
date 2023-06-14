@@ -10,14 +10,28 @@
 				<Event Name="Play_Music" ID="{5403E203-32EF-4537-9922-F06552826301}">
 					<ChildrenList>
 						<Action Name="" ID="{CB9C296F-BA50-49AE-9EF8-D41E4CBE780E}" ShortID="579037524">
+							<PropertyList>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+									<ObjectRef Name="Gameplay_Music" ID="{2617FDA6-E3C0-4745-8CCD-ACCC704CC91A}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{06C3BF15-E966-48AA-9317-351579F0068E}" ShortID="162464710">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert" ID="{09A7B910-E209-4594-A2DD-D8AB5C496E48}" WorkUnitID="{0AD0ADFE-5122-424A-B4A9-21E63EEB0F84}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Switch_PlayGarden" ID="{68D4A349-14D8-4D46-9C9F-6565DA980D03}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

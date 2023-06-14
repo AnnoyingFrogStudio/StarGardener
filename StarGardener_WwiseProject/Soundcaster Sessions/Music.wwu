@@ -6,28 +6,35 @@
 				<SoundcasterSession Name="Test Music" ID="{D9752939-48D0-422F-866A-A67D4D7E007F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<ObjectRef Name="Gameplay_Music" ID="{2617FDA6-E3C0-4745-8CCD-ACCC704CC91A}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-							<Position X="0" Y="1"/>
+							<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Explore_Garden_V2" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stinger_JingleVictory_60bpm4-4_L4M_P1B" ID="{46F22078-E7A4-4C9B-AAA3-A90DE08D48DE}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-							<Position X="1" Y="1"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
 						<CurrentStateRef Name="Loaded" ID="{52223414-EF0E-4F24-91DA-A6AB2CD3E96E}"/>
+						<CurrentStateRef Name="PauseFalse" ID="{D3417251-3215-46F4-8931-BA98C7FB87F9}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Garden" ID="{15F6BCDE-5E8B-4321-9E6C-14B28534DE52}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

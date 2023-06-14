@@ -187,16 +187,12 @@
 									</ReferenceList>
 								</EventActionException>
 								<EventActionException Name="" ID="{B4FFAF74-091E-4E27-ACAB-AC43F3A14F38}">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Explore_Garden_V1" ID="{FCB13399-1D10-4375-9C96-556054CF4BD2}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 								</EventActionException>
 								<EventActionException Name="" ID="{02572B51-5E1C-41BB-99BB-E961FF08CD8D}">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Explore_Garden_V2" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+											<ObjectRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 										</Reference>
 									</ReferenceList>
 								</EventActionException>
