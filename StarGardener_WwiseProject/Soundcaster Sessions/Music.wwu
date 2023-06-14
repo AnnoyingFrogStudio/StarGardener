@@ -10,7 +10,7 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<ObjectRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -18,12 +18,8 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="JingleVictory_60bpm4-4_L4M_P1B" ID="{46F22078-E7A4-4C9B-AAA3-A90DE08D48DE}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+							<ObjectRef Name="Stinger_JingleVictory_60bpm4-4_L4M_P1B" ID="{46F22078-E7A4-4C9B-AAA3-A90DE08D48DE}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Explore_Garden_V3" ID="{86EC22C7-5AD7-42C3-B1CE-A70A03C02C04}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
