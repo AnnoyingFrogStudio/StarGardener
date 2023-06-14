@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
     "Language": "SFX",
-    "Hash": "{4681D824-BAFD-1D84-94B2-6BA37DA17173}",
+    "Hash": "{7A8104CB-6624-4B29-8E1C-9E35A98DBCC9}",
     "ObjectPath": "Play_Orb_Final",
     "ShortName": "Play_Orb_Final",
     "Path": "Event/Play_Orb_Final.bnk",
@@ -58,8 +58,8 @@
       "ObjectPath": "\\Events\\SFX\\Play_Orb_Final",
       "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "5.792",
+      "DurationMax": "7.3386664",
       "MediaRefs": [
        {
         "Id": "458551905"
@@ -964,7 +964,7 @@
     "Type": "Event",
     "GUID": "{0D394FFD-504D-480D-A4CB-C2A08D64D509}",
     "Language": "SFX",
-    "Hash": "{A220C12B-7573-E11A-3A54-7391F0173B09}",
+    "Hash": "{B7D63911-1730-B08E-5C7A-1E686E3F4B42}",
     "ObjectPath": "Play_BagFull",
     "ShortName": "Play_BagFull",
     "Path": "Event/Play_BagFull.bnk",
@@ -1004,8 +1004,8 @@
       "ObjectPath": "\\Events\\MC\\Play_BagFull",
       "GUID": "{0D394FFD-504D-480D-A4CB-C2A08D64D509}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "2.2213333",
+      "DurationMax": "2.3306668",
       "MediaRefs": [
        {
         "Id": "339007801"
@@ -1095,7 +1095,7 @@
     "Type": "Event",
     "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
     "Language": "SFX",
-    "Hash": "{714EE847-97C7-C195-ED84-219871BA0230}",
+    "Hash": "{1D60B583-7C88-82F2-8FE3-19035C7B2D7F}",
     "ObjectPath": "Play_BagEmpty",
     "ShortName": "Play_BagEmpty",
     "Path": "Event/Play_BagEmpty.bnk",
@@ -1135,8 +1135,8 @@
       "ObjectPath": "\\Events\\MC\\Play_BagEmpty",
       "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "1.4755",
+      "DurationMax": "2.25825",
       "MediaRefs": [
        {
         "Id": "735896095"
@@ -1334,7 +1334,7 @@
     "Type": "Event",
     "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
     "Language": "SFX",
-    "Hash": "{CEC69A3D-B9AE-4113-3A1D-865BD500C4A9}",
+    "Hash": "{62763E4B-EF6B-425F-CEFA-AFDBC1129038}",
     "ObjectPath": "Play_Jump",
     "ShortName": "Play_Jump",
     "Path": "Event/Play_Jump.bnk",
@@ -1374,8 +1374,8 @@
       "ObjectPath": "\\Events\\MC\\Play_Jump",
       "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "0.808",
+      "DurationMax": "0.85066664",
       "MediaRefs": [
        {
         "Id": "137876793"
@@ -1742,7 +1742,7 @@
     "Type": "Event",
     "GUID": "{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}",
     "Language": "SFX",
-    "Hash": "{222B796C-AA67-6C8E-488F-289948722ECB}",
+    "Hash": "{DF9C050A-373B-8ADC-E95A-00FA9F81930D}",
     "ObjectPath": "Play_Land",
     "ShortName": "Play_Land",
     "Path": "Event/Play_Land.bnk",
@@ -1809,8 +1809,8 @@
       "ObjectPath": "\\Events\\MC\\Play_Land",
       "GUID": "{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "0.40466666",
+      "DurationMax": "0.70933336",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1878,6 +1878,6 @@
     ]
    }
   ],
-  "FileHash": "{F851907A-66A8-C2DD-6C47-E0D5F06F0CE1}"
+  "FileHash": "{E4ED4368-C27A-BE1B-5185-045592E8986A}"
  }
 }

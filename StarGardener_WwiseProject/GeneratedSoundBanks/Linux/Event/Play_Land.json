@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}",
     "Language": "SFX",
-    "Hash": "{222B796C-AA67-6C8E-488F-289948722ECB}",
+    "Hash": "{DF9C050A-373B-8ADC-E95A-00FA9F81930D}",
     "ObjectPath": "Play_Land",
     "ShortName": "Play_Land",
     "Path": "Event/Play_Land.bnk",
@@ -77,8 +77,8 @@
       "ObjectPath": "\\Events\\MC\\Play_Land",
       "GUID": "{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "0.40466666",
+      "DurationMax": "0.70933336",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -146,6 +146,6 @@
     ]
    }
   ],
-  "FileHash": "{397AFBFE-0374-4C17-2B26-41AA03AB2BA6}"
+  "FileHash": "{DB5C25E4-73D6-D9DF-17F5-2499D0E0B3BE}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
     "Language": "SFX",
-    "Hash": "{714EE847-97C7-C195-ED84-219871BA0230}",
+    "Hash": "{1D60B583-7C88-82F2-8FE3-19035C7B2D7F}",
     "ObjectPath": "Play_BagEmpty",
     "ShortName": "Play_BagEmpty",
     "Path": "Event/Play_BagEmpty.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\MC\\Play_BagEmpty",
       "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "1.4755",
+      "DurationMax": "2.25825",
       "MediaRefs": [
        {
         "Id": "735896095"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{E92520DF-9B4C-AD55-605B-D51E3299E1C7}"
+  "FileHash": "{5BC3B022-704F-1E35-2080-D93D5FAD4585}"
  }
 }

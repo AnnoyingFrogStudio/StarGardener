@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
     "Language": "SFX",
-    "Hash": "{CEC69A3D-B9AE-4113-3A1D-865BD500C4A9}",
+    "Hash": "{62763E4B-EF6B-425F-CEFA-AFDBC1129038}",
     "ObjectPath": "Play_Jump",
     "ShortName": "Play_Jump",
     "Path": "Event/Play_Jump.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\MC\\Play_Jump",
       "GUID": "{F6553D8C-CB98-401A-AA1C-E4E32EF71558}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "0.808",
+      "DurationMax": "0.85066664",
       "MediaRefs": [
        {
         "Id": "137876793"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{C71F3551-C885-556E-ED40-E8393285E9D0}"
+  "FileHash": "{0BA80807-13AE-F8AC-A536-454C76E7C5F2}"
  }
 }
