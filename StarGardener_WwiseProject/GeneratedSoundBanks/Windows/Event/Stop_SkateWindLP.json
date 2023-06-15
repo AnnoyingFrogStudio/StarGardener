@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3421183356",
+    "Type": "Event",
+    "GUID": "{5FEFE78B-9422-401A-BF51-C9FCF05450C9}",
+    "Language": "SFX",
+    "Hash": "{29D6E80A-2C9A-2F03-E778-BEF744A3F02F}",
+    "ObjectPath": "Stop_SkateWindLP",
+    "ShortName": "Stop_SkateWindLP",
+    "Path": "Event/Stop_SkateWindLP.bnk",
+    "Events": [
+     {
+      "Id": "3421183356",
+      "Name": "Stop_SkateWindLP",
+      "ObjectPath": "\\Events\\MC\\Stop_SkateWindLP",
+      "GUID": "{5FEFE78B-9422-401A-BF51-C9FCF05450C9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{462B21C7-70FA-34BF-9649-BDD7E0B53653}"
+ }
+}
