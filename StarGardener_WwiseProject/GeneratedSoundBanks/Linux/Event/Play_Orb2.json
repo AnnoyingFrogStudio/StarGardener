@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1995773945",
+    "Type": "Event",
+    "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
+    "Language": "SFX",
+    "Hash": "{84E55175-F5F5-9C56-BDDC-BF52800C2CF4}",
+    "ObjectPath": "Play_Orb2",
+    "ShortName": "Play_Orb2",
+    "Path": "Event/Play_Orb2.bnk",
+    "Media": [
+     {
+      "Id": "399884194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb2_03.wav",
+      "Path": "Media/399884194.wem",
+      "CachePath": "SFX/SFX_OF_Orb2_03_10C4C929.wem"
+     },
+     {
+      "Id": "628958830",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb2_02.wav",
+      "Path": "Media/628958830.wem",
+      "CachePath": "SFX/SFX_OF_Orb2_02_10C4C929.wem"
+     },
+     {
+      "Id": "961470823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb2_01.wav",
+      "Path": "Media/961470823.wem",
+      "CachePath": "SFX/SFX_OF_Orb2_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1995773945",
+      "Name": "Play_Orb2",
+      "ObjectPath": "\\Events\\SFX\\Play_Orb2",
+      "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.459",
+      "DurationMax": "3.6908333",
+      "MediaRefs": [
+       {
+        "Id": "399884194"
+       },
+       {
+        "Id": "628958830"
+       },
+       {
+        "Id": "961470823"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{69434DCD-579A-F08D-1344-62BFB953DFFE}"
+ }
+}

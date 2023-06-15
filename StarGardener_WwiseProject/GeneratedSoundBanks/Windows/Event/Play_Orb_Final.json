@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "872474460",
+    "Type": "Event",
+    "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
+    "Language": "SFX",
+    "Hash": "{7A8104CB-6624-4B29-8E1C-9E35A98DBCC9}",
+    "ObjectPath": "Play_Orb_Final",
+    "ShortName": "Play_Orb_Final",
+    "Path": "Event/Play_Orb_Final.bnk",
+    "Media": [
+     {
+      "Id": "458551905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb_Final_03.wav",
+      "Path": "Media/458551905.wem",
+      "CachePath": "SFX/SFX_OF_Orb_Final_03_10C4C929.wem"
+     },
+     {
+      "Id": "956748328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb_Final_02.wav",
+      "Path": "Media/956748328.wem",
+      "CachePath": "SFX/SFX_OF_Orb_Final_02_10C4C929.wem"
+     },
+     {
+      "Id": "1037901463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb_Final_01.wav",
+      "Path": "Media/1037901463.wem",
+      "CachePath": "SFX/SFX_OF_Orb_Final_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "872474460",
+      "Name": "Play_Orb_Final",
+      "ObjectPath": "\\Events\\SFX\\Play_Orb_Final",
+      "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.792",
+      "DurationMax": "7.3386664",
+      "MediaRefs": [
+       {
+        "Id": "458551905"
+       },
+       {
+        "Id": "956748328"
+       },
+       {
+        "Id": "1037901463"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{76106484-87AA-F9F4-92D4-BCEBD4EABE3E}"
+ }
+}

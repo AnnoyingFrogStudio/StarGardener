@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3229028671",
+    "Type": "Event",
+    "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
+    "Language": "SFX",
+    "Hash": "{F397F7EC-A690-AFD4-B44D-C8A65E8A5779}",
+    "ObjectPath": "Play_SFX_DOORS_End",
+    "ShortName": "Play_SFX_DOORS_End",
+    "Path": "Event/Play_SFX_DOORS_End.bnk",
+    "Media": [
+     {
+      "Id": "766801116",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DOORS_End.wav",
+      "Path": "Media/766801116.wem",
+      "CachePath": "SFX/SFX_DOORS_End_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3229028671",
+      "Name": "Play_SFX_DOORS_End",
+      "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_End",
+      "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7333333",
+      "DurationMax": "1.7333333",
+      "MediaRefs": [
+       {
+        "Id": "766801116"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EACF5F8C-F28F-F940-575F-F55AC108AC14}"
+ }
+}

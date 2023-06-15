@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}" SchemaVersion="110" RootDocumentID="{24255A53-6ED7-4767-8272-298D4E365414}" ParentDocumentID="{24255A53-6ED7-4767-8272-298D4E365414}">
+	<AudioObjects>
+		<WorkUnit Name="AMBIANCES" ID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}" OwnerID="{24255A53-6ED7-4767-8272-298D4E365414}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Ambiances" ID="{5E910826-103E-4C1F-B637-76015640F777}" ShortID="28283200">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Bus_Amb" ID="{2E4B3799-619C-41F5-8CEC-EEDFAF6D8205}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Wind" ID="{9D7D7B71-8940-45B5-A279-FB063EBBCB46}" ShortID="271846848">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Bus_Amb" ID="{2E4B3799-619C-41F5-8CEC-EEDFAF6D8205}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PO_AMB_Wind_PAD_01" ID="{5F4DDDB7-08CB-4B8C-8824-0E8FC5F31AD8}" ShortID="188889517">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PO_AMB_Wind_PAD_01" ID="{722D4BCB-9C62-441D-9085-9662523F1417}">
+											<Language>SFX</Language>
+											<AudioFile>PO_AMB_Wind_PAD_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="445830999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PO_AMB_Wind_PAD_01" ID="{722D4BCB-9C62-441D-9085-9662523F1417}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PO_AMB_Wind_PAD_02" ID="{02888DBB-87CF-43D4-9C92-0E2D2718552D}" ShortID="602416116">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PO_AMB_Wind_PAD_02" ID="{6B0CE34E-5771-455E-97B5-DF83C56565C8}">
+											<Language>SFX</Language>
+											<AudioFile>PO_AMB_Wind_PAD_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="444843660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PO_AMB_Wind_PAD_02" ID="{6B0CE34E-5771-455E-97B5-DF83C56565C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
