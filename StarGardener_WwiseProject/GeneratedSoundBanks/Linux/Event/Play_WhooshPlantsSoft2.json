@@ -6,14 +6,14 @@
   "SoundBankVersion": "145",
   "SoundBanks": [
    {
-    "Id": "3485649814",
+    "Id": "1807187752",
     "Type": "Event",
-    "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
+    "GUID": "{AD258F5A-BF45-4356-BC36-AE7B081759AA}",
     "Language": "SFX",
-    "Hash": "{F7283208-4C83-D4CC-A596-7CA7CDE16456}",
-    "ObjectPath": "Play_PlantsWhooshSoft",
-    "ShortName": "Play_PlantsWhooshSoft",
-    "Path": "Event/Play_PlantsWhooshSoft.bnk",
+    "Hash": "{8D590518-9938-8B3B-AE17-3E9FF0AF6DFE}",
+    "ObjectPath": "Play_WhooshPlantsSoft2",
+    "ShortName": "Play_WhooshPlantsSoft2",
+    "Path": "Event/Play_WhooshPlantsSoft2.bnk",
     "Media": [
      {
       "Id": "128340586",
@@ -45,10 +45,10 @@
     ],
     "Events": [
      {
-      "Id": "3485649814",
-      "Name": "Play_PlantsWhooshSoft",
-      "ObjectPath": "\\Events\\SFX\\Play_PlantsWhooshSoft",
-      "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
+      "Id": "1807187752",
+      "Name": "Play_WhooshPlantsSoft2",
+      "ObjectPath": "\\Events\\SFX\\Play_WhooshPlantsSoft2",
+      "GUID": "{AD258F5A-BF45-4356-BC36-AE7B081759AA}",
       "DurationType": "OneShot",
       "DurationMin": "0.8426667",
       "DurationMax": "1.1946666",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{AD3EBBE8-0F5E-E6C4-4109-AFB177CBF740}"
+  "FileHash": "{C620AC21-79C0-FB82-F932-A93390501F04}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
     "Language": "SFX",
-    "Hash": "{72F481A4-BB35-7941-D623-40369292A942}",
+    "Hash": "{E113A3C4-043B-5B53-0930-6E04C61D28CA}",
     "ObjectPath": "Play_PGgrowing",
     "ShortName": "Play_PGgrowing",
     "Path": "Event/Play_PGgrowing.bnk",
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{73B31215-3064-7A0E-3A13-C492D169F93B}"
+  "FileHash": "{11EDC9DB-8A7A-0380-EFBB-6631824781B6}"
  }
 }

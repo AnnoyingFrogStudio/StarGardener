@@ -816,6 +816,14 @@
 									</ChildrenList>
 								</ActorMixer>
 								<RandomSequenceContainer Name="Plants_Whoosh_Soft" ID="{0C30EEFD-06E7-456E-BE28-08E6F7389CED}" ShortID="890453406">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>

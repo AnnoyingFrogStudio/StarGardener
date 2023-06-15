@@ -22,8 +22,8 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>878.078</XPos>
-											<YPos>-15.08093</YPos>
+											<XPos>963.36329</XPos>
+											<YPos>-2.73325</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -61,12 +61,12 @@
 										</Point>
 										<Point>
 											<XPos>1225.2252</XPos>
-											<YPos>13</YPos>
+											<YPos>7</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>2000</XPos>
-											<YPos>35</YPos>
+											<YPos>26</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -145,7 +145,7 @@
 				</Attenuation>
 				<Attenuation Name="20m" ID="{A7023AD1-3ACE-47B8-A466-C4E5ADF96B9E}" ShortID="481826315">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -161,12 +161,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>462.46243</XPos>
-											<YPos>-3.77329</YPos>
+											<XPos>863.06301</XPos>
+											<YPos>-1.45102</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1000</XPos>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
     "Language": "SFX",
-    "Hash": "{7D0875B3-8162-FA6E-139A-2E87B1AFA7E0}",
+    "Hash": "{37DE7512-BFF6-BDBD-BB9E-1EE5EFB65D21}",
     "ObjectPath": "Play_PGshrinking",
     "ShortName": "Play_PGshrinking",
     "Path": "Event/Play_PGshrinking.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{9C2DA930-1090-7678-9F7F-63E434E991D7}"
+  "FileHash": "{7F5E32BF-6151-8E23-4FC1-0D95907C8B45}"
  }
 }

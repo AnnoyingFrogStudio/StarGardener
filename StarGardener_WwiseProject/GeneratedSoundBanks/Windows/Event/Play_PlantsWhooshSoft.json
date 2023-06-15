@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
     "Language": "SFX",
-    "Hash": "{A4A7338E-8998-8EB9-D736-DD6390CA14F2}",
+    "Hash": "{F7283208-4C83-D4CC-A596-7CA7CDE16456}",
     "ObjectPath": "Play_PlantsWhooshSoft",
     "ShortName": "Play_PlantsWhooshSoft",
     "Path": "Event/Play_PlantsWhooshSoft.bnk",
@@ -49,7 +49,6 @@
       "Name": "Play_PlantsWhooshSoft",
       "ObjectPath": "\\Events\\SFX\\Play_PlantsWhooshSoft",
       "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
-      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "0.8426667",
       "DurationMax": "1.1946666",
@@ -68,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{42A938A1-8E77-6BEF-FC5C-DDE730FE6830}"
+  "FileHash": "{B1B7E373-E710-6238-8BCA-68D63FA69251}"
  }
 }
