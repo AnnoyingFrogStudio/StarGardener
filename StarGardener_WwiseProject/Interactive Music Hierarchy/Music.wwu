@@ -6,6 +6,7 @@
 				<MusicSwitchContainer Name="Gameplay_Music" ID="{2617FDA6-E3C0-4745-8CCD-ACCC704CC91A}" ShortID="518273600">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="Mode" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

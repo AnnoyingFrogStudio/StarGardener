@@ -478,7 +478,7 @@
     "Type": "Event",
     "GUID": "{C055B27F-645E-483C-B050-B1522513827F}",
     "Language": "SFX",
-    "Hash": "{855A2D44-952F-D851-849B-A0460A55548A}",
+    "Hash": "{502F23D7-46DF-E6F0-07A4-80CC6DAA86AA}",
     "ObjectPath": "Stop_PollenDrop",
     "ShortName": "Stop_PollenDrop",
     "Path": "Event/Stop_PollenDrop.bnk",
@@ -1640,7 +1640,7 @@
     "Type": "Event",
     "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
     "Language": "SFX",
-    "Hash": "{775B9D75-F3B2-919A-3EAD-D5B57765383F}",
+    "Hash": "{7B3842FF-0B91-95A8-3A1F-67FF93BAAE7C}",
     "ObjectPath": "Play_Music",
     "ShortName": "Play_Music",
     "Path": "Event/Play_Music.bnk",
@@ -3638,6 +3638,6 @@
     ]
    }
   ],
-  "FileHash": "{4527D68A-13A6-2767-82A2-045EFAAB3B31}"
+  "FileHash": "{D689A916-FB06-5E6E-8683-01C286C1CACC}"
  }
 }

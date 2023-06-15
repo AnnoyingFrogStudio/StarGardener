@@ -28,10 +28,10 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="On" ID="{340D7E14-61CA-4750-8C77-76D2D038A074}"/>
+						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
 						<CurrentStateRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
 						<CurrentStateRef Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
-						<CurrentStateRef Name="None" ID="{7FA07390-8177-4783-95A7-BFC00AAE18AA}"/>
+						<CurrentStateRef Name="Loaded" ID="{52223414-EF0E-4F24-91DA-A6AB2CD3E96E}"/>
 						<CurrentStateRef Name="None" ID="{E87A483D-2EED-48F3-AFD0-23DC4ADC3EF5}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
