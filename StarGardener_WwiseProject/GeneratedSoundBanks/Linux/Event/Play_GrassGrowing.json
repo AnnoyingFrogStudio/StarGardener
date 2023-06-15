@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2486338891",
+    "Type": "Event",
+    "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
+    "Language": "SFX",
+    "Hash": "{C77436C6-E016-6AFB-95AE-2EFE5A480A91}",
+    "ObjectPath": "Play_GrassGrowing",
+    "ShortName": "Play_GrassGrowing",
+    "Path": "Event/Play_GrassGrowing.bnk",
+    "Events": [
+     {
+      "Id": "2486338891",
+      "Name": "Play_GrassGrowing",
+      "ObjectPath": "\\Events\\SFX\\Play_GrassGrowing",
+      "GUID": "{51BBC581-DE5C-4233-B37B-BC4E6703FEC8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{57A43042-70BC-EE44-A980-6D8E44072DD8}"
+ }
+}

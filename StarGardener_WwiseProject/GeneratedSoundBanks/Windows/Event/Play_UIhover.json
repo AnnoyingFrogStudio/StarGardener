@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2502251926",
+    "Type": "Event",
+    "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
+    "Language": "SFX",
+    "Hash": "{557A94B5-0A97-98AE-31AE-9D9AC1187B89}",
+    "ObjectPath": "Play_UIhover",
+    "ShortName": "Play_UIhover",
+    "Path": "Event/Play_UIhover.bnk",
+    "Events": [
+     {
+      "Id": "2502251926",
+      "Name": "Play_UIhover",
+      "ObjectPath": "\\Events\\UI\\Play_UIhover",
+      "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F0516F18-682A-5651-43B2-85418A6469A5}"
+ }
+}

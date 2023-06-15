@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Bus_Volume" ID="{08934649-44D1-4DCB-9972-EBD31A9B7BB4}" PersistMode="Reference"/>
+				<GameParameter Name="RTPC_PlayerSpeed" ID="{A45D0340-15CC-42AF-8E95-646A9EDDC965}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

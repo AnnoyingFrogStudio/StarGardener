@@ -1,0 +1,54 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2082421321",
+    "Type": "Event",
+    "GUID": "{1740FD03-C188-41B8-B58C-7EAB40810DB0}",
+    "Language": "SFX",
+    "Hash": "{4D1CFBE2-D03A-A214-587E-AD0FF49E1B26}",
+    "ObjectPath": "Play_SkateWind_LP",
+    "ShortName": "Play_SkateWind_LP",
+    "Path": "Event/Play_SkateWind_LP.bnk",
+    "Media": [
+     {
+      "Id": "764728306",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Skate_Wind_LP_01.wav",
+      "Path": "Media/764728306.wem",
+      "CachePath": "SFX/MC_D_Skate_Wind_LP_01_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2082421321",
+      "Name": "Play_SkateWind_LP",
+      "ObjectPath": "\\Events\\MC\\Play_SkateWind_LP",
+      "GUID": "{1740FD03-C188-41B8-B58C-7EAB40810DB0}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "764728306"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2653406601",
+      "Name": "RTPC_PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
+      "GUID": "{A45D0340-15CC-42AF-8E95-646A9EDDC965}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BDBEBB66-BDD0-4FD8-1723-12D7FFDD3B88}"
+ }
+}
