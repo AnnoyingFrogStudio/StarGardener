@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
     "Language": "SFX",
-    "Hash": "{FD2BBA01-36D2-E72A-CD7A-63CDDBE0B378}",
+    "Hash": "{3889DFFF-9519-F512-3564-2C8473748996}",
     "ObjectPath": "Play_Orb3",
     "ShortName": "Play_Orb3",
     "Path": "Event/Play_Orb3.bnk",
@@ -52,15 +52,6 @@
       "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
-      "Id": "723198051",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "SFX_OF_Orb3_01.wav",
-      "Path": "Media/723198051.wem",
-      "CachePath": "SFX/SFX_OF_Orb3_01_10C4C929.wem"
-     },
-     {
       "Id": "1053002042",
       "Language": "SFX",
       "Streaming": "false",
@@ -94,9 +85,6 @@
         "Id": "696179804"
        },
        {
-        "Id": "723198051"
-       },
-       {
         "Id": "1053002042"
        }
       ]
@@ -104,6 +92,6 @@
     ]
    }
   ],
-  "FileHash": "{75668E48-ACE7-1434-3A2F-AB3330EB6C14}"
+  "FileHash": "{E0B06A1E-EAC9-F22E-47F6-5E8E58F01C7C}"
  }
 }

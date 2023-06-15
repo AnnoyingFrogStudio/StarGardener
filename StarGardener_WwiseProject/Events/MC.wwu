@@ -183,6 +183,8 @@
 						<Action Name="" ID="{9FEF9BB4-1F5A-484D-A84E-88FF71D20ABD}" ShortID="944801860">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
 							<ChildrenList>
@@ -193,11 +195,17 @@
 										</Reference>
 									</ReferenceList>
 								</EventActionException>
-								<EventActionException Name="" ID="{B4FFAF74-091E-4E27-ACAB-AC43F3A14F38}"/>
 								<EventActionException Name="" ID="{02572B51-5E1C-41BB-99BB-E961FF08CD8D}">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{7AACA650-E452-4CB8-996F-54B9F033E475}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay_Music" ID="{2617FDA6-E3C0-4745-8CCD-ACCC704CC91A}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
 										</Reference>
 									</ReferenceList>
 								</EventActionException>

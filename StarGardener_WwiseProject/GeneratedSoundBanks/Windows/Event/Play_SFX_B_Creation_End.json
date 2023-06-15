@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
     "Language": "SFX",
-    "Hash": "{4E32B865-8AF4-A2F1-927C-07D95C43ED3A}",
+    "Hash": "{02E36D5A-DCBA-F94E-1CAC-4A2B7D42B317}",
     "ObjectPath": "Play_SFX_B_Creation_End",
     "ShortName": "Play_SFX_B_Creation_End",
     "Path": "Event/Play_SFX_B_Creation_End.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{9A4C49C8-1E25-5773-7E73-37A314DD1FD9}"
+  "FileHash": "{0FBE778F-D76C-8D4F-3797-8EB25E7BA368}"
  }
 }

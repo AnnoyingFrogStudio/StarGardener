@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
     "Language": "SFX",
-    "Hash": "{17B2FB06-23C6-58F1-DCD9-57B59A220A25}",
+    "Hash": "{16E83BA5-7F04-70C5-8CB1-934281C1A266}",
     "ObjectPath": "Play_Orb2",
     "ShortName": "Play_Orb2",
     "Path": "Event/Play_Orb2.bnk",
     "Media": [
      {
-      "Id": "399884194",
+      "Id": "567178965",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "SFX_OF_Orb2_03.wav",
-      "Path": "Media/399884194.wem",
-      "CachePath": "SFX/SFX_OF_Orb2_03_10C4C929.wem"
+      "ShortName": "SFX_OF_Orb1_03.wav",
+      "Path": "Media/567178965.wem",
+      "CachePath": "SFX/SFX_OF_Orb1_03_10C4C929.wem"
      },
      {
       "Id": "616124176",
@@ -32,15 +32,6 @@
       "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
       "Path": "Media/616124176.wem",
       "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
-     },
-     {
-      "Id": "628958830",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "SFX_OF_Orb2_02.wav",
-      "Path": "Media/628958830.wem",
-      "CachePath": "SFX/SFX_OF_Orb2_02_10C4C929.wem"
      },
      {
       "Id": "635250397",
@@ -61,6 +52,15 @@
       "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
+      "Id": "723198051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb3_01.wav",
+      "Path": "Media/723198051.wem",
+      "CachePath": "SFX/SFX_OF_Orb3_01_10C4C929.wem"
+     },
+     {
       "Id": "961470823",
       "Language": "SFX",
       "Streaming": "false",
@@ -78,23 +78,23 @@
       "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
       "MaxAttenuation": "2000",
       "DurationType": "OneShot",
-      "DurationMin": "3.459",
+      "DurationMin": "3.3435",
       "DurationMax": "3.6908333",
       "MediaRefs": [
        {
-        "Id": "399884194"
+        "Id": "567178965"
        },
        {
         "Id": "616124176"
-       },
-       {
-        "Id": "628958830"
        },
        {
         "Id": "635250397"
        },
        {
         "Id": "696179804"
+       },
+       {
+        "Id": "723198051"
        },
        {
         "Id": "961470823"
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{56BE54BC-38FB-9678-3015-9AEBA12EB561}"
+  "FileHash": "{F37B8053-21FA-39D2-461B-114520CBFD2A}"
  }
 }

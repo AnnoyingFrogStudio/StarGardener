@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{466200B4-9CF2-4715-B663-B11B6E593270}",
     "Language": "SFX",
-    "Hash": "{1BD13316-1857-B91C-621D-78F8795BCE9A}",
+    "Hash": "{1F2C6AAF-08D9-317B-2EC6-2957C5CF2D59}",
     "ObjectPath": "Play_SFX_JF_Dirt_Out",
     "ShortName": "Play_SFX_JF_Dirt_Out",
     "Path": "Event/Play_SFX_JF_Dirt_Out.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{489F840A-399B-0B4C-4A81-785B54F8A4FC}"
+  "FileHash": "{4284FE1A-F66E-8B24-0B5A-AEBD449EB8D7}"
  }
 }

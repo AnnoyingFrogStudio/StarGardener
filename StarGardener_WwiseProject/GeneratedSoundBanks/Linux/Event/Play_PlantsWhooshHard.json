@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{086409B5-328C-45EA-9FC0-43A106585EC2}",
     "Language": "SFX",
-    "Hash": "{1416AE9A-33C6-DC11-68D9-051B7FA8543C}",
+    "Hash": "{D3EC7043-4E9D-DFD5-F00A-AA818BC80425}",
     "ObjectPath": "Play_PlantsWhooshHard",
     "ShortName": "Play_PlantsWhooshHard",
     "Path": "Event/Play_PlantsWhooshHard.bnk",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{D4EF3846-A4D3-A51D-FE11-DCF899022C35}"
+  "FileHash": "{08E99FBB-8310-EA1F-2D46-E87E2C960159}"
  }
 }

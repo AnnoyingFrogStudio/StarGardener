@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1B49D10-ECB7-4290-8D83-A9C0DBF75E80}",
     "Language": "SFX",
-    "Hash": "{664B9AA5-84A4-7874-EE6E-B43E6158198B}",
+    "Hash": "{43330CA5-2EAC-4A33-A41D-15E1B410059F}",
     "ObjectPath": "Play_SXF_B_Creation_LP",
     "ShortName": "Play_SXF_B_Creation_LP",
     "Path": "Event/Play_SXF_B_Creation_LP.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{BB87B5C8-DED3-B9E8-5903-3616AAF02B84}"
+  "FileHash": "{8E53F2AA-5B89-9FD4-641D-B3339E06E8FE}"
  }
 }
