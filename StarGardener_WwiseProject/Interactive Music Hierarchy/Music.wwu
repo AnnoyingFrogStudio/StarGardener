@@ -607,21 +607,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists>
-								<ObjectList Name="Stingers">
-									<Reference>
-										<Local>
-											<MusicStinger Name="" ID="{A3F56F98-F470-45B4-807B-1238C4FC19FD}">
-												<PropertyList>
-													<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
-												</PropertyList>
-												<TriggerRef Name="Jingle_Start_Garden" ID="{C2E787FE-3619-4EA2-9F28-188E9B32AF3D}" WorkUnitID="{6E0F8458-16CD-43CC-A240-7E8D2BD9D6E6}"/>
-												<SegmentRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
-											</MusicStinger>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{0218476A-65A9-474D-B029-2807CA9A729E}" ShortID="815495089">
 									<PropertyList>

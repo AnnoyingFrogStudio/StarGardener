@@ -29,6 +29,31 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{DAF32D11-BE4E-4044-AB4B-0FE3EA121031}" ShortID="574213565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DCE16CF-6403-4F50-BC63-3A72FD7EDCAF}" ShortID="254016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Empty" ID="{5C2CE2AC-2027-453A-9D92-974DB053F6C4}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Cutscene" ID="{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}">
@@ -47,6 +72,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
 								<Property Name="Delay" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

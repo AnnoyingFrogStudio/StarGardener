@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
     "Language": "SFX",
-    "Hash": "{0A78A937-F8ED-2FDA-0593-40D5DD8E68CE}",
+    "Hash": "{775B9D75-F3B2-919A-3EAD-D5B57765383F}",
     "ObjectPath": "Play_Music",
     "ShortName": "Play_Music",
     "Path": "Event/Play_Music.bnk",
@@ -477,9 +477,6 @@
          },
          {
           "Id": "946730573"
-         },
-         {
-          "Id": "997240099"
          }
         ]
        },
@@ -589,6 +586,13 @@
       ],
       "ActionSetState": [
        {
+        "GroupId": "3132598577",
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Music\\Timer_Countdowner\\Off",
+        "GUID": "{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"
+       },
+       {
         "GroupId": "3469513019",
         "Id": "1850388778",
         "Name": "Desert",
@@ -599,6 +603,32 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "3132598577",
+      "Name": "Timer_Countdowner",
+      "ObjectPath": "\\States\\Music\\Timer_Countdowner",
+      "GUID": "{1770D950-FA48-4675-8714-FCC7778418E9}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Timer_Countdowner\\None",
+        "GUID": "{D69AD2DC-408F-489C-B328-F6180FEB909D}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Music\\Timer_Countdowner\\Off",
+        "GUID": "{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Music\\Timer_Countdowner\\On",
+        "GUID": "{340D7E14-61CA-4750-8C77-76D2D038A074}"
+       }
+      ]
+     },
      {
       "Id": "3469513019",
       "Name": "State_Zone_Terrain",
@@ -640,12 +670,6 @@
     ],
     "Triggers": [
      {
-      "Id": "428325269",
-      "Name": "Jingle_Start_Garden",
-      "ObjectPath": "\\Triggers\\Music\\Jingle_Start_Garden",
-      "GUID": "{C2E787FE-3619-4EA2-9F28-188E9B32AF3D}"
-     },
-     {
       "Id": "3483928475",
       "Name": "Jingle_Victory_Garden",
       "ObjectPath": "\\Triggers\\Music\\Jingle_Victory_Garden",
@@ -654,6 +678,6 @@
     ]
    }
   ],
-  "FileHash": "{54171294-578B-9593-E886-F57AAFEF3C75}"
+  "FileHash": "{717D0E6B-56E7-9DEF-3939-0F6695C3E83F}"
  }
 }

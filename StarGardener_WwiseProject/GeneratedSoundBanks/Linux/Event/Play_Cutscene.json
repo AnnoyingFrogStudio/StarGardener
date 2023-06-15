@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}",
     "Language": "SFX",
-    "Hash": "{A3DF193A-F8D2-FD76-1D9E-2EB8E2B2D33F}",
+    "Hash": "{7A03E8E1-8951-1636-E13E-54F5A193626E}",
     "ObjectPath": "Play_Cutscene",
     "ShortName": "Play_Cutscene",
     "Path": "Event/Play_Cutscene.bnk",
@@ -25,13 +25,6 @@
       "DurationMin": "0",
       "DurationMax": "0",
       "ActionSetState": [
-       {
-        "GroupId": "3469513019",
-        "Id": "278887670",
-        "Name": "Garden",
-        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Garden",
-        "GUID": "{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"
-       },
        {
         "GroupId": "3469513019",
         "Id": "3852397229",
@@ -84,6 +77,6 @@
     ]
    }
   ],
-  "FileHash": "{7D950D35-EE1D-24D1-3191-793CA027C1BD}"
+  "FileHash": "{4D63A906-744C-156B-3C08-7F6166A07BAD}"
  }
 }
