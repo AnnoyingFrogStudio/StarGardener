@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2502251926",
+    "Type": "Event",
+    "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
+    "Language": "SFX",
+    "Hash": "{557A94B5-0A97-98AE-31AE-9D9AC1187B89}",
+    "ObjectPath": "Play_UIhover",
+    "ShortName": "Play_UIhover",
+    "Path": "Event/Play_UIhover.bnk",
+    "Events": [
+     {
+      "Id": "2502251926",
+      "Name": "Play_UIhover",
+      "ObjectPath": "\\Events\\UI\\Play_UIhover",
+      "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CB034F24-899B-A408-B81C-BC93E98F1F6C}"
+ }
+}

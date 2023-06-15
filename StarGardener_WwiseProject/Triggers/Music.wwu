@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E0F8458-16CD-43CC-A240-7E8D2BD9D6E6}" SchemaVersion="110">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{6E0F8458-16CD-43CC-A240-7E8D2BD9D6E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Jingle_Start_Garden" ID="{C2E787FE-3619-4EA2-9F28-188E9B32AF3D}">
+					<Comment>Est-ce que Unreal envoie un appel de jeu de type "trigger" quand la cutscene du jardin, au début, se lance ? </Comment>
+				</Trigger>
+				<Trigger Name="Jingle_Victory_Garden" ID="{3590430D-732F-42FA-BE03-1EED0C1DD44B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -13,6 +13,7 @@
 				<Language Name="SFX" ID="{8428BC68-44CA-4B99-BD62-96A7827EC0B2}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="AutoSoundBankEnabled" Type="bool" Value="True"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Linux"></Value>
@@ -21,8 +22,8 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Linux">GeneratedSoundBanks\Linux</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
@@ -31,7 +32,7 @@
 						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
@@ -70,6 +71,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2022.1|Build=8202|VersionName=v2022.1.4|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[..\..\..\[Music] Start Gardener\[Wwise] Assets Music\SFX]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -151,6 +156,11 @@
 						<Property Name="OverrideWavLoop" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileIDForAudioSource" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="TrimBegin" Type="Real64">
@@ -566,6 +576,76 @@
 						<Property Name="RenderEffect3" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryLocation" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:PlaybackSpeed" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ProcessList" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFilePath" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="SpeakerPanning" Type="int16">
@@ -9168,7 +9248,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Air Wind" PluginType="2" CompanyID="0" PluginID="119">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="119">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9327,7 +9407,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Air Woosh" PluginType="2" CompanyID="0" PluginID="120">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="120">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -9461,7 +9541,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="121">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="121">
 					<PropertyList>
 						<Property Name="Frequency" Type="Real32">
 							<ValueList>
@@ -9490,7 +9570,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="122">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="122">
 					<PropertyList>
 						<Property Name="Anchor" Type="bool">
 							<ValueList>
@@ -10528,7 +10608,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Reflect" PluginType="3" CompanyID="0" PluginID="171">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="171">
 					<PropertyList>
 						<Property Name="BaseTextureFrequency" Type="Real32">
 							<ValueList>

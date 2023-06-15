@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3177396075",
+    "Type": "Event",
+    "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
+    "Language": "SFX",
+    "Hash": "{1D60B583-7C88-82F2-8FE3-19035C7B2D7F}",
+    "ObjectPath": "Play_BagEmpty",
+    "ShortName": "Play_BagEmpty",
+    "Path": "Event/Play_BagEmpty.bnk",
+    "Media": [
+     {
+      "Id": "735896095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Bag_Empty_03.wav",
+      "Path": "Media/735896095.wem",
+      "CachePath": "SFX/MC_D_Bag_Empty_03_10C4C929.wem"
+     },
+     {
+      "Id": "785001943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Bag_Empty_02.wav",
+      "Path": "Media/785001943.wem",
+      "CachePath": "SFX/MC_D_Bag_Empty_02_10C4C929.wem"
+     },
+     {
+      "Id": "849877798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MC_D_Bag_Empty_01.wav",
+      "Path": "Media/849877798.wem",
+      "CachePath": "SFX/MC_D_Bag_Empty_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3177396075",
+      "Name": "Play_BagEmpty",
+      "ObjectPath": "\\Events\\MC\\Play_BagEmpty",
+      "GUID": "{2BA251FF-E77C-4837-A83C-543D45ED6BFC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4755",
+      "DurationMax": "2.25825",
+      "MediaRefs": [
+       {
+        "Id": "735896095"
+       },
+       {
+        "Id": "785001943"
+       },
+       {
+        "Id": "849877798"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5BC3B022-704F-1E35-2080-D93D5FAD4585}"
+ }
+}

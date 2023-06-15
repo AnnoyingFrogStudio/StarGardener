@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3679762312",
+    "Type": "Event",
+    "GUID": "{5C6381BF-081B-486D-AA5A-3AF5270D4D96}",
+    "Language": "SFX",
+    "Hash": "{11C15CB3-258C-BE1B-EA8F-D2F30F979108}",
+    "ObjectPath": "Resume_All",
+    "ShortName": "Resume_All",
+    "Path": "Event/Resume_All.bnk",
+    "Events": [
+     {
+      "Id": "3679762312",
+      "Name": "Resume_All",
+      "ObjectPath": "\\Events\\MC\\Resume_All",
+      "GUID": "{5C6381BF-081B-486D-AA5A-3AF5270D4D96}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6ACDC157-F9A0-A1E9-8419-56ED4657DAA3}"
+ }
+}
