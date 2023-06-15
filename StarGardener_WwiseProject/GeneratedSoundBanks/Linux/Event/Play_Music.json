@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
     "Language": "SFX",
-    "Hash": "{BF1EE871-D8D5-330E-785B-3FD3D090419C}",
+    "Hash": "{0A78A937-F8ED-2FDA-0593-40D5DD8E68CE}",
     "ObjectPath": "Play_Music",
     "ShortName": "Play_Music",
     "Path": "Event/Play_Music.bnk",
@@ -34,6 +34,51 @@
       "CachePath": "SFX/Explore_Desert/ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0_D79FB2B7.wem"
      },
      {
+      "Id": "52990584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "JingleVictory_60bpm4-4_L4M_P1B.wav",
+      "Path": "Media/52990584.wem",
+      "CachePath": "SFX/JingleVictory_60bpm4-4_L4M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "100459828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/100459828.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-MediumPad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "104171040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/104171040.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "119961180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/119961180.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Guitar-Chord_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "141955145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/141955145.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Piano03_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
       "Id": "246342586",
       "Language": "SFX",
       "Streaming": "false",
@@ -41,6 +86,51 @@
       "ShortName": "Explore_Desert\\ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0.wav",
       "Path": "Media/246342586.wem",
       "CachePath": "SFX/Explore_Desert/ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "265958737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/265958737.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Piano01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "280956010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/280956010.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "312752108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/312752108.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-MassivePad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "318969061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/318969061.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "331912259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/331912259.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
      },
      {
       "Id": "406888641",
@@ -61,6 +151,96 @@
       "CachePath": "SFX/Explore_Desert/ExploreDesert-Melody1_60bpm4-4_L8M_P0_D79FB2B7.wem"
      },
      {
+      "Id": "442314528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/442314528.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-MassivePad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "475920587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/475920587.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-WaterPad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "524032915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/524032915.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Xylophone_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "546025647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/546025647.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Piano03_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "586471382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/586471382.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "592421997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/592421997.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Guitar-Melody02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "636171049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/636171049.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-ViolinsTremolo_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "663472612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/663472612.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-WaterPad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "676557551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/676557551.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Violin-Pizzicato_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "680831413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/680831413.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Sfx-Water_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
       "Id": "726989844",
       "Language": "SFX",
       "Streaming": "false",
@@ -79,6 +259,15 @@
       "CachePath": "SFX/Explore_Desert/ExploreDesert-Bass_60bpm4-4_L8M_P0_D79FB2B7.wem"
      },
      {
+      "Id": "784629345",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/784629345.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Piano01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
       "Id": "812976284",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +275,33 @@
       "ShortName": "Explore_Desert\\ExploreDesert-FX2_60bpm4-4_L8M_P0.wav",
       "Path": "Media/812976284.wem",
       "CachePath": "SFX/Explore_Desert/ExploreDesert-FX2_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "824165439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/824165439.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Guitar-Chord_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "849878747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/849878747.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Piano02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "862346628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/862346628.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Guitar-Arpeggio02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
      },
      {
       "Id": "877160796",
@@ -106,6 +322,15 @@
       "CachePath": "SFX/ExploreDesert_Bridge_60bpm4-4_L8M_P0_D79FB2B7.wem"
      },
      {
+      "Id": "938092266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/938092266.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
       "Id": "946730573",
       "Language": "SFX",
       "Streaming": "false",
@@ -115,6 +340,42 @@
       "CachePath": "SFX/Explore_Desert/ExploreDesert-Squeak_60bpm4-4_L8M_P0_D79FB2B7.wem"
      },
      {
+      "Id": "948630525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/948630525.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Xylophone_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "951167011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/951167011.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Guitar-Melody01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "977201990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/977201990.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Guitar-Arpeggio01_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "985063923",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/985063923.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-Piano02_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
       "Id": "997240099",
       "Language": "SFX",
       "Streaming": "false",
@@ -122,6 +383,24 @@
       "ShortName": "JingleStartGarden_60bpm4-4_L3M_P1B.wav",
       "Path": "Media/997240099.wem",
       "CachePath": "SFX/JingleStartGarden_60bpm4-4_L3M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "1039084108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment B\\ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/1039084108.wem",
+      "CachePath": "SFX/Music Segment B/ExploreB-Garden-MediumPad_60bpm4-4_L8M_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "1051144781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music Segment A\\ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B.wav",
+      "Path": "Media/1051144781.wem",
+      "CachePath": "SFX/Music Segment A/ExploreA-Garden-Sfx-Water_60bpm4-4_L8M_P1B_D79FB2B7.wem"
      }
     ],
     "Events": [
@@ -131,42 +410,230 @@
       "ObjectPath": "\\Events\\MUSIC\\Play_Music",
       "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
       "DurationType": "Infinite",
-      "MediaRefs": [
+      "SwitchContainers": [
        {
-        "Id": "11483551"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3469513019",
+         "Id": "247937392",
+         "GUID": "{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "997240099"
+         }
+        ]
        },
        {
-        "Id": "52232383"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3469513019",
+         "Id": "3852397229",
+         "GUID": "{9ECF0EFB-B335-4753-9F91-AABABE97E984}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "52990584"
+         }
+        ]
        },
        {
-        "Id": "246342586"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3469513019",
+         "Id": "1850388778",
+         "GUID": "{19A5460B-7E8A-44D7-889A-C1AC78E53267}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "11483551"
+         },
+         {
+          "Id": "52232383"
+         },
+         {
+          "Id": "246342586"
+         },
+         {
+          "Id": "406888641"
+         },
+         {
+          "Id": "436122060"
+         },
+         {
+          "Id": "726989844"
+         },
+         {
+          "Id": "759056447"
+         },
+         {
+          "Id": "812976284"
+         },
+         {
+          "Id": "877160796"
+         },
+         {
+          "Id": "918495811"
+         },
+         {
+          "Id": "946730573"
+         },
+         {
+          "Id": "997240099"
+         }
+        ]
        },
        {
-        "Id": "406888641"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3469513019",
+         "Id": "278887670",
+         "GUID": "{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "52990584"
+         },
+         {
+          "Id": "100459828"
+         },
+         {
+          "Id": "104171040"
+         },
+         {
+          "Id": "119961180"
+         },
+         {
+          "Id": "141955145"
+         },
+         {
+          "Id": "265958737"
+         },
+         {
+          "Id": "280956010"
+         },
+         {
+          "Id": "312752108"
+         },
+         {
+          "Id": "318969061"
+         },
+         {
+          "Id": "331912259"
+         },
+         {
+          "Id": "442314528"
+         },
+         {
+          "Id": "475920587"
+         },
+         {
+          "Id": "524032915"
+         },
+         {
+          "Id": "546025647"
+         },
+         {
+          "Id": "586471382"
+         },
+         {
+          "Id": "592421997"
+         },
+         {
+          "Id": "636171049"
+         },
+         {
+          "Id": "663472612"
+         },
+         {
+          "Id": "676557551"
+         },
+         {
+          "Id": "680831413"
+         },
+         {
+          "Id": "784629345"
+         },
+         {
+          "Id": "824165439"
+         },
+         {
+          "Id": "849878747"
+         },
+         {
+          "Id": "862346628"
+         },
+         {
+          "Id": "938092266"
+         },
+         {
+          "Id": "948630525"
+         },
+         {
+          "Id": "951167011"
+         },
+         {
+          "Id": "977201990"
+         },
+         {
+          "Id": "985063923"
+         },
+         {
+          "Id": "1039084108"
+         },
+         {
+          "Id": "1051144781"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3469513019",
+        "Id": "1850388778",
+        "Name": "Desert",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Desert",
+        "GUID": "{19A5460B-7E8A-44D7-889A-C1AC78E53267}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3469513019",
+      "Name": "State_Zone_Terrain",
+      "ObjectPath": "\\States\\Music\\State_Zone_Terrain",
+      "GUID": "{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}",
+      "States": [
+       {
+        "Id": "247937392",
+        "Name": "Jingle_StartGarden",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Jingle_StartGarden",
+        "GUID": "{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"
        },
        {
-        "Id": "436122060"
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Garden",
+        "GUID": "{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"
        },
        {
-        "Id": "726989844"
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\None",
+        "GUID": "{009A72C3-C061-4437-A83F-5517C67DE324}"
        },
        {
-        "Id": "759056447"
+        "Id": "1850388778",
+        "Name": "Desert",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Desert",
+        "GUID": "{19A5460B-7E8A-44D7-889A-C1AC78E53267}"
        },
        {
-        "Id": "812976284"
-       },
-       {
-        "Id": "877160796"
-       },
-       {
-        "Id": "918495811"
-       },
-       {
-        "Id": "946730573"
-       },
-       {
-        "Id": "997240099"
+        "Id": "3852397229",
+        "Name": "Jingle_Victory",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Jingle_Victory",
+        "GUID": "{9ECF0EFB-B335-4753-9F91-AABABE97E984}"
        }
       ]
      }
@@ -177,10 +644,16 @@
       "Name": "Jingle_Start_Garden",
       "ObjectPath": "\\Triggers\\Music\\Jingle_Start_Garden",
       "GUID": "{C2E787FE-3619-4EA2-9F28-188E9B32AF3D}"
+     },
+     {
+      "Id": "3483928475",
+      "Name": "Jingle_Victory_Garden",
+      "ObjectPath": "\\Triggers\\Music\\Jingle_Victory_Garden",
+      "GUID": "{3590430D-732F-42FA-BE03-1EED0C1DD44B}"
      }
     ]
    }
   ],
-  "FileHash": "{2F69B439-ED67-41DC-DF8C-8329AF452E25}"
+  "FileHash": "{54171294-578B-9593-E886-F57AAFEF3C75}"
  }
 }

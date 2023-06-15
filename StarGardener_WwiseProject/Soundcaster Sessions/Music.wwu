@@ -28,12 +28,14 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
-						<CurrentStateRef Name="Loaded" ID="{52223414-EF0E-4F24-91DA-A6AB2CD3E96E}"/>
-						<CurrentStateRef Name="PauseFalse" ID="{D3417251-3215-46F4-8931-BA98C7FB87F9}"/>
+						<CurrentStateRef Name="None" ID="{D69AD2DC-408F-489C-B328-F6180FEB909D}"/>
+						<CurrentStateRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
+						<CurrentStateRef Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
+						<CurrentStateRef Name="None" ID="{7FA07390-8177-4783-95A7-BFC00AAE18AA}"/>
+						<CurrentStateRef Name="None" ID="{E87A483D-2EED-48F3-AFD0-23DC4ADC3EF5}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Garden" ID="{15F6BCDE-5E8B-4321-9E6C-14B28534DE52}"/>
+						<CurrentSwitchRef Name="Desert" ID="{09A7B910-E209-4594-A2DD-D8AB5C496E48}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

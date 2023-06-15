@@ -2778,17 +2778,68 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{477B63DF-2081-4188-B8D6-44DD29AFF0D5}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Stinger_JingleVictory_60bpm4-4_L4M_P1B" ID="{46F22078-E7A4-4C9B-AAA3-A90DE08D48DE}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{DF8E9FD8-3FF1-49D7-AD77-CEF04FE4784C}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{431B368F-8AA4-4C74-8EB2-B44A6C9CB0D6}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
 					<ArgumentList>
-						<ArgumentRef Name="Zone_Terrain" ID="{115752FE-374A-4877-A867-0B4A63149805}"/>
+						<ArgumentRef Name="State_Zone_Terrain" ID="{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Desert" ID="{09A7B910-E209-4594-A2DD-D8AB5C496E48}"/>
+								<PathElementRef Name="Jingle_StartGarden" ID="{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Stinger_JingleVictory_60bpm4-4_L4M_P1B" ID="{46F22078-E7A4-4C9B-AAA3-A90DE08D48DE}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}" Platform="Linked"/>
@@ -2796,18 +2847,10 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Garden" ID="{15F6BCDE-5E8B-4321-9E6C-14B28534DE52}"/>
+								<PathElementRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Explore_Garden" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Jingle_StartGarden" ID="{BB87C924-B487-423F-A203-D109C1EFB369}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="Stinger_JingleStartGarden_60bpm4-4_L3M_P1B" ID="{9EF5595C-34D5-4D3A-866D-8C0B047BCA3C}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

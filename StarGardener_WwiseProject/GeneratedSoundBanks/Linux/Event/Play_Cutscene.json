@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2625316922",
+    "Type": "Event",
+    "GUID": "{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}",
+    "Language": "SFX",
+    "Hash": "{A3DF193A-F8D2-FD76-1D9E-2EB8E2B2D33F}",
+    "ObjectPath": "Play_Cutscene",
+    "ShortName": "Play_Cutscene",
+    "Path": "Event/Play_Cutscene.bnk",
+    "Events": [
+     {
+      "Id": "2625316922",
+      "Name": "Play_Cutscene",
+      "ObjectPath": "\\Events\\MUSIC\\Play_Cutscene",
+      "GUID": "{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3469513019",
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Garden",
+        "GUID": "{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"
+       },
+       {
+        "GroupId": "3469513019",
+        "Id": "3852397229",
+        "Name": "Jingle_Victory",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Jingle_Victory",
+        "GUID": "{9ECF0EFB-B335-4753-9F91-AABABE97E984}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3469513019",
+      "Name": "State_Zone_Terrain",
+      "ObjectPath": "\\States\\Music\\State_Zone_Terrain",
+      "GUID": "{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}",
+      "States": [
+       {
+        "Id": "247937392",
+        "Name": "Jingle_StartGarden",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Jingle_StartGarden",
+        "GUID": "{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"
+       },
+       {
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Garden",
+        "GUID": "{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\None",
+        "GUID": "{009A72C3-C061-4437-A83F-5517C67DE324}"
+       },
+       {
+        "Id": "1850388778",
+        "Name": "Desert",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Desert",
+        "GUID": "{19A5460B-7E8A-44D7-889A-C1AC78E53267}"
+       },
+       {
+        "Id": "3852397229",
+        "Name": "Jingle_Victory",
+        "ObjectPath": "\\States\\Music\\State_Zone_Terrain\\Jingle_Victory",
+        "GUID": "{9ECF0EFB-B335-4753-9F91-AABABE97E984}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7D950D35-EE1D-24D1-3191-793CA027C1BD}"
+ }
+}

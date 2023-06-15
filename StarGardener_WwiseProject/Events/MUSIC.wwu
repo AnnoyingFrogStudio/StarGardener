@@ -19,19 +19,43 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{06C3BF15-E966-48AA-9317-351579F0068E}" ShortID="162464710">
+						<Action Name="" ID="{AF401E72-BBDF-472F-8DF8-36D5924844EB}" ShortID="1059584829">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="ActionType" Type="int16" Value="22"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Desert" ID="{09A7B910-E209-4594-A2DD-D8AB5C496E48}" WorkUnitID="{0AD0ADFE-5122-424A-B4A9-21E63EEB0F84}"/>
+									<ObjectRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Switch_PlayGarden" ID="{68D4A349-14D8-4D46-9C9F-6565DA980D03}"/>
+				<Event Name="Play_Cutscene" ID="{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}">
+					<ChildrenList>
+						<Action Name="" ID="{E6C47205-9E0C-4916-845F-04DCCCA47CD0}" ShortID="239712840">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AF2B4423-6E76-462A-8435-B689A8572F25}" ShortID="21068228">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

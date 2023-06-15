@@ -10,6 +10,7 @@
 						<Switch Name="Jingle_StartGarden" ID="{BB87C924-B487-423F-A203-D109C1EFB369}">
 							<Comment>One Shot</Comment>
 						</Switch>
+						<Switch Name="Jingle_VIctory" ID="{CD12D5F1-E7CB-4F64-9853-4B4BC2B11AA3}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
