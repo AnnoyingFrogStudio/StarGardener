@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3743243969",
+    "Type": "Event",
+    "GUID": "{3F92FB10-E0BF-453C-90FB-B7C0DF0BF3F3}",
+    "Language": "SFX",
+    "Hash": "{1ED18ACC-019F-9701-FAE6-08DCDCB3D9DF}",
+    "ObjectPath": "Stop_SFX_RPT_Beat",
+    "ShortName": "Stop_SFX_RPT_Beat",
+    "Path": "Event/Stop_SFX_RPT_Beat.bnk",
+    "Events": [
+     {
+      "Id": "3743243969",
+      "Name": "Stop_SFX_RPT_Beat",
+      "ObjectPath": "\\Events\\MC\\Stop_SFX_RPT_Beat",
+      "GUID": "{3F92FB10-E0BF-453C-90FB-B7C0DF0BF3F3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{885BF987-6621-E8D8-4C87-B313180CC95F}"
+ }
+}

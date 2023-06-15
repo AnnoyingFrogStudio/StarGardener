@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{486E83CC-A28D-41F8-8E0F-4EB4D0419873}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="AMBIANCES" ID="{486E83CC-A28D-41F8-8E0F-4EB4D0419873}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Wind" ID="{99DCAA04-0C49-46B0-ADCE-75BC5D7DEAB8}">
+					<ChildrenList>
+						<Action Name="" ID="{ADB6B24B-A50E-47A3-888F-F8D8A0C37BA2}" ShortID="837561556">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PO_AMB_Wind_PAD_01" ID="{5F4DDDB7-08CB-4B8C-8824-0E8FC5F31AD8}" WorkUnitID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

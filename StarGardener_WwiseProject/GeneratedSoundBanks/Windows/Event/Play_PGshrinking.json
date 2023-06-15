@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2572631786",
+    "Type": "Event",
+    "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
+    "Language": "SFX",
+    "Hash": "{9F24BA83-1FED-64D9-5997-36AA93516254}",
+    "ObjectPath": "Play_PGshrinking",
+    "ShortName": "Play_PGshrinking",
+    "Path": "Event/Play_PGshrinking.bnk",
+    "Media": [
+     {
+      "Id": "334043835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PG_Shrinking.wav",
+      "Path": "Media/334043835.wem",
+      "CachePath": "SFX/SFX_PG_Shrinking_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2572631786",
+      "Name": "Play_PGshrinking",
+      "ObjectPath": "\\Events\\FEEDBACK\\Play_PGshrinking",
+      "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0333333",
+      "DurationMax": "2.0333333",
+      "MediaRefs": [
+       {
+        "Id": "334043835"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E3E88F1E-15D3-0B3A-BC0F-DC5E9F881A1F}"
+ }
+}

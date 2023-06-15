@@ -1,0 +1,186 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2932040671",
+    "Type": "Event",
+    "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
+    "Language": "SFX",
+    "Hash": "{BF1EE871-D8D5-330E-785B-3FD3D090419C}",
+    "ObjectPath": "Play_Music",
+    "ShortName": "Play_Music",
+    "Path": "Event/Play_Music.bnk",
+    "Media": [
+     {
+      "Id": "11483551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-Pad_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/11483551.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-Pad_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "52232383",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/52232383.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-HighTendrilous_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "246342586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/246342586.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-AllTendrilous_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "406888641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-Melody2_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/406888641.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-Melody2_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "436122060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-Melody1_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/436122060.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-Melody1_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "726989844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-FX1_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/726989844.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-FX1_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "759056447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-Bass_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/759056447.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-Bass_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "812976284",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-FX2_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/812976284.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-FX2_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "877160796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/877160796.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-LowTendrilous_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "918495811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ExploreDesert_Bridge_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/918495811.wem",
+      "CachePath": "SFX/ExploreDesert_Bridge_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "946730573",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Explore_Desert\\ExploreDesert-Squeak_60bpm4-4_L8M_P0.wav",
+      "Path": "Media/946730573.wem",
+      "CachePath": "SFX/Explore_Desert/ExploreDesert-Squeak_60bpm4-4_L8M_P0_D79FB2B7.wem"
+     },
+     {
+      "Id": "997240099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "JingleStartGarden_60bpm4-4_L3M_P1B.wav",
+      "Path": "Media/997240099.wem",
+      "CachePath": "SFX/JingleStartGarden_60bpm4-4_L3M_P1B_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\MUSIC\\Play_Music",
+      "GUID": "{5403E203-32EF-4537-9922-F06552826301}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "11483551"
+       },
+       {
+        "Id": "52232383"
+       },
+       {
+        "Id": "246342586"
+       },
+       {
+        "Id": "406888641"
+       },
+       {
+        "Id": "436122060"
+       },
+       {
+        "Id": "726989844"
+       },
+       {
+        "Id": "759056447"
+       },
+       {
+        "Id": "812976284"
+       },
+       {
+        "Id": "877160796"
+       },
+       {
+        "Id": "918495811"
+       },
+       {
+        "Id": "946730573"
+       },
+       {
+        "Id": "997240099"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "428325269",
+      "Name": "Jingle_Start_Garden",
+      "ObjectPath": "\\Triggers\\Music\\Jingle_Start_Garden",
+      "GUID": "{C2E787FE-3619-4EA2-9F28-188E9B32AF3D}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2A0F3284-F3E8-017F-E737-BBEBCA85982A}"
+ }
+}

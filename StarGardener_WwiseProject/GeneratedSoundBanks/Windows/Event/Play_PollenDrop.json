@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2931365495",
+    "Type": "Event",
+    "GUID": "{A63C6A18-63FE-45A3-9B6E-FF3AE3E7D21E}",
+    "Language": "SFX",
+    "Hash": "{1F8814A7-EF57-2E17-20A2-1EDC3C20D194}",
+    "ObjectPath": "Play_PollenDrop",
+    "ShortName": "Play_PollenDrop",
+    "Path": "Event/Play_PollenDrop.bnk",
+    "Media": [
+     {
+      "Id": "439125651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Pollen_Drop_LP.wav",
+      "Path": "Media/439125651.wem",
+      "CachePath": "SFX/SFX_Pollen_Drop_LP_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2931365495",
+      "Name": "Play_PollenDrop",
+      "ObjectPath": "\\Events\\MC\\Play_PollenDrop",
+      "GUID": "{A63C6A18-63FE-45A3-9B6E-FF3AE3E7D21E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "439125651"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{45F07D3B-6ADD-63C4-C610-CE2130E98A34}"
+ }
+}
