@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3864097025",
+    "Type": "Event",
+    "GUID": "{4077CF66-D0B1-44BD-AE1B-1CAADD10B4F7}",
+    "Language": "SFX",
+    "Hash": "{D27272DE-A268-6B92-7959-22FC0FD02927}",
+    "ObjectPath": "Pause_All",
+    "ShortName": "Pause_All",
+    "Path": "Event/Pause_All.bnk",
+    "Events": [
+     {
+      "Id": "3864097025",
+      "Name": "Pause_All",
+      "ObjectPath": "\\Events\\MC\\Pause_All",
+      "GUID": "{4077CF66-D0B1-44BD-AE1B-1CAADD10B4F7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A4C8CB09-6D72-EDB9-E5F0-9047B4CA975B}"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3586213963",
+    "Type": "Event",
+    "GUID": "{7512A3CE-F7ED-4EF9-B1AD-D4E62B78DCB5}",
+    "Language": "SFX",
+    "Hash": "{9D305F72-BE7A-5F67-3160-6A86150FFB8B}",
+    "ObjectPath": "Stop_SFX_DOORS_Go_LP",
+    "ShortName": "Stop_SFX_DOORS_Go_LP",
+    "Path": "Event/Stop_SFX_DOORS_Go_LP.bnk",
+    "Events": [
+     {
+      "Id": "3586213963",
+      "Name": "Stop_SFX_DOORS_Go_LP",
+      "ObjectPath": "\\Events\\SFX\\Stop_SFX_DOORS_Go_LP",
+      "GUID": "{7512A3CE-F7ED-4EF9-B1AD-D4E62B78DCB5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{06273B9D-D5FE-BBF2-32B6-031C8C51C601}"
+ }
+}
