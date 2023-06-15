@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
     "Language": "SFX",
-    "Hash": "{229793C9-76AC-9FB9-42E2-06CD6E2289BA}",
+    "Hash": "{AE2928EC-48AC-1650-6914-09DED7068F60}",
     "ObjectPath": "Play_Orb1",
     "ShortName": "Play_Orb1",
     "Path": "Event/Play_Orb1.bnk",
@@ -34,6 +34,33 @@
       "CachePath": "SFX/SFX_OF_Orb1_03_10C4C929.wem"
      },
      {
+      "Id": "616124176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
+     },
+     {
       "Id": "1034598536",
       "Language": "SFX",
       "Streaming": "false",
@@ -49,6 +76,7 @@
       "Name": "Play_Orb1",
       "ObjectPath": "\\Events\\SFX\\Play_Orb1",
       "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "3.3435",
       "DurationMax": "3.7873333",
@@ -60,6 +88,15 @@
         "Id": "567178965"
        },
        {
+        "Id": "616124176"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
+       },
+       {
         "Id": "1034598536"
        }
       ]
@@ -67,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{849A1855-0A48-07B4-8957-2518CDFDC712}"
+  "FileHash": "{F41392A7-3DCF-EDF5-DDD4-C2E1F3007024}"
  }
 }

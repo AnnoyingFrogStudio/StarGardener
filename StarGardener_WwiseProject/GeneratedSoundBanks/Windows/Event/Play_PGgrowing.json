@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
     "Language": "SFX",
-    "Hash": "{1528EA67-51A1-77AB-1383-50E343381242}",
+    "Hash": "{A8295991-2250-3576-3F73-D4BFFF5705B1}",
     "ObjectPath": "Play_PGgrowing",
     "ShortName": "Play_PGgrowing",
     "Path": "Event/Play_PGgrowing.bnk",
@@ -23,6 +23,33 @@
       "ShortName": "SFX_PG_Growing.wav",
       "Path": "Media/400737579.wem",
       "CachePath": "SFX/SFX_PG_Growing_10C4C929.wem"
+     },
+     {
+      "Id": "616124176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      }
     ],
     "Events": [
@@ -31,18 +58,28 @@
       "Name": "Play_PGgrowing",
       "ObjectPath": "\\Events\\FEEDBACK\\Play_PGgrowing",
       "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "5.1666665",
       "DurationMax": "5.1666665",
       "MediaRefs": [
        {
         "Id": "400737579"
+       },
+       {
+        "Id": "616124176"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{1BAE2B48-C428-E99C-095C-947AF2C565F5}"
+  "FileHash": "{5005418F-8A7B-100A-C863-C537F2E1A50F}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
     "Language": "SFX",
-    "Hash": "{7A8104CB-6624-4B29-8E1C-9E35A98DBCC9}",
+    "Hash": "{B086ECC9-0549-2C7A-224B-BF75E30DCD56}",
     "ObjectPath": "Play_Orb_Final",
     "ShortName": "Play_Orb_Final",
     "Path": "Event/Play_Orb_Final.bnk",
@@ -23,6 +23,33 @@
       "ShortName": "SFX_OF_Orb_Final_03.wav",
       "Path": "Media/458551905.wem",
       "CachePath": "SFX/SFX_OF_Orb_Final_03_10C4C929.wem"
+     },
+     {
+      "Id": "616124176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
       "Id": "956748328",
@@ -49,12 +76,22 @@
       "Name": "Play_Orb_Final",
       "ObjectPath": "\\Events\\SFX\\Play_Orb_Final",
       "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "5.792",
       "DurationMax": "7.3386664",
       "MediaRefs": [
        {
         "Id": "458551905"
+       },
+       {
+        "Id": "616124176"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
        },
        {
         "Id": "956748328"
@@ -67,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{2CE54291-0297-4ED1-98BC-D903FAD3DD9E}"
+  "FileHash": "{01940225-0CF1-20C4-319C-04FA755C698C}"
  }
 }

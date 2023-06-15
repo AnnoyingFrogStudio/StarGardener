@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
     "Language": "SFX",
-    "Hash": "{60EE7A77-ECE7-E971-A0DA-F51F3A0808AD}",
+    "Hash": "{B54594E5-09A9-6764-C660-C95AEFEC6DB5}",
     "ObjectPath": "Play_SFX_DOORS_Back",
     "ShortName": "Play_SFX_DOORS_Back",
     "Path": "Event/Play_SFX_DOORS_Back.bnk",
@@ -40,6 +40,7 @@
       "Name": "Play_SFX_DOORS_Back",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Back",
       "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
+      "MaxAttenuation": "200",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -53,6 +54,6 @@
     ]
    }
   ],
-  "FileHash": "{31B2A2AC-94E1-381A-812B-941F8DC054E5}"
+  "FileHash": "{87FD83CE-220C-68C6-396A-134D4590B74D}"
  }
 }

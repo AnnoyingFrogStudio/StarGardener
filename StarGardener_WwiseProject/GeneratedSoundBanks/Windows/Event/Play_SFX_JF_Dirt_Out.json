@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{466200B4-9CF2-4715-B663-B11B6E593270}",
     "Language": "SFX",
-    "Hash": "{0AD92B31-5F8E-F952-6BAA-54510235A694}",
+    "Hash": "{483B24E1-0588-0CD6-E3DE-B6965BA4AF4F}",
     "ObjectPath": "Play_SFX_JF_Dirt_Out",
     "ShortName": "Play_SFX_JF_Dirt_Out",
     "Path": "Event/Play_SFX_JF_Dirt_Out.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_SFX_JF_Dirt_Out",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_JF_Dirt_Out",
       "GUID": "{466200B4-9CF2-4715-B663-B11B6E593270}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "1.9",
       "DurationMax": "1.9",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{85C370FB-4C18-C5FD-CE52-C88EF0C28FDE}"
+  "FileHash": "{29730BA7-C18C-9527-4E9D-069533E0109C}"
  }
 }

@@ -17,9 +17,12 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{72739F14-063C-4D55-B5C5-B0DB20BC6F8A}" ShortID="448376775">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -37,7 +40,7 @@
 						<Action Name="" ID="{E639E367-BB63-4C70-A075-1E3C2DB63D48}" ShortID="227657409">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -55,7 +58,7 @@
 						<Action Name="" ID="{8BDF9E6F-8FD3-450A-A99A-9171061A0BA0}" ShortID="969883898">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -73,18 +76,7 @@
 						<Action Name="" ID="{F6326D44-A8E3-40FF-811A-BBBD2B11BDF1}" ShortID="832531286">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_JFdirt" ID="{FC34AE6A-B68B-44E2-941C-CF77CB491423}">
-					<ChildrenList>
-						<Action Name="" ID="{2080D327-40D8-4ACD-ABAB-FDECD4B366FB}" ShortID="356601789">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="JF_Dirt" ID="{DBBB1B8A-09D5-4C2C-8842-1228ECF07FCA}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -230,6 +222,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_JF_Dirt_Out" ID="{6118046E-1408-43CF-9777-0A13D7D69B26}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlantsWhooshSoft" ID="{5B848F32-0BAC-4249-8C10-C15CF32D4697}">
+					<ChildrenList>
+						<Action Name="" ID="{D2373CD0-5DE5-411D-800B-A2CA8B55913B}" ShortID="342450132">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh_Soft" ID="{0C30EEFD-06E7-456E-BE28-08E6F7389CED}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlantsWhooshHard" ID="{086409B5-328C-45EA-9FC0-43A106585EC2}">
+					<ChildrenList>
+						<Action Name="" ID="{513EC189-D517-4E4B-A992-B4930F3ED5D5}" ShortID="326927985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

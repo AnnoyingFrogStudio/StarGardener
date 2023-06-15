@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FC34AE6A-B68B-44E2-941C-CF77CB491423}",
     "Language": "SFX",
-    "Hash": "{66A36939-7D8E-AAD7-3207-063DC0C97CBD}",
+    "Hash": "{5BB53FCF-68AF-14A6-7FF0-AC96B677D252}",
     "ObjectPath": "Play_JFdirt",
     "ShortName": "Play_JFdirt",
     "Path": "Event/Play_JFdirt.bnk",
@@ -40,6 +40,7 @@
       "Name": "Play_JFdirt",
       "ObjectPath": "\\Events\\SFX\\Play_JFdirt",
       "GUID": "{FC34AE6A-B68B-44E2-941C-CF77CB491423}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "1.9",
       "DurationMax": "2",
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{D5ABDF24-90E5-4CDE-E3E5-DC228DF2153E}"
+  "FileHash": "{7BB924E0-EC9E-3A4F-E67C-61B5D8B00D65}"
  }
 }

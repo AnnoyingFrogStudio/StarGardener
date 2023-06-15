@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
     "Language": "SFX",
-    "Hash": "{A9F40CB6-A91F-C09C-DE9D-500FBC947A08}",
+    "Hash": "{C07D1FF4-3CF7-D7DE-25E1-CD22E291CA8B}",
     "ObjectPath": "Play_Orb3",
     "ShortName": "Play_Orb3",
     "Path": "Event/Play_Orb3.bnk",
@@ -23,6 +23,33 @@
       "ShortName": "SFX_OF_Orb3_02.wav",
       "Path": "Media/426196664.wem",
       "CachePath": "SFX/SFX_OF_Orb3_02_10C4C929.wem"
+     },
+     {
+      "Id": "616124176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
       "Id": "723198051",
@@ -49,12 +76,22 @@
       "Name": "Play_Orb3",
       "ObjectPath": "\\Events\\SFX\\Play_Orb3",
       "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "3.3361666",
       "DurationMax": "3.9",
       "MediaRefs": [
        {
         "Id": "426196664"
+       },
+       {
+        "Id": "616124176"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
        },
        {
         "Id": "723198051"
@@ -67,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{FDBCEA2A-8EB9-89EA-5B54-78F72B91AAD1}"
+  "FileHash": "{895443E1-FD4E-B033-5DD1-902A28CCA8AA}"
  }
 }

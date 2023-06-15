@@ -34,7 +34,7 @@
 						<Action Name="" ID="{AE82AE82-4BC9-4B71-9F34-C10AE087593A}" ShortID="270853636">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Jump" ID="{9B065A9C-CDAF-49BF-9581-11101751FD52}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+									<ObjectRef Name="FOL_Jump" ID="{56183CB2-549A-4E30-A943-256E44C58058}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -75,6 +75,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bag_Full" ID="{257281D3-AEA1-4B06-87BE-F91DF9593ADE}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{585BA315-8BC0-4323-8BF2-C816DBF92AA1}" ShortID="315921240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PollenFull" ID="{103C1C2B-2E7D-4B76-8EC5-6D31512B6C22}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -186,9 +193,7 @@
 										</Reference>
 									</ReferenceList>
 								</EventActionException>
-								<EventActionException Name="" ID="{B4FFAF74-091E-4E27-ACAB-AC43F3A14F38}">
-									<ReferenceList/>
-								</EventActionException>
+								<EventActionException Name="" ID="{B4FFAF74-091E-4E27-ACAB-AC43F3A14F38}"/>
 								<EventActionException Name="" ID="{02572B51-5E1C-41BB-99BB-E961FF08CD8D}">
 									<ReferenceList>
 										<Reference Name="Target">
