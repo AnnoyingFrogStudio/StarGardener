@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
     "Language": "SFX",
-    "Hash": "{0E825729-1573-434F-1567-42830F56D5D2}",
+    "Hash": "{A2D9388A-C6F4-DA8F-E929-4DEFA720FC69}",
     "ObjectPath": "Play_SFX_DOORS_End",
     "ShortName": "Play_SFX_DOORS_End",
     "Path": "Event/Play_SFX_DOORS_End.bnk",
@@ -31,7 +31,7 @@
       "Name": "Play_SFX_DOORS_End",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_End",
       "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.7333333",
       "DurationMax": "1.7333333",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{1DD98012-EC4A-888E-B8AD-6C3A8136AD3A}"
+  "FileHash": "{08F3F8AA-EF31-F466-D9FC-03A564A4DCA6}"
  }
 }

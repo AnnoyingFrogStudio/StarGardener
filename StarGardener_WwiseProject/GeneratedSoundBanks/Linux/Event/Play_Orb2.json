@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
     "Language": "SFX",
-    "Hash": "{67ACFF88-7066-D4A1-96B3-1E107FB00BD9}",
+    "Hash": "{67726B1B-A3CA-975D-40E4-C06255A640FF}",
     "ObjectPath": "Play_Orb2",
     "ShortName": "Play_Orb2",
     "Path": "Event/Play_Orb2.bnk",
@@ -76,7 +76,7 @@
       "Name": "Play_Orb2",
       "ObjectPath": "\\Events\\SFX\\Play_Orb2",
       "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "3.459",
       "DurationMax": "3.6908333",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{6EB7E66A-ADFE-C3E9-7F3E-DE6D3FC05B4E}"
+  "FileHash": "{96034B47-FBBB-B9AF-B7AF-B2E766B5D8D8}"
  }
 }

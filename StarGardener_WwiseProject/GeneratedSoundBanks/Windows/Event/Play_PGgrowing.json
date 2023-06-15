@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
     "Language": "SFX",
-    "Hash": "{A8295991-2250-3576-3F73-D4BFFF5705B1}",
+    "Hash": "{72F481A4-BB35-7941-D623-40369292A942}",
     "ObjectPath": "Play_PGgrowing",
     "ShortName": "Play_PGgrowing",
     "Path": "Event/Play_PGgrowing.bnk",
@@ -58,7 +58,7 @@
       "Name": "Play_PGgrowing",
       "ObjectPath": "\\Events\\FEEDBACK\\Play_PGgrowing",
       "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "5.1666665",
       "DurationMax": "5.1666665",
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{5005418F-8A7B-100A-C863-C537F2E1A50F}"
+  "FileHash": "{73B31215-3064-7A0E-3A13-C492D169F93B}"
  }
 }

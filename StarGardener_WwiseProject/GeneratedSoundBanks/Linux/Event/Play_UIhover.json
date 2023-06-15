@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
     "Language": "SFX",
-    "Hash": "{557A94B5-0A97-98AE-31AE-9D9AC1187B89}",
+    "Hash": "{1DE8A15A-50AF-1187-6387-9EB98F5059F9}",
     "ObjectPath": "Play_UIhover",
     "ShortName": "Play_UIhover",
     "Path": "Event/Play_UIhover.bnk",
+    "Media": [
+     {
+      "Id": "34998148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Select_01.wav",
+      "Path": "Media/34998148.wem",
+      "CachePath": "SFX/UI_Select_01_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2502251926",
@@ -21,12 +32,17 @@
       "ObjectPath": "\\Events\\UI\\Play_UIhover",
       "GUID": "{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.091129534",
+      "DurationMax": "0.102407694",
+      "MediaRefs": [
+       {
+        "Id": "34998148"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{CB034F24-899B-A408-B81C-BC93E98F1F6C}"
+  "FileHash": "{B567E538-D54C-CA02-6F4C-8F464ADF788F}"
  }
 }

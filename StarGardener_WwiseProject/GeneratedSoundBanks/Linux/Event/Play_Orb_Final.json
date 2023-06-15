@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
     "Language": "SFX",
-    "Hash": "{B086ECC9-0549-2C7A-224B-BF75E30DCD56}",
+    "Hash": "{90E3834A-BB68-CFFB-08E2-0CB846D3C9F4}",
     "ObjectPath": "Play_Orb_Final",
     "ShortName": "Play_Orb_Final",
     "Path": "Event/Play_Orb_Final.bnk",
@@ -76,7 +76,7 @@
       "Name": "Play_Orb_Final",
       "ObjectPath": "\\Events\\SFX\\Play_Orb_Final",
       "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "5.792",
       "DurationMax": "7.3386664",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{01940225-0CF1-20C4-319C-04FA755C698C}"
+  "FileHash": "{7B91447C-822A-395E-3E92-477906CA6C74}"
  }
 }

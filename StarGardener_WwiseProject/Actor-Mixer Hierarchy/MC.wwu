@@ -1640,8 +1640,43 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>100</XPos>
+																						<XPos>1</XPos>
 																						<YPos>420</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{09B4EA5D-3369-45D1-8C0B-2038C3F504F6}" ShortID="171135044">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RTPC_PlayerSpeed" ID="{A45D0340-15CC-42AF-8E95-646A9EDDC965}" WorkUnitID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{F5FE8865-2B56-4F8E-8395-C75387E9F738}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-1.05139</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -1804,8 +1839,43 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>100</XPos>
+																						<XPos>1</XPos>
 																						<YPos>323</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{1779ACC5-D5FD-4106-8622-C7057E44D159}" ShortID="957931090">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RTPC_PlayerSpeed" ID="{A45D0340-15CC-42AF-8E95-646A9EDDC965}" WorkUnitID="{DA6C72E2-BD12-459E-B002-653BA02C4C9A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{E720A285-E700-41F9-BB5C-561E97E927C8}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-0.98776</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -1975,7 +2045,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>1</XPos>
 																				<YPos>743</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2010,7 +2080,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>1</XPos>
 																				<YPos>30</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2045,7 +2115,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>1</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2394,12 +2464,17 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-8.31703</YPos>
+																				<YPos>-200</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>0</YPos>
+																				<XPos>0.00838</XPos>
+																				<YPos>-1.62765</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>2.93389</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -2433,7 +2508,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>1</XPos>
 																				<YPos>582</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2468,12 +2543,12 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>58.58939</XPos>
+																				<XPos>0.5858939</XPos>
 																				<YPos>2</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>1</XPos>
 																				<YPos>-58</YPos>
 																				<Flags>37</Flags>
 																			</Point>

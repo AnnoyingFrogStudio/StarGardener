@@ -230,6 +230,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_PollenDrop" ID="{C055B27F-645E-483C-B050-B1522513827F}">
+					<ChildrenList>
+						<Action Name="" ID="{220DE70B-C5F9-46C7-BD31-4E8532609950}" ShortID="682323326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Pollen_Drop_LP" ID="{F61F1924-E2DD-4241-96D6-CA037FCA2EB5}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

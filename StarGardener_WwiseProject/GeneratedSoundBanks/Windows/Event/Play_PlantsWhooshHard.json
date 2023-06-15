@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{086409B5-328C-45EA-9FC0-43A106585EC2}",
     "Language": "SFX",
-    "Hash": "{AE3CAE9A-99FF-1BF7-AADE-A087BEB8B2FA}",
+    "Hash": "{20766744-464D-9188-F82F-A091E7F48992}",
     "ObjectPath": "Play_PlantsWhooshHard",
     "ShortName": "Play_PlantsWhooshHard",
     "Path": "Event/Play_PlantsWhooshHard.bnk",
@@ -49,7 +49,7 @@
       "Name": "Play_PlantsWhooshHard",
       "ObjectPath": "\\Events\\SFX\\Play_PlantsWhooshHard",
       "GUID": "{086409B5-328C-45EA-9FC0-43A106585EC2}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "0.8389583",
       "DurationMax": "0.97066665",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{8A6AB34B-496A-6F44-3BD8-19077AD75A42}"
+  "FileHash": "{8D76D255-C635-00AB-9F2A-4918EE47CC34}"
  }
 }
