@@ -798,6 +798,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Bag_Empty" ID="{E4A3308F-2C4A-4453-86F3-9D0932A126FB}" ShortID="238219124">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -876,6 +883,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Bag_Full" ID="{257281D3-AEA1-4B06-87BE-F91DF9593ADE}" ShortID="602012692">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -956,6 +970,11 @@
 								<Sound Name="SFX_Pollen_Drop_LP" ID="{F61F1924-E2DD-4241-96D6-CA037FCA2EB5}" ShortID="36396337">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1472,7 +1491,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1922,6 +1941,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<RandomSequenceContainer Name="Skate_Wind" ID="{DC1F04A0-0CBD-452C-84A5-C642111BD346}" ShortID="969031421">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -2131,6 +2157,13 @@
 									</ObjectLists>
 								</RandomSequenceContainer>
 								<SwitchContainer Name="Skate_BreakingType" ID="{571E03A7-4FFE-4476-B69F-7DDB1EDEC3FF}" ShortID="299126760">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -2425,6 +2458,11 @@
 								<Sound Name="MC_D_Skate_Wind_LP_01" ID="{6097FDA3-AD53-442C-8746-2B4AF9860A40}" ShortID="935921880">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
