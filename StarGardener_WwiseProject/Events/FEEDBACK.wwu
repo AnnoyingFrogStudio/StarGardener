@@ -19,7 +19,7 @@
 						<Action Name="" ID="{4BAD6FA9-EB73-4FC4-8A16-838E32523678}" ShortID="63035492">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Plants_Whoosh" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+									<ObjectRef Name="Plants_Whoosh_Hard" ID="{82E41186-EFAF-4085-B993-1F5AF502BAA9}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

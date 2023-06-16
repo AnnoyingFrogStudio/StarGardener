@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1B49D10-ECB7-4290-8D83-A9C0DBF75E80}",
     "Language": "SFX",
-    "Hash": "{DF6FE444-AB48-447F-C298-F8B9DFD9FCB0}",
+    "Hash": "{43330CA5-2EAC-4A33-A41D-15E1B410059F}",
     "ObjectPath": "Play_SXF_B_Creation_LP",
     "ShortName": "Play_SXF_B_Creation_LP",
     "Path": "Event/Play_SXF_B_Creation_LP.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_SXF_B_Creation_LP",
       "ObjectPath": "\\Events\\SFX\\Play_SXF_B_Creation_LP",
       "GUID": "{C1B49D10-ECB7-4290-8D83-A9C0DBF75E80}",
+      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -41,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{2C2CCD7C-43D6-9599-9452-E7899B51CF94}"
+  "FileHash": "{8E53F2AA-5B89-9FD4-641D-B3339E06E8FE}"
  }
 }

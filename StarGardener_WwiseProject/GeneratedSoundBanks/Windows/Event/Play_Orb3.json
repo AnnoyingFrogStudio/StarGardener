@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
     "Language": "SFX",
-    "Hash": "{A9F40CB6-A91F-C09C-DE9D-500FBC947A08}",
+    "Hash": "{3889DFFF-9519-F512-3564-2C8473748996}",
     "ObjectPath": "Play_Orb3",
     "ShortName": "Play_Orb3",
     "Path": "Event/Play_Orb3.bnk",
@@ -25,13 +25,31 @@
       "CachePath": "SFX/SFX_OF_Orb3_02_10C4C929.wem"
      },
      {
-      "Id": "723198051",
+      "Id": "616124176",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "SFX_OF_Orb3_01.wav",
-      "Path": "Media/723198051.wem",
-      "CachePath": "SFX/SFX_OF_Orb3_01_10C4C929.wem"
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
       "Id": "1053002042",
@@ -49,6 +67,7 @@
       "Name": "Play_Orb3",
       "ObjectPath": "\\Events\\SFX\\Play_Orb3",
       "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "3.3361666",
       "DurationMax": "3.9",
@@ -57,7 +76,13 @@
         "Id": "426196664"
        },
        {
-        "Id": "723198051"
+        "Id": "616124176"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
        },
        {
         "Id": "1053002042"
@@ -67,6 +92,6 @@
     ]
    }
   ],
-  "FileHash": "{FDBCEA2A-8EB9-89EA-5B54-78F72B91AAD1}"
+  "FileHash": "{CD9E7CE8-D327-6779-DF59-BB6647B8D7D0}"
  }
 }

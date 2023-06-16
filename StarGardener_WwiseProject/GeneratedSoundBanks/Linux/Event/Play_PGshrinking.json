@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
     "Language": "SFX",
-    "Hash": "{9F24BA83-1FED-64D9-5997-36AA93516254}",
+    "Hash": "{CD96470E-C2D6-142D-FD1A-BE8C4D156BC9}",
     "ObjectPath": "Play_PGshrinking",
     "ShortName": "Play_PGshrinking",
     "Path": "Event/Play_PGshrinking.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_PGshrinking",
       "ObjectPath": "\\Events\\FEEDBACK\\Play_PGshrinking",
       "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "2.0333333",
       "DurationMax": "2.0333333",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{8F2D8B24-6878-C193-BE35-069DA3A81D93}"
+  "FileHash": "{4B9938B3-E95E-8449-3044-F7785B147055}"
  }
 }

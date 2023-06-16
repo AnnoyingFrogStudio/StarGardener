@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1375169023",
+    "Type": "Event",
+    "GUID": "{FD81D449-9FB2-43FA-9515-EB26E2CD3D3D}",
+    "Language": "SFX",
+    "Hash": "{ED310613-65C1-AC1D-F915-664D3C0DA590}",
+    "ObjectPath": "Play_WindDesert",
+    "ShortName": "Play_WindDesert",
+    "Path": "Event/Play_WindDesert.bnk",
+    "Media": [
+     {
+      "Id": "629236491",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Desert_Wind_LP.wav",
+      "Path": "Media/629236491.wem",
+      "CachePath": "SFX/AMB_Desert_Wind_LP_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1375169023",
+      "Name": "Play_WindDesert",
+      "ObjectPath": "\\Events\\AMBIANCES\\Play_WindDesert",
+      "GUID": "{FD81D449-9FB2-43FA-9515-EB26E2CD3D3D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "629236491"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C05A410-9709-8F48-4807-60BEB380EFBA}"
+ }
+}
