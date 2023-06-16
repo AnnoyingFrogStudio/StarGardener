@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9618C4E2-3740-47B1-AFD2-498A06207928}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="UI" ID="{9618C4E2-3740-47B1-AFD2-498A06207928}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_UIselect" ID="{B358AB00-23C8-45A7-9F41-69043017D070}">
+					<ChildrenList>
+						<Action Name="" ID="{5DD0C7CB-1AEF-4E98-B0C1-7F914EFEB1A8}" ShortID="955308360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Select" ID="{1A952B63-31CD-408B-9146-DD87CF0A5E77}" WorkUnitID="{2AFD8FA4-0945-491B-A13A-385EDB9EFDA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIhover" ID="{B4630F9B-90EE-4A15-A508-3EDB2E17C4BB}">
+					<ChildrenList>
+						<Action Name="" ID="{FF1AB465-ECE8-49E9-94EF-D9C68D0C4E60}" ShortID="537513230">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Hover" ID="{1F83F7E6-9233-40CE-8AE6-4CC60F585DF9}" WorkUnitID="{2AFD8FA4-0945-491B-A13A-385EDB9EFDA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIback" ID="{7C3FA8D8-CCC6-4F12-B1BD-FD978CF4E9B2}">
+					<ChildrenList>
+						<Action Name="" ID="{9B4AA0AD-0E7A-4465-9256-1182C4A96B98}" ShortID="269952761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Back" ID="{5060F41C-CC89-4A72-B4E4-0BFC505F62F8}" WorkUnitID="{2AFD8FA4-0945-491B-A13A-385EDB9EFDA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

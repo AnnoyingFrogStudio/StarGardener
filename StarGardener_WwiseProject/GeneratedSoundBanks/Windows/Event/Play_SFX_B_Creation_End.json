@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2735591834",
+    "Type": "Event",
+    "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
+    "Language": "SFX",
+    "Hash": "{3F02AC05-686E-3564-5E3D-3D4F42D2453E}",
+    "ObjectPath": "Play_SFX_B_Creation_End",
+    "ShortName": "Play_SFX_B_Creation_End",
+    "Path": "Event/Play_SFX_B_Creation_End.bnk",
+    "Media": [
+     {
+      "Id": "1057751566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_B_Creation_End.wav",
+      "Path": "Media/1057751566.wem",
+      "CachePath": "SFX/SFX_B_Creation_End_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2735591834",
+      "Name": "Play_SFX_B_Creation_End",
+      "ObjectPath": "\\Events\\SFX\\Play_SFX_B_Creation_End",
+      "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7333333",
+      "DurationMax": "1.7333333",
+      "MediaRefs": [
+       {
+        "Id": "1057751566"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{66F2F3E6-B67A-C9C3-5148-E78C7946F9D5}"
+ }
+}

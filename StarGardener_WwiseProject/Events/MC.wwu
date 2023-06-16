@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="MC" ID="{9CA8346B-C50D-4C4F-91E7-563339D6D874}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Footsteps" ID="{8A74F43A-E703-47C3-AD08-6AC42ECE8D36}">
+					<ChildrenList>
+						<Action Name="" ID="{EF4630C1-3BA1-4199-89B6-C262A2B2F8EB}" ShortID="193854781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Type" ID="{D3AF2990-1B89-4DC7-BCE8-6C7B8A95134B}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Land" ID="{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}">
+					<ChildrenList>
+						<Action Name="" ID="{417E2D70-7060-49BB-AE4C-F0595F24E4C4}" ShortID="60908863">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land_Type" ID="{B99B4CA6-D8A7-4CFB-87B5-B275B0055937}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{F6553D8C-CB98-401A-AA1C-E4E32EF71558}">
+					<ChildrenList>
+						<Action Name="" ID="{AE82AE82-4BC9-4B71-9F34-C10AE087593A}" ShortID="270853636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{9B065A9C-CDAF-49BF-9581-11101751FD52}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Skate" ID="{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}">
+					<ChildrenList>
+						<Action Name="" ID="{72388F2B-2EC3-4C90-AD29-94CC3CFA2257}" ShortID="105246662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Type" ID="{17C30AC2-39FE-48EC-AE50-38E848513B01}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76E92FF2-6A86-4AA7-8AA6-94116DE9A19E}" ShortID="677077358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Wind" ID="{DC1F04A0-0CBD-452C-84A5-C642111BD346}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BagEmpty" ID="{2BA251FF-E77C-4837-A83C-543D45ED6BFC}">
+					<ChildrenList>
+						<Action Name="" ID="{A81AE780-D1AE-4AFF-BF18-79591F61E975}" ShortID="587001673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bag_Empty" ID="{E4A3308F-2C4A-4453-86F3-9D0932A126FB}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BagFull" ID="{0D394FFD-504D-480D-A4CB-C2A08D64D509}">
+					<ChildrenList>
+						<Action Name="" ID="{CF979DDA-52DF-4A62-AC0D-5601AE3750D0}" ShortID="636024394">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bag_Full" ID="{257281D3-AEA1-4B06-87BE-F91DF9593ADE}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PollenDrop" ID="{A63C6A18-63FE-45A3-9B6E-FF3AE3E7D21E}">
+					<ChildrenList>
+						<Action Name="" ID="{A597282B-E734-49E0-9DB5-293709AE655B}" ShortID="476652480">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Pollen_Drop_LP" ID="{F61F1924-E2DD-4241-96D6-CA037FCA2EB5}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_RPT_Beat" ID="{78D3F778-3263-4C00-838B-9A653F08B54E}">
+					<ChildrenList>
+						<Action Name="" ID="{3D82400F-0CD8-49BD-AD18-2F819B37AFA5}" ShortID="991192691">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RPT_Beat" ID="{D2981936-BAD3-44F4-9BE2-D6E0B2921C86}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_RPT_Beat" ID="{3F92FB10-E0BF-453C-90FB-B7C0DF0BF3F3}">
+					<ChildrenList>
+						<Action Name="" ID="{C3A7D362-FC48-4D38-8228-A208181A441B}" ShortID="146272197">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RPT_Beat" ID="{D2981936-BAD3-44F4-9BE2-D6E0B2921C86}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SkateWind_LP" ID="{1740FD03-C188-41B8-B58C-7EAB40810DB0}">
+					<ChildrenList>
+						<Action Name="" ID="{FBCFB673-47D4-4632-9DC0-C954DD83DB06}" ShortID="40551634">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_D_Skate_Wind_LP_01" ID="{6097FDA3-AD53-442C-8746-2B4AF9860A40}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Breaking" ID="{7D87FE56-7C82-4EDF-AA53-D751ACD78AF1}">
+					<ChildrenList>
+						<Action Name="" ID="{4FE6E648-B1E6-4D0B-86F1-B7A8A758E878}" ShortID="884731280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_BreakingType" ID="{571E03A7-4FFE-4476-B69F-7DDB1EDEC3FF}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E4FA55F-1637-4154-8BA1-7CF3B1A1E241}" ShortID="343646696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_D_Skate_Wind_LP_01" ID="{6097FDA3-AD53-442C-8746-2B4AF9860A40}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{31482178-399A-4E05-A243-A112A225FA00}" ShortID="1060248095">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Wind" ID="{DC1F04A0-0CBD-452C-84A5-C642111BD346}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6AC193C9-DEBC-4C33-AA42-A44BC13B964B}" ShortID="367914539">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate_Type" ID="{17C30AC2-39FE-48EC-AE50-38E848513B01}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_All" ID="{4077CF66-D0B1-44BD-AE1B-1CAADD10B4F7}">
+					<ChildrenList>
+						<Action Name="" ID="{9FEF9BB4-1F5A-484D-A84E-88FF71D20ABD}" ShortID="944801860">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{BCD323C7-F841-41FD-B295-A122621EAA7B}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{B4FFAF74-091E-4E27-ACAB-AC43F3A14F38}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explore_Garden_V1" ID="{FCB13399-1D10-4375-9C96-556054CF4BD2}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{02572B51-5E1C-41BB-99BB-E961FF08CD8D}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explore_Garden_V2" ID="{AB6C0D13-2BFC-40C4-BF44-CE5BF74A6EB1}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_All" ID="{5C6381BF-081B-486D-AA5A-3AF5270D4D96}">
+					<ChildrenList>
+						<Action Name="" ID="{8EE7F24B-E8FB-4F0F-9CB2-B7021B3B3FB9}" ShortID="968682769">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SkateWindLP" ID="{5FEFE78B-9422-401A-BF51-C9FCF05450C9}">
+					<ChildrenList>
+						<Action Name="" ID="{C1095349-5858-4D24-98F3-CA0AC11A26D6}" ShortID="377315269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_D_Skate_Wind_LP_01" ID="{6097FDA3-AD53-442C-8746-2B4AF9860A40}" WorkUnitID="{D3735AB9-9504-42A8-A93A-1D4DECE52271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
