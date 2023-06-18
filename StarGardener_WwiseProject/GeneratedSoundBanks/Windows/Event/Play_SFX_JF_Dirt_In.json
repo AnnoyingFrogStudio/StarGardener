@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
     "Language": "SFX",
-    "Hash": "{EA575A0F-0E29-76EA-3B9A-556C1D588308}",
+    "Hash": "{ECC4D6B0-8038-071A-52DF-24E26A888F6B}",
     "ObjectPath": "Play_SFX_JF_Dirt_In",
     "ShortName": "Play_SFX_JF_Dirt_In",
     "Path": "Event/Play_SFX_JF_Dirt_In.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_SFX_JF_Dirt_In",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_JF_Dirt_In",
       "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
+      "MaxAttenuation": "1500",
       "DurationType": "OneShot",
       "DurationMin": "2",
       "DurationMax": "2",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{50264774-E578-B344-A044-D67761C67C3F}"
+  "FileHash": "{575A7082-58AD-E1B0-A1DB-E99544FA0CCF}"
  }
 }

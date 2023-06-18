@@ -18,6 +18,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WindDesert" ID="{FD81D449-9FB2-43FA-9515-EB26E2CD3D3D}">
+					<ChildrenList>
+						<Action Name="" ID="{F7C35264-5DDA-49B0-A136-FE5E4ECFEAAE}" ShortID="1026885335">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Desert_Wind_LP" ID="{46AEE5FE-3A6E-464E-9A15-F5A1FA4EFAB4}" WorkUnitID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

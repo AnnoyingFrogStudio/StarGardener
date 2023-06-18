@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
     "Language": "SFX",
-    "Hash": "{3F02AC05-686E-3564-5E3D-3D4F42D2453E}",
+    "Hash": "{02E36D5A-DCBA-F94E-1CAC-4A2B7D42B317}",
     "ObjectPath": "Play_SFX_B_Creation_End",
     "ShortName": "Play_SFX_B_Creation_End",
     "Path": "Event/Play_SFX_B_Creation_End.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_SFX_B_Creation_End",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_B_Creation_End",
       "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.7333333",
       "DurationMax": "1.7333333",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{66F2F3E6-B67A-C9C3-5148-E78C7946F9D5}"
+  "FileHash": "{0FBE778F-D76C-8D4F-3797-8EB25E7BA368}"
  }
 }
