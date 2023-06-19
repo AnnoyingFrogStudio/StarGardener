@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
     "Language": "SFX",
-    "Hash": "{229793C9-76AC-9FB9-42E2-06CD6E2289BA}",
+    "Hash": "{FAF1567D-1B9D-6975-A2B1-8F0E9A36C094}",
     "ObjectPath": "Play_Orb1",
     "ShortName": "Play_Orb1",
     "Path": "Event/Play_Orb1.bnk",
     "Media": [
+     {
+      "Id": "399884194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb2_03.wav",
+      "Path": "Media/399884194.wem",
+      "CachePath": "SFX/SFX_OF_Orb2_03_10C4C929.wem"
+     },
      {
       "Id": "531411898",
       "Language": "SFX",
@@ -25,13 +34,40 @@
       "CachePath": "SFX/SFX_OF_Orb1_02_10C4C929.wem"
      },
      {
-      "Id": "567178965",
+      "Id": "616124176",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "SFX_OF_Orb1_03.wav",
-      "Path": "Media/567178965.wem",
-      "CachePath": "SFX/SFX_OF_Orb1_03_10C4C929.wem"
+      "ShortName": "SFX_Plants_Whoosh_Hard_03.wav",
+      "Path": "Media/616124176.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_03_10C4C929.wem"
+     },
+     {
+      "Id": "628958830",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OF_Orb2_02.wav",
+      "Path": "Media/628958830.wem",
+      "CachePath": "SFX/SFX_OF_Orb2_02_10C4C929.wem"
+     },
+     {
+      "Id": "635250397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_02.wav",
+      "Path": "Media/635250397.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_02_10C4C929.wem"
+     },
+     {
+      "Id": "696179804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Hard_01.wav",
+      "Path": "Media/696179804.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Hard_01_10C4C929.wem"
      },
      {
       "Id": "1034598536",
@@ -49,15 +85,28 @@
       "Name": "Play_Orb1",
       "ObjectPath": "\\Events\\SFX\\Play_Orb1",
       "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
-      "DurationMin": "3.3435",
+      "DurationMin": "3.3471668",
       "DurationMax": "3.7873333",
       "MediaRefs": [
+       {
+        "Id": "399884194"
+       },
        {
         "Id": "531411898"
        },
        {
-        "Id": "567178965"
+        "Id": "616124176"
+       },
+       {
+        "Id": "628958830"
+       },
+       {
+        "Id": "635250397"
+       },
+       {
+        "Id": "696179804"
        },
        {
         "Id": "1034598536"
@@ -67,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{7F91094C-5926-01AC-FDFA-9D2530C2684B}"
+  "FileHash": "{7F810D9C-2683-A137-4EF3-FB6E6DA5F1B6}"
  }
 }

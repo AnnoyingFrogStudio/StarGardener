@@ -17,6 +17,15 @@
 						<State Name="Loaded" ID="{52223414-EF0E-4F24-91DA-A6AB2CD3E96E}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="State_Zone_Terrain" ID="{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}">
+					<ChildrenList>
+						<State Name="None" ID="{009A72C3-C061-4437-A83F-5517C67DE324}"/>
+						<State Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
+						<State Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}"/>
+						<State Name="Jingle_StartGarden" ID="{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"/>
+						<State Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

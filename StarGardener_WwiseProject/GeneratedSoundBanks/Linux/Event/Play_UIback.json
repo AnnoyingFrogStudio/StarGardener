@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{7C3FA8D8-CCC6-4F12-B1BD-FD978CF4E9B2}",
     "Language": "SFX",
-    "Hash": "{4CDAA71E-527E-9ADA-6EAC-F38A7CD16F0A}",
+    "Hash": "{102A2BF9-FD1F-3E37-CA86-E4E12E6B9FB8}",
     "ObjectPath": "Play_UIback",
     "ShortName": "Play_UIback",
     "Path": "Event/Play_UIback.bnk",
+    "Media": [
+     {
+      "Id": "154450123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Close_01.wav",
+      "Path": "Media/154450123.wem",
+      "CachePath": "SFX/UI_Close_01_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1224305705",
@@ -21,12 +32,17 @@
       "ObjectPath": "\\Events\\UI\\Play_UIback",
       "GUID": "{7C3FA8D8-CCC6-4F12-B1BD-FD978CF4E9B2}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.30130443",
+      "DurationMax": "0.32423845",
+      "MediaRefs": [
+       {
+        "Id": "154450123"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{D92BAC4A-5E00-D9D8-6B33-638FE9D4227B}"
+  "FileHash": "{9854FAE3-139A-5DE4-6A64-0E6D8F74990C}"
  }
 }
