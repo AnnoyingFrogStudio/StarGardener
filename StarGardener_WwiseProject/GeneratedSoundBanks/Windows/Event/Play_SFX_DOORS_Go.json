@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
     "Language": "SFX",
-    "Hash": "{4F1C4F3B-8611-D26F-CB81-6FC1E60B8FAC}",
+    "Hash": "{E1C20A9B-1168-B51D-B162-258FBD5FF499}",
     "ObjectPath": "Play_SFX_DOORS_Go",
     "ShortName": "Play_SFX_DOORS_Go",
     "Path": "Event/Play_SFX_DOORS_Go.bnk",
@@ -40,7 +40,6 @@
       "Name": "Play_SFX_DOORS_Go",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Go",
       "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -54,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{670FB5D2-C089-D681-0CF3-D00EC395CD8C}"
+  "FileHash": "{72990C5A-77E1-DB45-575F-ABA09C9E98F0}"
  }
 }

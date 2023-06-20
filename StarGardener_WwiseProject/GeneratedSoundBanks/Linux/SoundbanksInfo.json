@@ -1282,7 +1282,7 @@
     "Type": "Event",
     "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
     "Language": "SFX",
-    "Hash": "{3098403F-B1C0-E5F9-38F1-69F47600B55F}",
+    "Hash": "{18CFD10C-5018-E517-68EB-04C818EB2598}",
     "ObjectPath": "Play_WindARCHE",
     "ShortName": "Play_WindARCHE",
     "Path": "Event/Play_WindARCHE.bnk",
@@ -1303,6 +1303,7 @@
       "Name": "Play_WindARCHE",
       "ObjectPath": "\\Events\\AMBIANCES\\Play_WindARCHE",
       "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1410,7 +1411,7 @@
     "Type": "Event",
     "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
     "Language": "SFX",
-    "Hash": "{4F1C4F3B-8611-D26F-CB81-6FC1E60B8FAC}",
+    "Hash": "{E1C20A9B-1168-B51D-B162-258FBD5FF499}",
     "ObjectPath": "Play_SFX_DOORS_Go",
     "ShortName": "Play_SFX_DOORS_Go",
     "Path": "Event/Play_SFX_DOORS_Go.bnk",
@@ -1440,7 +1441,6 @@
       "Name": "Play_SFX_DOORS_Go",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Go",
       "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2582,7 +2582,7 @@
     "Type": "Event",
     "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
     "Language": "SFX",
-    "Hash": "{3AE15407-61CE-04AC-3E9A-8FFFECB0ACDB}",
+    "Hash": "{305FD521-ECAF-3DC5-017F-57EC27051FE5}",
     "ObjectPath": "Play_SFX_DOORS_End",
     "ShortName": "Play_SFX_DOORS_End",
     "Path": "Event/Play_SFX_DOORS_End.bnk",
@@ -2603,7 +2603,6 @@
       "Name": "Play_SFX_DOORS_End",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_End",
       "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
-      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.7333333",
       "DurationMax": "1.7333333",
@@ -3062,7 +3061,7 @@
     "Type": "Event",
     "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
     "Language": "SFX",
-    "Hash": "{41B95BB3-DC1C-E4B7-B84C-48B81A33143A}",
+    "Hash": "{A30260EB-8CEB-566A-4F2C-B3C5347C8EA5}",
     "ObjectPath": "Play_SFX_DOORS_Back",
     "ShortName": "Play_SFX_DOORS_Back",
     "Path": "Event/Play_SFX_DOORS_Back.bnk",
@@ -3092,7 +3091,6 @@
       "Name": "Play_SFX_DOORS_Back",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Back",
       "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3887,6 +3885,6 @@
     ]
    }
   ],
-  "FileHash": "{FF3DBE20-E3F1-0ACE-02A0-58DD048B32F1}"
+  "FileHash": "{C5E4608A-55DF-638B-3F35-72BA94DB5979}"
  }
 }

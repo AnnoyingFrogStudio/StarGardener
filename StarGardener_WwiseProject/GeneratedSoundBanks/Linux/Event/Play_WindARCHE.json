@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
     "Language": "SFX",
-    "Hash": "{3098403F-B1C0-E5F9-38F1-69F47600B55F}",
+    "Hash": "{18CFD10C-5018-E517-68EB-04C818EB2598}",
     "ObjectPath": "Play_WindARCHE",
     "ShortName": "Play_WindARCHE",
     "Path": "Event/Play_WindARCHE.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_WindARCHE",
       "ObjectPath": "\\Events\\AMBIANCES\\Play_WindARCHE",
       "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -41,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{CCAC0500-1824-C70E-7DCA-B343EC631E70}"
+  "FileHash": "{76C4C251-A840-E87A-A460-A58DB16BD211}"
  }
 }
