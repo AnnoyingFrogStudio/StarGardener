@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2134073041",
+    "Type": "Event",
+    "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+    "Language": "SFX",
+    "Hash": "{3098403F-B1C0-E5F9-38F1-69F47600B55F}",
+    "ObjectPath": "Play_WindARCHE",
+    "ShortName": "Play_WindARCHE",
+    "Path": "Event/Play_WindARCHE.bnk",
+    "Media": [
+     {
+      "Id": "612834928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wind_Loop05.wav",
+      "Path": "Media/612834928.wem",
+      "CachePath": "SFX/Wind_Loop05_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2134073041",
+      "Name": "Play_WindARCHE",
+      "ObjectPath": "\\Events\\AMBIANCES\\Play_WindARCHE",
+      "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "612834928"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CCAC0500-1824-C70E-7DCA-B343EC631E70}"
+ }
+}

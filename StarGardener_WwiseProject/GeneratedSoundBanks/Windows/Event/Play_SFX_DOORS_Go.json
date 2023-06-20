@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
     "Language": "SFX",
-    "Hash": "{06D16837-6220-C736-A703-E4383C7E7EF6}",
+    "Hash": "{4F1C4F3B-8611-D26F-CB81-6FC1E60B8FAC}",
     "ObjectPath": "Play_SFX_DOORS_Go",
     "ShortName": "Play_SFX_DOORS_Go",
     "Path": "Event/Play_SFX_DOORS_Go.bnk",
@@ -54,6 +54,6 @@
     ]
    }
   ],
-  "FileHash": "{DA7B6D8A-AF3E-A9C7-C85E-A38EDDFB55A1}"
+  "FileHash": "{670FB5D2-C089-D681-0CF3-D00EC395CD8C}"
  }
 }

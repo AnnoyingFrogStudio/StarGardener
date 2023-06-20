@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1633102396",
+    "Type": "Event",
+    "GUID": "{CE6D5B74-B47A-4DF6-B084-2200896B7331}",
+    "Language": "SFX",
+    "Hash": "{702B05F0-2551-DA3C-3A54-8628DFC0B1DF}",
+    "ObjectPath": "Play_OrbPlantsRevive",
+    "ShortName": "Play_OrbPlantsRevive",
+    "Path": "Event/Play_OrbPlantsRevive.bnk",
+    "Media": [
+     {
+      "Id": "206927805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OrbFlower_Revive.wav",
+      "Path": "Media/206927805.wem",
+      "CachePath": "SFX/SFX_OrbFlower_Revive_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1633102396",
+      "Name": "Play_OrbPlantsRevive",
+      "ObjectPath": "\\Events\\SFX\\Play_OrbPlantsRevive",
+      "GUID": "{CE6D5B74-B47A-4DF6-B084-2200896B7331}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8666667",
+      "DurationMax": "1.8666667",
+      "MediaRefs": [
+       {
+        "Id": "206927805"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{572DF8DD-F308-CF0F-B810-95D1570CE568}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
     "Language": "SFX",
-    "Hash": "{AEB6FBB7-EEA0-C6C2-B404-E4B044986B5F}",
+    "Hash": "{41B95BB3-DC1C-E4B7-B84C-48B81A33143A}",
     "ObjectPath": "Play_SFX_DOORS_Back",
     "ShortName": "Play_SFX_DOORS_Back",
     "Path": "Event/Play_SFX_DOORS_Back.bnk",
@@ -54,6 +54,6 @@
     ]
    }
   ],
-  "FileHash": "{071B6358-87F8-11B5-0AD6-EA4EC77BBE12}"
+  "FileHash": "{3337F577-1A90-4AAD-5346-ACFBC4226F1C}"
  }
 }
