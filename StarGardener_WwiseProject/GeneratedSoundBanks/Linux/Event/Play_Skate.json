@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1587E1BF-EAE3-4EF8-A605-8D1228FDB843}",
     "Language": "SFX",
-    "Hash": "{4EED4EC1-322E-A946-B396-C22186D64B21}",
+    "Hash": "{DF2AA6ED-23DB-46A3-068E-78B2C5CBC7E8}",
     "ObjectPath": "Play_Skate",
     "ShortName": "Play_Skate",
     "Path": "Event/Play_Skate.bnk",
@@ -289,6 +289,6 @@
     ]
    }
   ],
-  "FileHash": "{EE27709B-3DE4-66CC-9CB3-3EF52B8D88D4}"
+  "FileHash": "{F8E3D425-9851-312B-A99A-68BAB460D78D}"
  }
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AD0ADFE-5122-424A-B4A9-21E63EEB0F84}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Music" ID="{0AD0ADFE-5122-424A-B4A9-21E63EEB0F84}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Zone_Terrain" ID="{115752FE-374A-4877-A867-0B4A63149805}">
+					<ChildrenList>
+						<Switch Name="Garden" ID="{15F6BCDE-5E8B-4321-9E6C-14B28534DE52}"/>
+						<Switch Name="Desert" ID="{09A7B910-E209-4594-A2DD-D8AB5C496E48}"/>
+						<Switch Name="Jingle_StartGarden" ID="{BB87C924-B487-423F-A203-D109C1EFB369}">
+							<Comment>One Shot</Comment>
+						</Switch>
+						<Switch Name="Jingle_VIctory" ID="{CD12D5F1-E7CB-4F64-9853-4B4BC2B11AA3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

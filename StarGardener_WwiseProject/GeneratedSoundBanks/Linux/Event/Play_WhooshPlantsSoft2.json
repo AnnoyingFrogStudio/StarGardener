@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1807187752",
+    "Type": "Event",
+    "GUID": "{AD258F5A-BF45-4356-BC36-AE7B081759AA}",
+    "Language": "SFX",
+    "Hash": "{B10E11C6-D7FB-4316-A249-C1CD80916F02}",
+    "ObjectPath": "Play_WhooshPlantsSoft2",
+    "ShortName": "Play_WhooshPlantsSoft2",
+    "Path": "Event/Play_WhooshPlantsSoft2.bnk",
+    "Media": [
+     {
+      "Id": "128340586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Soft_01.wav",
+      "Path": "Media/128340586.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Soft_01_10C4C929.wem"
+     },
+     {
+      "Id": "594157658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Soft_02.wav",
+      "Path": "Media/594157658.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Soft_02_10C4C929.wem"
+     },
+     {
+      "Id": "853058820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plants_Whoosh_Soft_03.wav",
+      "Path": "Media/853058820.wem",
+      "CachePath": "SFX/SFX_Plants_Whoosh_Soft_03_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1807187752",
+      "Name": "Play_WhooshPlantsSoft2",
+      "ObjectPath": "\\Events\\SFX\\Play_WhooshPlantsSoft2",
+      "GUID": "{AD258F5A-BF45-4356-BC36-AE7B081759AA}",
+      "MaxAttenuation": "875",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8426667",
+      "DurationMax": "1.1946666",
+      "MediaRefs": [
+       {
+        "Id": "128340586"
+       },
+       {
+        "Id": "594157658"
+       },
+       {
+        "Id": "853058820"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FF55D65D-7128-8F16-2C41-542CA27CAF7F}"
+ }
+}

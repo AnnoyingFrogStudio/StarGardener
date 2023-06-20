@@ -10,9 +10,77 @@
 				<Event Name="Play_Music" ID="{5403E203-32EF-4537-9922-F06552826301}">
 					<ChildrenList>
 						<Action Name="" ID="{CB9C296F-BA50-49AE-9EF8-D41E4CBE780E}" ShortID="579037524">
+							<PropertyList>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explore_Desert" ID="{82A2371E-06EE-472D-AAAB-6195A20F6ACC}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+									<ObjectRef Name="Gameplay_Music" ID="{2617FDA6-E3C0-4745-8CCD-ACCC704CC91A}" WorkUnitID="{344C778F-AB5E-4DCD-898C-F126CC488336}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AF401E72-BBDF-472F-8DF8-36D5924844EB}" ShortID="1059584829">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DAF32D11-BE4E-4044-AB4B-0FE3EA121031}" ShortID="574213565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DCE16CF-6403-4F50-BC63-3A72FD7EDCAF}" ShortID="254016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Empty" ID="{5C2CE2AC-2027-453A-9D92-974DB053F6C4}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cutscene" ID="{A7351D02-EEAD-462B-A926-EFC8A0E42A5F}">
+					<ChildrenList>
+						<Action Name="" ID="{E6C47205-9E0C-4916-845F-04DCCCA47CD0}" ShortID="239712840">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AF2B4423-6E76-462A-8435-B689A8572F25}" ShortID="21068228">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}" WorkUnitID="{ABAC4218-73C6-4465-B918-EEE28E951996}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

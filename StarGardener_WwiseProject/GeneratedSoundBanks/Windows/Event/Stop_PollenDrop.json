@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1446802965",
+    "Type": "Event",
+    "GUID": "{C055B27F-645E-483C-B050-B1522513827F}",
+    "Language": "SFX",
+    "Hash": "{502F23D7-46DF-E6F0-07A4-80CC6DAA86AA}",
+    "ObjectPath": "Stop_PollenDrop",
+    "ShortName": "Stop_PollenDrop",
+    "Path": "Event/Stop_PollenDrop.bnk",
+    "Events": [
+     {
+      "Id": "1446802965",
+      "Name": "Stop_PollenDrop",
+      "ObjectPath": "\\Events\\MC\\Stop_PollenDrop",
+      "GUID": "{C055B27F-645E-483C-B050-B1522513827F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4AC3646F-4A89-0C56-0E88-A72E7F37A034}"
+ }
+}

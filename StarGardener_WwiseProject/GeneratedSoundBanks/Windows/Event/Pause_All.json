@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4077CF66-D0B1-44BD-AE1B-1CAADD10B4F7}",
     "Language": "SFX",
-    "Hash": "{D27272DE-A268-6B92-7959-22FC0FD02927}",
+    "Hash": "{D78FC907-5979-4778-A18B-941946709ACC}",
     "ObjectPath": "Pause_All",
     "ShortName": "Pause_All",
     "Path": "Event/Pause_All.bnk",
@@ -28,6 +28,6 @@
     ]
    }
   ],
-  "FileHash": "{FFCFFBB1-5C4B-28C2-0630-F80322B681B2}"
+  "FileHash": "{454A0EF6-E673-7DAC-6855-42E4A749C148}"
  }
 }
