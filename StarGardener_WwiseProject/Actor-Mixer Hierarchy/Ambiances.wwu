@@ -112,6 +112,41 @@
 										<ActiveSource Name="AMB_Desert_Wind_LP" ID="{C5E1C8E1-9E43-407B-A828-04CCB6BA499F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Wind_Loop05" ID="{72B00B54-1BB4-4FA3-8797-2AE17F6EDFEA}" ShortID="91704388">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="amb_att" ID="{21FB9B0E-486C-4425-BBDF-EE77E762C625}" WorkUnitID="{17C48717-A7BA-4234-A6AC-88412D4C506E}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Loop05" ID="{1A681F7C-F814-4137-8121-5B46C887C63C}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Loop05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612834928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Loop05" ID="{1A681F7C-F814-4137-8121-5B46C887C63C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{333FA813-FA4F-4CB2-B3EB-CDBCFAB5B30E}",
     "Language": "SFX",
-    "Hash": "{7886EFD6-73E9-A198-3895-AE631496C8F8}",
+    "Hash": "{0F9AB99E-7FC0-4EE5-EE8D-F8E0E6EC2BD3}",
     "ObjectPath": "Play_Orb_Final",
     "ShortName": "Play_Orb_Final",
     "Path": "Event/Play_Orb_Final.bnk",
@@ -783,7 +783,7 @@
     "Type": "Event",
     "GUID": "{086409B5-328C-45EA-9FC0-43A106585EC2}",
     "Language": "SFX",
-    "Hash": "{D3EC7043-4E9D-DFD5-F00A-AA818BC80425}",
+    "Hash": "{23C323A6-8B7D-E468-B6DB-096BC4B332A5}",
     "ObjectPath": "Play_PlantsWhooshHard",
     "ShortName": "Play_PlantsWhooshHard",
     "Path": "Event/Play_PlantsWhooshHard.bnk",
@@ -841,11 +841,49 @@
     ]
    },
    {
+    "Id": "1633102396",
+    "Type": "Event",
+    "GUID": "{CE6D5B74-B47A-4DF6-B084-2200896B7331}",
+    "Language": "SFX",
+    "Hash": "{702B05F0-2551-DA3C-3A54-8628DFC0B1DF}",
+    "ObjectPath": "Play_OrbPlantsRevive",
+    "ShortName": "Play_OrbPlantsRevive",
+    "Path": "Event/Play_OrbPlantsRevive.bnk",
+    "Media": [
+     {
+      "Id": "206927805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_OrbFlower_Revive.wav",
+      "Path": "Media/206927805.wem",
+      "CachePath": "SFX/SFX_OrbFlower_Revive_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1633102396",
+      "Name": "Play_OrbPlantsRevive",
+      "ObjectPath": "\\Events\\SFX\\Play_OrbPlantsRevive",
+      "GUID": "{CE6D5B74-B47A-4DF6-B084-2200896B7331}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8666667",
+      "DurationMax": "1.8666667",
+      "MediaRefs": [
+       {
+        "Id": "206927805"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1807187752",
     "Type": "Event",
     "GUID": "{AD258F5A-BF45-4356-BC36-AE7B081759AA}",
     "Language": "SFX",
-    "Hash": "{B10E11C6-D7FB-4316-A249-C1CD80916F02}",
+    "Hash": "{ABAC9AC5-B71E-7687-0890-B8BB04CEF34F}",
     "ObjectPath": "Play_WhooshPlantsSoft2",
     "ShortName": "Play_WhooshPlantsSoft2",
     "Path": "Event/Play_WhooshPlantsSoft2.bnk",
@@ -907,7 +945,7 @@
     "Type": "Event",
     "GUID": "{F3C44F0B-BAA1-4068-A96C-BBB2E518A39A}",
     "Language": "SFX",
-    "Hash": "{3889DFFF-9519-F512-3564-2C8473748996}",
+    "Hash": "{1ADBE80A-75E2-0B5E-8858-7236F6C86349}",
     "ObjectPath": "Play_Orb3",
     "ShortName": "Play_Orb3",
     "Path": "Event/Play_Orb3.bnk",
@@ -993,7 +1031,7 @@
     "Type": "Event",
     "GUID": "{E7C94A69-A32A-4C72-B958-5128306B961F}",
     "Language": "SFX",
-    "Hash": "{16E83BA5-7F04-70C5-8CB1-934281C1A266}",
+    "Hash": "{C274098D-0228-B95C-36AA-D3F6C8B84C90}",
     "ObjectPath": "Play_Orb2",
     "ShortName": "Play_Orb2",
     "Path": "Event/Play_Orb2.bnk",
@@ -1091,7 +1129,7 @@
     "Type": "Event",
     "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
     "Language": "SFX",
-    "Hash": "{FAF1567D-1B9D-6975-A2B1-8F0E9A36C094}",
+    "Hash": "{35ED8E6B-0C76-82C9-2C45-4DB757359E7E}",
     "ObjectPath": "Play_Orb1",
     "ShortName": "Play_Orb1",
     "Path": "Event/Play_Orb1.bnk",
@@ -1240,6 +1278,42 @@
     ]
    },
    {
+    "Id": "2134073041",
+    "Type": "Event",
+    "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+    "Language": "SFX",
+    "Hash": "{18CFD10C-5018-E517-68EB-04C818EB2598}",
+    "ObjectPath": "Play_WindARCHE",
+    "ShortName": "Play_WindARCHE",
+    "Path": "Event/Play_WindARCHE.bnk",
+    "Media": [
+     {
+      "Id": "612834928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wind_Loop05.wav",
+      "Path": "Media/612834928.wem",
+      "CachePath": "SFX/Wind_Loop05_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2134073041",
+      "Name": "Play_WindARCHE",
+      "ObjectPath": "\\Events\\AMBIANCES\\Play_WindARCHE",
+      "GUID": "{E61BEB48-E592-4600-839A-726CD9CF9213}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "612834928"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2228651116",
     "Type": "User",
     "GUID": "{84B25752-FFA3-499F-AE6C-BB1DE6272202}",
@@ -1337,7 +1411,7 @@
     "Type": "Event",
     "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
     "Language": "SFX",
-    "Hash": "{06D16837-6220-C736-A703-E4383C7E7EF6}",
+    "Hash": "{E1C20A9B-1168-B51D-B162-258FBD5FF499}",
     "ObjectPath": "Play_SFX_DOORS_Go",
     "ShortName": "Play_SFX_DOORS_Go",
     "Path": "Event/Play_SFX_DOORS_Go.bnk",
@@ -1367,7 +1441,6 @@
       "Name": "Play_SFX_DOORS_Go",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Go",
       "GUID": "{EC22D402-10D7-404A-A0A6-29EED4B41BCA}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1381,11 +1454,49 @@
     ]
    },
    {
+    "Id": "2520432649",
+    "Type": "Event",
+    "GUID": "{020B1EDC-1AE1-47F7-B778-84F8C7628B70}",
+    "Language": "SFX",
+    "Hash": "{CFCDBB2F-497C-9986-21DF-C5A5990DE8C6}",
+    "ObjectPath": "Play_RTFAdead",
+    "ShortName": "Play_RTFAdead",
+    "Path": "Event/Play_RTFAdead.bnk",
+    "Media": [
+     {
+      "Id": "283819399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_RTFA_Dead_LP.wav",
+      "Path": "Media/283819399.wem",
+      "CachePath": "SFX/SFX_RTFA_Dead_LP_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2520432649",
+      "Name": "Play_RTFAdead",
+      "ObjectPath": "\\Events\\SFX\\Play_RTFAdead",
+      "GUID": "{020B1EDC-1AE1-47F7-B778-84F8C7628B70}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "6.6666665",
+      "DurationMax": "6.6666665",
+      "MediaRefs": [
+       {
+        "Id": "283819399"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2572631786",
     "Type": "Event",
     "GUID": "{775B48AB-52D5-4D2C-BBFE-DB468F465AC6}",
     "Language": "SFX",
-    "Hash": "{CD96470E-C2D6-142D-FD1A-BE8C4D156BC9}",
+    "Hash": "{202188E4-7106-88EA-1669-7AF0D518C98B}",
     "ObjectPath": "Play_PGshrinking",
     "ShortName": "Play_PGshrinking",
     "Path": "Event/Play_PGshrinking.bnk",
@@ -1494,7 +1605,7 @@
     "Type": "Event",
     "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
     "Language": "SFX",
-    "Hash": "{ECC4D6B0-8038-071A-52DF-24E26A888F6B}",
+    "Hash": "{80D0D75D-C34F-05C7-4A5E-B6D017C215EE}",
     "ObjectPath": "Play_SFX_JF_Dirt_In",
     "ShortName": "Play_SFX_JF_Dirt_In",
     "Path": "Event/Play_SFX_JF_Dirt_In.bnk",
@@ -1532,7 +1643,7 @@
     "Type": "Event",
     "GUID": "{FE0A0598-7019-49EC-AD62-B1B539E136F3}",
     "Language": "SFX",
-    "Hash": "{02E36D5A-DCBA-F94E-1CAC-4A2B7D42B317}",
+    "Hash": "{A4C1C365-D1C1-8192-F61A-9DC6A5C690A4}",
     "ObjectPath": "Play_SFX_B_Creation_End",
     "ShortName": "Play_SFX_B_Creation_End",
     "Path": "Event/Play_SFX_B_Creation_End.bnk",
@@ -2374,7 +2485,7 @@
     "Type": "Event",
     "GUID": "{C1B49D10-ECB7-4290-8D83-A9C0DBF75E80}",
     "Language": "SFX",
-    "Hash": "{43330CA5-2EAC-4A33-A41D-15E1B410059F}",
+    "Hash": "{4ABFB525-5776-992A-C4E5-21A2D67DA813}",
     "ObjectPath": "Play_SXF_B_Creation_LP",
     "ShortName": "Play_SXF_B_Creation_LP",
     "Path": "Event/Play_SXF_B_Creation_LP.bnk",
@@ -2471,7 +2582,7 @@
     "Type": "Event",
     "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
     "Language": "SFX",
-    "Hash": "{CAF6185D-BE0C-5085-B3F5-EEDF3796A8CC}",
+    "Hash": "{305FD521-ECAF-3DC5-017F-57EC27051FE5}",
     "ObjectPath": "Play_SFX_DOORS_End",
     "ShortName": "Play_SFX_DOORS_End",
     "Path": "Event/Play_SFX_DOORS_End.bnk",
@@ -2492,13 +2603,50 @@
       "Name": "Play_SFX_DOORS_End",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_End",
       "GUID": "{6E6E224B-1F30-4232-8D4F-6202D9F0E8AE}",
-      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.7333333",
       "DurationMax": "1.7333333",
       "MediaRefs": [
        {
         "Id": "766801116"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3232021976",
+    "Type": "Event",
+    "GUID": "{5703E36D-C016-40D4-A308-A9F53AAE68BE}",
+    "Language": "SFX",
+    "Hash": "{BCD01452-0715-0AB5-3231-B12224935323}",
+    "ObjectPath": "Play_PollenPlantRevive",
+    "ShortName": "Play_PollenPlantRevive",
+    "Path": "Event/Play_PollenPlantRevive.bnk",
+    "Media": [
+     {
+      "Id": "573222632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PollenPlant_Revive.wav",
+      "Path": "Media/573222632.wem",
+      "CachePath": "SFX/SFX_PollenPlant_Revive_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3232021976",
+      "Name": "Play_PollenPlantRevive",
+      "ObjectPath": "\\Events\\SFX\\Play_PollenPlantRevive",
+      "GUID": "{5703E36D-C016-40D4-A308-A9F53AAE68BE}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.971646",
+      "DurationMax": "4.971646",
+      "MediaRefs": [
+       {
+        "Id": "573222632"
        }
       ]
      }
@@ -2756,7 +2904,7 @@
     "Type": "Event",
     "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
     "Language": "SFX",
-    "Hash": "{09341DED-2C5E-EED2-7772-4C9434E63CC1}",
+    "Hash": "{5BB7F528-40C8-FC2D-3191-A21C0652AFC7}",
     "ObjectPath": "Play_PlantsWhooshSoft",
     "ShortName": "Play_PlantsWhooshSoft",
     "Path": "Event/Play_PlantsWhooshSoft.bnk",
@@ -2875,7 +3023,7 @@
     "Type": "Event",
     "GUID": "{466200B4-9CF2-4715-B663-B11B6E593270}",
     "Language": "SFX",
-    "Hash": "{1F2C6AAF-08D9-317B-2EC6-2957C5CF2D59}",
+    "Hash": "{E9C82CBF-819A-3541-5DAB-DF8BBDC2DC15}",
     "ObjectPath": "Play_SFX_JF_Dirt_Out",
     "ShortName": "Play_SFX_JF_Dirt_Out",
     "Path": "Event/Play_SFX_JF_Dirt_Out.bnk",
@@ -2913,7 +3061,7 @@
     "Type": "Event",
     "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
     "Language": "SFX",
-    "Hash": "{AEB6FBB7-EEA0-C6C2-B404-E4B044986B5F}",
+    "Hash": "{A30260EB-8CEB-566A-4F2C-B3C5347C8EA5}",
     "ObjectPath": "Play_SFX_DOORS_Back",
     "ShortName": "Play_SFX_DOORS_Back",
     "Path": "Event/Play_SFX_DOORS_Back.bnk",
@@ -2943,7 +3091,6 @@
       "Name": "Play_SFX_DOORS_Back",
       "ObjectPath": "\\Events\\SFX\\Play_SFX_DOORS_Back",
       "GUID": "{65A0B85C-617B-4B23-92CB-51D43271EB84}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3115,7 +3262,7 @@
     "Type": "Event",
     "GUID": "{0EEDEE1B-9E71-4618-8C43-C59252A95A4D}",
     "Language": "SFX",
-    "Hash": "{F965BD1C-131A-CB17-3D40-298FBC0766D5}",
+    "Hash": "{6894CA9F-334D-ECFD-AEAA-4A5D0D0103A5}",
     "ObjectPath": "Play_PGgrowing",
     "ShortName": "Play_PGgrowing",
     "Path": "Event/Play_PGgrowing.bnk",
@@ -3529,11 +3676,49 @@
     ]
    },
    {
+    "Id": "3898111558",
+    "Type": "Event",
+    "GUID": "{3186CF8D-9ECE-42B0-A40B-9CCFB686D68D}",
+    "Language": "SFX",
+    "Hash": "{EB4E6515-0F04-726B-A619-13D5AB77152A}",
+    "ObjectPath": "Play_RTFAalive",
+    "ShortName": "Play_RTFAalive",
+    "Path": "Event/Play_RTFAalive.bnk",
+    "Media": [
+     {
+      "Id": "777365412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_RTFA_Alive_LP.wav",
+      "Path": "Media/777365412.wem",
+      "CachePath": "SFX/SFX_RTFA_Alive_LP_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3898111558",
+      "Name": "Play_RTFAalive",
+      "ObjectPath": "\\Events\\SFX\\Play_RTFAalive",
+      "GUID": "{3186CF8D-9ECE-42B0-A40B-9CCFB686D68D}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "9.938",
+      "DurationMax": "9.938",
+      "MediaRefs": [
+       {
+        "Id": "777365412"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4285282925",
     "Type": "Event",
     "GUID": "{5AFCDE7C-3E29-4F30-A470-8FA5D167B90F}",
     "Language": "SFX",
-    "Hash": "{A3D063A7-AE0E-95E5-CF80-B452EC3A3852}",
+    "Hash": "{BDCC2090-1EB2-7F64-5B9F-6DEA8D56DEA9}",
     "ObjectPath": "Play_Land",
     "ShortName": "Play_Land",
     "Path": "Event/Play_Land.bnk",
@@ -3700,6 +3885,6 @@
     ]
    }
   ],
-  "FileHash": "{BCBA8CC2-F1E7-2CCC-E30E-1CA3795F5BCD}"
+  "FileHash": "{C5E4608A-55DF-638B-3F35-72BA94DB5979}"
  }
 }

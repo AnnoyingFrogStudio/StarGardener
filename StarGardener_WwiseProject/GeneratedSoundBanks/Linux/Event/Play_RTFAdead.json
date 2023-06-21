@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2520432649",
+    "Type": "Event",
+    "GUID": "{020B1EDC-1AE1-47F7-B778-84F8C7628B70}",
+    "Language": "SFX",
+    "Hash": "{CFCDBB2F-497C-9986-21DF-C5A5990DE8C6}",
+    "ObjectPath": "Play_RTFAdead",
+    "ShortName": "Play_RTFAdead",
+    "Path": "Event/Play_RTFAdead.bnk",
+    "Media": [
+     {
+      "Id": "283819399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_RTFA_Dead_LP.wav",
+      "Path": "Media/283819399.wem",
+      "CachePath": "SFX/SFX_RTFA_Dead_LP_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2520432649",
+      "Name": "Play_RTFAdead",
+      "ObjectPath": "\\Events\\SFX\\Play_RTFAdead",
+      "GUID": "{020B1EDC-1AE1-47F7-B778-84F8C7628B70}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "6.6666665",
+      "DurationMax": "6.6666665",
+      "MediaRefs": [
+       {
+        "Id": "283819399"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{76E2A924-EE2E-A7E2-E2C5-0FF09D7AFF94}"
+ }
+}
