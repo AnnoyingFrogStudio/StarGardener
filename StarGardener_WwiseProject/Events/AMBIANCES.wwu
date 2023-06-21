@@ -29,6 +29,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WindARCHE" ID="{E61BEB48-E592-4600-839A-726CD9CF9213}">
+					<ChildrenList>
+						<Action Name="" ID="{11474E39-DA02-41C8-A968-EE085E43C327}" ShortID="1037406189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind_Loop05" ID="{72B00B54-1BB4-4FA3-8797-2AE17F6EDFEA}" WorkUnitID="{670CDA04-3D62-4A24-9A45-523C8E1D4A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

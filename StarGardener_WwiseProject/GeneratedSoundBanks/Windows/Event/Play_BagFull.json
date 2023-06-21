@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0D394FFD-504D-480D-A4CB-C2A08D64D509}",
     "Language": "SFX",
-    "Hash": "{CB87C925-6214-66DB-311E-8F7377F684F0}",
+    "Hash": "{596601A1-FF32-12B5-E407-16CA1B812B1A}",
     "ObjectPath": "Play_BagFull",
     "ShortName": "Play_BagFull",
     "Path": "Event/Play_BagFull.bnk",
@@ -103,6 +103,6 @@
     ]
    }
   ],
-  "FileHash": "{55868ED8-2033-686E-083E-717D2080F68A}"
+  "FileHash": "{B5927C21-8C56-3BBF-90B5-F49FD59E187C}"
  }
 }
