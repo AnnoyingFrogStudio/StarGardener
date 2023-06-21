@@ -28,6 +28,39 @@
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="State_Zone_Terrain" ID="{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
+												<CustomState Name="" ID="{818AB698-94DF-43E2-8BE2-0D093B86D1FF}" ShortID="165769027"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}"/>
+												<CustomState Name="" ID="{1D83CBF8-D88A-407A-8B1F-639DBCB8FF32}" ShortID="386633081"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}"/>
+												<CustomState Name="" ID="{A41B9FC0-CE22-44D1-A032-2F65F9F32DA6}" ShortID="130554365">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Jingle_StartGarden" ID="{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"/>
+												<CustomState Name="" ID="{0EE88D8B-6C9B-4AD9-B4B3-3B9D75C73727}" ShortID="765742722">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
@@ -163,6 +196,39 @@
 										<Property Name="Color" Type="int16" Value="10"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="State_Zone_Terrain" ID="{9F3698FD-0D83-49CE-BF8B-1E3B0EDA995B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Garden" ID="{EBE6C101-2017-4280-9530-66F4E3B7DF5E}"/>
+												<CustomState Name="" ID="{969E00D3-79C7-43E3-A9E2-0A59392F018C}" ShortID="735443434"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}"/>
+												<CustomState Name="" ID="{D63561B1-9AEC-4409-BA6A-DDE857A9444F}" ShortID="989799593"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Jingle_Victory" ID="{9ECF0EFB-B335-4753-9F91-AABABE97E984}"/>
+												<CustomState Name="" ID="{18F48D19-818B-423D-A51D-9F8E79748A40}" ShortID="860347877">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Jingle_StartGarden" ID="{DAA20841-5EA9-4BA4-8993-7E0B5A9F7854}"/>
+												<CustomState Name="" ID="{160035DF-47DF-4F66-86BC-8186E0968656}" ShortID="145993932">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
