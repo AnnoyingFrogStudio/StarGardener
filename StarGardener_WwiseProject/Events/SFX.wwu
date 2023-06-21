@@ -260,6 +260,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_OrbPlantsRevive" ID="{CE6D5B74-B47A-4DF6-B084-2200896B7331}">
+					<ChildrenList>
+						<Action Name="" ID="{C3A801A6-8F76-4744-86DF-EDEA893DD924}" ShortID="127792495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_OrbFlower_Revive" ID="{3CBD4D14-4816-49D6-9497-61C1A97BAD98}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RTFAalive" ID="{3186CF8D-9ECE-42B0-A40B-9CCFB686D68D}">
+					<ChildrenList>
+						<Action Name="" ID="{58CE4F4E-25FF-415A-8704-D725327282A8}" ShortID="346748829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RTFA_Alive_LP" ID="{61C29535-247F-4E10-BE8B-26F4CDB4AE15}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RTFAdead" ID="{020B1EDC-1AE1-47F7-B778-84F8C7628B70}">
+					<ChildrenList>
+						<Action Name="" ID="{909D8A33-A0CE-496A-8EA3-6AB2A3538063}" ShortID="67652282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RTFA_Dead_LP" ID="{DAD7C398-7C69-436C-99DC-FB432D4D95E4}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PollenPlantRevive" ID="{5703E36D-C016-40D4-A308-A9F53AAE68BE}">
+					<ChildrenList>
+						<Action Name="" ID="{D7FA6BD4-EDF5-44A4-82BA-9C8C8C5DE8D5}" ShortID="212241223">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PollenPlant_Revive" ID="{A15A1EED-8C95-4706-AECC-3D75B05B0C1E}" WorkUnitID="{2D621825-254C-4A27-82B8-255AAB174DE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

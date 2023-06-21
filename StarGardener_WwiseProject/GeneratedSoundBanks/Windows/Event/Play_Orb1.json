@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{45CCE1B5-AD35-4830-A798-6AEE43DEEF4C}",
     "Language": "SFX",
-    "Hash": "{FAF1567D-1B9D-6975-A2B1-8F0E9A36C094}",
+    "Hash": "{35ED8E6B-0C76-82C9-2C45-4DB757359E7E}",
     "ObjectPath": "Play_Orb1",
     "ShortName": "Play_Orb1",
     "Path": "Event/Play_Orb1.bnk",
@@ -116,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{EBC4409B-581A-2221-0707-759182321C02}"
+  "FileHash": "{513C74B0-B607-DA5C-2BDA-AFB52CA7A073}"
  }
 }

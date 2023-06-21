@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5B848F32-0BAC-4249-8C10-C15CF32D4697}",
     "Language": "SFX",
-    "Hash": "{09341DED-2C5E-EED2-7772-4C9434E63CC1}",
+    "Hash": "{5BB7F528-40C8-FC2D-3191-A21C0652AFC7}",
     "ObjectPath": "Play_PlantsWhooshSoft",
     "ShortName": "Play_PlantsWhooshSoft",
     "Path": "Event/Play_PlantsWhooshSoft.bnk",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{8B260E2A-8D85-846A-4026-E50A82A5D29B}"
+  "FileHash": "{02CC5527-3F1B-ACCF-ECAB-0890A53744ED}"
  }
 }

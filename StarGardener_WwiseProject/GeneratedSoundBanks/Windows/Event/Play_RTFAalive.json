@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3898111558",
+    "Type": "Event",
+    "GUID": "{3186CF8D-9ECE-42B0-A40B-9CCFB686D68D}",
+    "Language": "SFX",
+    "Hash": "{EB4E6515-0F04-726B-A619-13D5AB77152A}",
+    "ObjectPath": "Play_RTFAalive",
+    "ShortName": "Play_RTFAalive",
+    "Path": "Event/Play_RTFAalive.bnk",
+    "Media": [
+     {
+      "Id": "777365412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_RTFA_Alive_LP.wav",
+      "Path": "Media/777365412.wem",
+      "CachePath": "SFX/SFX_RTFA_Alive_LP_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3898111558",
+      "Name": "Play_RTFAalive",
+      "ObjectPath": "\\Events\\SFX\\Play_RTFAalive",
+      "GUID": "{3186CF8D-9ECE-42B0-A40B-9CCFB686D68D}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "9.938",
+      "DurationMax": "9.938",
+      "MediaRefs": [
+       {
+        "Id": "777365412"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FAB03EE5-EAB5-569B-46DA-6C7DBD93B4C5}"
+ }
+}
