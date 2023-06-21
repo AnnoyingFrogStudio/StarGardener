@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6F96E73C-49C3-409B-886B-78A55E5BC528}",
     "Language": "SFX",
-    "Hash": "{ECC4D6B0-8038-071A-52DF-24E26A888F6B}",
+    "Hash": "{80D0D75D-C34F-05C7-4A5E-B6D017C215EE}",
     "ObjectPath": "Play_SFX_JF_Dirt_In",
     "ShortName": "Play_SFX_JF_Dirt_In",
     "Path": "Event/Play_SFX_JF_Dirt_In.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{F031934D-38F3-C6A5-E4E4-BA53B51B7BB2}"
+  "FileHash": "{7E774480-A110-7BA1-2CFF-F0534D47016E}"
  }
 }

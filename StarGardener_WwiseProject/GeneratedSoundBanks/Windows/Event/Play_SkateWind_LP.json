@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1740FD03-C188-41B8-B58C-7EAB40810DB0}",
     "Language": "SFX",
-    "Hash": "{0C26E57A-1F79-537A-D7A8-D08D263B93A6}",
+    "Hash": "{47836DDE-0880-6EDF-687A-692C9F2991AA}",
     "ObjectPath": "Play_SkateWind_LP",
     "ShortName": "Play_SkateWind_LP",
     "Path": "Event/Play_SkateWind_LP.bnk",
@@ -49,6 +49,6 @@
     ]
    }
   ],
-  "FileHash": "{3E26951A-0819-A2B2-E448-FE0A97F3DF4F}"
+  "FileHash": "{287C7777-9A86-94FE-1986-F433D4A3831B}"
  }
 }
