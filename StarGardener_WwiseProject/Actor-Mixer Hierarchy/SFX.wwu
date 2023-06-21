@@ -26,7 +26,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>22</Value>
+										<Value>56</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="13"/>
@@ -776,6 +776,12 @@
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="Doors" ID="{9D70DF24-0D76-46FD-9EF0-4C26EB20A8A9}" ShortID="863399270">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="62"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
@@ -1018,6 +1024,94 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="SFX_OrbFlower_Revive" ID="{3CBD4D14-4816-49D6-9497-61C1A97BAD98}" ShortID="371693127">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_OrbFlower_Revive" ID="{8FCB5612-197A-43D7-AB89-212879DBEC4C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_OrbFlower_Revive.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="206927805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_OrbFlower_Revive" ID="{8FCB5612-197A-43D7-AB89-212879DBEC4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_PollenPlant_Revive" ID="{A15A1EED-8C95-4706-AECC-3D75B05B0C1E}" ShortID="772178690">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_PollenPlant_Revive" ID="{6585C444-30E6-4526-AD38-390C57E988B4}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_PollenPlant_Revive.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="573222632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_PollenPlant_Revive" ID="{6585C444-30E6-4526-AD38-390C57E988B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_RTFA_Alive_LP" ID="{61C29535-247F-4E10-BE8B-26F4CDB4AE15}" ShortID="89312815">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_RTFA_Alive_LP" ID="{3F936174-42B0-4A8C-B371-52712C4452AE}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_RTFA_Alive_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="777365412"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_RTFA_Alive_LP" ID="{3F936174-42B0-4A8C-B371-52712C4452AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_RTFA_Dead_LP" ID="{DAD7C398-7C69-436C-99DC-FB432D4D95E4}" ShortID="413537625">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5022E0FF-6030-4ABC-8656-414A7CC03FD0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BAB59F57-9B8E-492B-9778-663BE62692B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_RTFA_Dead_LP" ID="{B3CE2B1D-7A1B-4E22-8183-D6A64758E465}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_RTFA_Dead_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="283819399"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_RTFA_Dead_LP" ID="{B3CE2B1D-7A1B-4E22-8183-D6A64758E465}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="RPT_Beat" ID="{4991817A-4640-408E-A827-77D9C3809106}" ShortID="1051481511">

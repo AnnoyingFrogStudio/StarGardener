@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3232021976",
+    "Type": "Event",
+    "GUID": "{5703E36D-C016-40D4-A308-A9F53AAE68BE}",
+    "Language": "SFX",
+    "Hash": "{BCD01452-0715-0AB5-3231-B12224935323}",
+    "ObjectPath": "Play_PollenPlantRevive",
+    "ShortName": "Play_PollenPlantRevive",
+    "Path": "Event/Play_PollenPlantRevive.bnk",
+    "Media": [
+     {
+      "Id": "573222632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PollenPlant_Revive.wav",
+      "Path": "Media/573222632.wem",
+      "CachePath": "SFX/SFX_PollenPlant_Revive_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3232021976",
+      "Name": "Play_PollenPlantRevive",
+      "ObjectPath": "\\Events\\SFX\\Play_PollenPlantRevive",
+      "GUID": "{5703E36D-C016-40D4-A308-A9F53AAE68BE}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.971646",
+      "DurationMax": "4.971646",
+      "MediaRefs": [
+       {
+        "Id": "573222632"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E0B569B5-29A5-EC71-4A21-B17F695E5262}"
+ }
+}
