@@ -29,7 +29,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Off" ID="{064AC688-7BD9-48B0-A0CC-3C070ECD85CE}"/>
-						<CurrentStateRef Name="Desert" ID="{19A5460B-7E8A-44D7-889A-C1AC78E53267}"/>
+						<CurrentStateRef Name="None" ID="{009A72C3-C061-4437-A83F-5517C67DE324}"/>
 						<CurrentStateRef Name="Sand" ID="{E7D2B4E0-5740-40F1-9EAD-40A30C8204F7}"/>
 						<CurrentStateRef Name="Empty" ID="{5C2CE2AC-2027-453A-9D92-974DB053F6C4}"/>
 						<CurrentStateRef Name="None" ID="{E87A483D-2EED-48F3-AFD0-23DC4ADC3EF5}"/>
